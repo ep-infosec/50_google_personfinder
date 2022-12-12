@@ -1,0 +1,1841 @@
+# Copyright 2010 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may
+# not use this file except in compliance with the License.  You may obtain
+# a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"\n"
+"A user has requested enabling notes on the record for\n"
+"\"%(full_name)s\".\n"
+"\n"
+"Your e-mail address is recorded as the author of this record.  To enable "
+"notes\n"
+"on this record, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"ခင္မင္ရပါေသာ %(author_name)s,\n"
+"\n"
+"အသံုးျပဳသူ (user)တစ္ဦးမွ မွတ္တမ္းေပၚရွိ  \"%(full_name)s\" မွတ္စုကို "
+"enable ျပဳလုပ္ေပးရန္\n"
+"ေတာင္းခံထားပါသည္။\n"
+"\n"
+"သင့္အီးေမးလ္လိပ္စာအရ သင္သည္ထိုမွတ္တမ္းေရးသားသူအျဖစ္ ေတြ ့ရွိရပါသည္။\n"
+"ထိုမွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို enable လုပ္ရန္ ေအာက္ေဖာ္ျပပါ လင့္ခ္ ကို "
+"(၃) ရက္အတြင္း ႏွိပ္ၿပီး ၫႊန္ႀကားခ်က္မ်ားကို လိုက္နာပါ။ \n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"\n"
+"A user has requested that you disable notes on the record for\n"
+"\"%(full_name)s\".\n"
+"\n"
+"Your e-mail address is recorded as the author of this record.  To disable"
+" notes\n"
+"on this record, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"ခင္မင္ရပါေသာ %(author_name)s,\n"
+"\n"
+"အသံုးျပဳသူ (user)တစ္ဦးမွ မွတ္တမ္းေပၚရွိ  \"%(full_name)s\". မွတ္စုကို "
+"disable ျပဳလုပ္ေပးရန္\n"
+"ေတာင္းခံထားပါသည္။\n"
+"\n"
+"သင့္အီးေမးလ္လိပ္စာအရ သင္သည္ထိုမွတ္တမ္းေရးသားသူအျဖစ္ ေတြ ့ရွိရပါသည္။\n"
+"ထိုမွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို disable လုပ္ရန္ ေအာက္ေဖာ္ျပပါ လင့္ခ္ ကို "
+"(၃) ရက္အတြင္း ႏွိပ္ၿပီး ၫႊန္ႀကားခ်က္မ်ားကို လိုက္နာပါ။ \n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"You just entered a note on the record for \"%(full_name)s\".  \n"
+"To publish your note, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"ခင္မင္ရပါေသာ %(author_name)s,\n"
+" \"%(full_name)s\" မွတ္တမ္းေပၚတြင္သင္သည္ မွတ္စု တစ္ခုကို ေရးသားထားသည္။  \n"
+"သင့္၏မွတ္စုကို publish  လုပ္ရန္အတြက္  ေအာက္ေဖာ္ျပပါ လင့္ခ္ ကို (၃) "
+"ရက္အတြင္း ႏွိပ္ၿပီး ၫႊန္ႀကားခ်က္မ်ားကို လိုက္နာပါ။ \n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"                    Warning: this record will expire in less than "
+"%(expiration_days)s days.\n"
+"                  "
+msgstr ""
+"\n"
+"                    သတိေပးခ်က္: ဤမွတ္တမ္းသည္  သက္တမ္းကုန္ ဆံုးရန္ "
+"ရက္ေပါင္း %(expiration_days)s သာက်န္ပါေတာ့သည္။\n"
+"                  "
+
+msgid ""
+"\n"
+"                    Warning: this record will expire in less than a day.\n"
+"                  "
+msgstr ""
+"\n"
+"                    သတိေပးခ်က္။ ဤမွတ္တမ္း၏ သက္တမ္းကုန္ဆံုးရန္ "
+"တစ္ရက္ေတာင္မက်န္ေတာ့ပါ။\n"
+"                  "
+
+#, python-format
+msgid ""
+"\n"
+"                %(dup_count)s records selected\n"
+"              "
+msgstr ""
+"\n"
+"                မှတ်တမ်း %(dup_count)s ခုကို ရွေးချယ်ထားသည်\n"
+"              "
+
+#. Translators: Text in the footer which provides a link to our privacy
+#. policy.
+#, python-format
+msgid ""
+"\n"
+"                Learn more about Google\n"
+"                <a href=\"%(privacy_policy_url)s\" "
+"%(target_attr)s>Privacy Policy</a>.\n"
+"              "
+msgstr ""
+"\n"
+"                Google <a href=\"%(privacy_policy_url)s\" "
+"%(target_attr)s>ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ</a> အကြောင်း ပိုမိုလေ့လာရန်။\n"
+"              "
+
+#, python-format
+msgid ""
+"\n"
+"            %(search_engine_name)s has search result(s) matching this "
+"query.\n"
+"          "
+msgstr ""
+"\n"
+"            %(search_engine_name)s တွင် ဤရှာဖွေမှုနှင့် ကိုက်ညီသည့် "
+"ရလဒ်(များ) ရှိပါသည်။\n"
+"          "
+
+#. Translators: The title of the search results when there are no
+#. results found.
+#, python-format
+msgid ""
+"\n"
+"            No results found for: \"%(query)s\"\n"
+"          "
+msgstr ""
+"\n"
+"            ဤမေးခွန်းအတွက် မည်သည့်ရလဒ်မျှ မတွေ့ပါ− \"%(query)s\"\n"
+"          "
+
+#. Translators: The title of the search results which show a list
+#. of persons with the given person name in any locations.
+#, python-format
+msgid ""
+"\n"
+"            Results for \"%(query_name)s\" (any location):\n"
+"          "
+msgstr ""
+"\n"
+"            \"%(query_name)s\" အတွက် ရလဒ် (မည်သည့် နေရာမဆို)−\n"
+"          "
+
+#. Translators: The title of the search results for the given query.
+#, python-format
+msgid ""
+"\n"
+"            Search results for: \"%(query)s\"\n"
+"          "
+msgstr ""
+"\n"
+"            ဤအကြောင်းအရာအတွက် ရှာဖွေမှုရလဒ်များ− \"%(query)s\"\n"
+"          "
+
+#, python-format
+msgid ""
+"\n"
+"          Records Similar to: %(full_name)s\n"
+"        "
+msgstr ""
+"\n"
+"          မှတ်တမ်းများသည် ဤအကောင့်နှင့် တူညီပါသည် − %(full_name)s\n"
+"        "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to delete the record for \"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      \"%(full_name)s\"မွတ္တမ္းအား ဖ်က္ရန္ သင္ေသခ်ာၿပီလား။\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to disable notes on the record of "
+"\"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      \"%(full_name)s\" မွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို disable လုပ္ရန္ "
+"သင္ေသခ်ာၿပီလား။\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to extend the expiration for record "
+"\"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      \"%(full_name)s\" မွတ္တမ္းအား သက္တမ္းတိုးေပးရန္ သင္ေသခ်ာၿပီလား။\n"
+"    "
+
+msgid ""
+"\n"
+"      Confirm your note\n"
+"    "
+msgstr ""
+"\n"
+"      သင္၏ မွတ္စုအား အတည္ျပဳပါ။\n"
+"    "
+
+msgid ""
+"\n"
+"      If you proceed with deletion,\n"
+"      this record will no longer be searchable or viewable on this site.\n"
+"    "
+msgstr ""
+"\n"
+"      သင္ ဖ်က္လိုက္ပါက၊ ဤမွတ္တမ္းအား ယခု၀က္ဗ္ဆိုက္ေပၚတြင္ ရွာေဖြျခင္း၊ "
+"ၾကည့္႐ႈျခင္းမ်ား\n"
+"မရႏိုင္ေတာ့ပါ။\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      If you would like it permanently deleted,\n"
+"      please contact the original source.\n"
+"      You can view the original record at\n"
+"      %(begin_tag)s%(source_name)s%(end_tag)s.\n"
+"    "
+msgstr ""
+"\n"
+"      သင္အၿပီးအပိုင္ဖ်က္လိုပါက၊ မႈရင္း the original source ကိုဆက္သြယ္ပါ။"
+" \n"
+" %(begin_tag)s%(source_name)s%(end_tag)s. တြင္ "
+"မႈရင္းမွတ္တမ္းအားႀကည့္႐ွဳႏိုင္ပါသည္။\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      The URL you entered doesn't look like a valid %(website)s profile "
+"URL.\n"
+"      Please go to this person's profile page on %(website)s, then copy "
+"and paste\n"
+"      that URL here.\n"
+"      "
+msgstr ""
+"\n"
+"သင်ပေးလိုက်သော URL သည် အမှန်တကယ်ရှိသော %(website)s လိပ်စာ မဟုတ်ပါ။ "
+"ကျေးဇူးပြုပြီး ဤပုဂ္ဂိုလ်၏ စာမျက်နှာ %(website)s ကို သွား၍၊ URL လိပ်စာကို"
+"  ကူးယူလာပြီး ပြန်ဖြည့်ပါ။​"
+
+#, python-format
+msgid ""
+"\n"
+"      The record has been extended to %(expiry_date)s.\n"
+"    "
+msgstr ""
+"\n"
+"      %(expiry_date)s. အထိ မွတ္တမ္းအား သက္တမ္းတိုးထားလိုက္သည္။\n"
+"    "
+
+msgid ""
+"\n"
+"      This record is a copy of a record from another source.\n"
+"      You can delete the record here,\n"
+"      but please be aware that\n"
+"      we might later receive another copy of it from the original source."
+"\n"
+"    "
+msgstr ""
+"\n"
+"      ဤမွတ္တမ္းသည္ အျခားေနရာတစ္ခုမွ ကူးယူထားေသာ မွတ္တမ္းျဖစ္သည္။\n"
+"ဒီေနတြင္ ထိုမွတ္တမ္းအား  ဖ်က္ႏိုင္ပါသည္။\n"
+"သို ့ေသာ္ မူရင္းေနရာမွ ကူးယူထားေသာမွတ္တမ္းတစ္ခုကုိ ကၽြႏ္ုပ္တို ့ထပ္မံရရွိ"
+"\n"
+"ႏုိင္ေသးသည္ကို ေက်းဇူးၿပဳၿပီး သတိေပးပါရေစ။\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"    <a href=\"%(admin_api_keys_url)s\">Create a new API key</a>\n"
+"  "
+msgstr ""
+
+#, python-format
+msgid ""
+"\n"
+"    You are currently signed in as <span "
+"class=\"email\">%(user_email)s</span>\n"
+"  "
+msgstr ""
+
+msgid ""
+"\n"
+"  The Email address you entered is not valid.\n"
+"  "
+msgstr ""
+"\n"
+"  သင်ထည့်သွင်းခဲ့သည့် အီးမေးလ်လိပ်စာသည် မမှန်ကန်ပါ။\n"
+"  "
+
+msgid ""
+"\n"
+"  To post your note, please enter your e-mail address below and follow "
+"the\n"
+"  confirmation link that you will receive.\n"
+"  "
+msgstr ""
+"\n"
+"မှတ်ချက်တင်ပေးရန်အတွက် အောက်တွင် သင့် အီးမေးလ်လိပ်စာကို ရေးထည့်ပြီး၊ "
+"ရရှိလာမည့် အတည့်ပြု လင့်ခ် ကို နှိပ်ပါ။ "
+
+#, python-format
+msgid ""
+"\n"
+"A user has deleted the record for \"%(full_name)s\"\n"
+"at %(site_url)s.\n"
+"\n"
+"We are notifying you of the deletion because your e-mail address is\n"
+"recorded as the author of a note on this record.\n"
+msgstr ""
+"\n"
+"%(site_url)s တြင္ အသံုးျပဳသူ တစ္ေယာက္မွ  \"%(full_name)s\" မွတ္တမ္းအား "
+"ဖ်က္လိုက္ပါသည္။\n"
+"\n"
+"သင္၏ အီးေမးလ္လိပ္စာအရ၊ သင္သည္ ထိုမွတ္တမ္းေရးသားသူအျဖစ္ သိရွိရသ\n"
+"ျဖင့္ သင့္အား ထိုသို ့ဖ်က္လိုက္ျခင္းကို အေႀကာင္းႀကားျခင္းျဖစ္သည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"A user has deleted the record for \"%(full_name)s\"\n"
+"at %(site_url)s.\n"
+"\n"
+"We are notifying you of the deletion because your e-mail address is\n"
+"recorded as the author of this record.\n"
+msgstr ""
+"\n"
+"%(site_url)s. တြင္ အသံုးျပဳသူ တစ္ေယာက္မွ \"%(full_name)s\" မွတ္တမ္းအား "
+"ဖ်က္လိုက္ပါသည္။\n"
+"\n"
+"သင္၏ အီးေမးလ္လိပ္စာအရ၊ သင္သည္ ထိုမွတ္တမ္းေရးသားသူအျဖစ္ သိရွိရသ\n"
+"ျဖင့္ သင့္အား ထိုသို ့ဖ်က္လိုက္ျခင္းကို အေၾကာင္းၾကားျခင္းျဖစ္သည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"After %(days_until_deletion)s days, the record will be permanently "
+"deleted.\n"
+msgstr ""
+"\n"
+"ရက္ေပါင္း %(days_until_deletion)s အၾကာတြင္ မွတ္တမ္းအား အၿပီးအပိုင္ဖ်က္မည္"
+" ျဖစ္ပါသည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"NOTE: If you believe this record was deleted in error, you can\n"
+"restore it by following this link within the next %(days_until_deletion)s"
+" days:\n"
+"\n"
+"    %(restore_url)s\n"
+msgstr ""
+"\n"
+"မွတ္ခ်က္။ ထိုမွတ္တမ္းအား မွားယြင္းစြာ ဖ်က္လိုက္သည္ဟု သင္ယံုၾကည္ပါက "
+"ေအာက္ေဖာ္ျပပါ လင့္ခ္အားႏိုပ္၍ ၫႊန္ႀကားခ်က္မ်ားကိုလုိက္နာၿပီး၊ ရက္ေပါင္း"
+"   %(days_until_deletion)s အတြင္း၊ ထိုမွတ္တမ္းအား ျပန္လည္ ရယူႏိုင္ပါသည္။"
+" \n"
+"\n"
+"\n"
+"    %(restore_url)s\n"
+
+#, python-format
+msgid ""
+"\n"
+"Notes are now disabled on the record for \"%(full_name)s\".  To view the "
+"record,\n"
+"follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"\"%(full_name)s\" မွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို ယခုအခါ disable "
+"လုပ္လိုက္ၿပီျဖစ္ပါသည္။   ထိုမွတ္တမ္းအားႀကည့္႐ွဳရန္၊ ေအာက္ေဖာ္ျပပါ လင့္ခ္ "
+"အားႏွိပ္ပါ။ \n"
+"\n"
+"    %(record_url)s\n"
+"သင္၏အီးေမးလ္လိပ္စာသည္ ထိုပုဂၢိဳလ္၏မွတ္တမ္း သုိ႔မဟုတ္ "
+"မွတ္တမ္းေပၚရွိမွတ္ခ်က္\n"
+"တစ္ခုႏွင့္ ဆက္စပ္ေနသျဖင့္ သင့္အား အေၾကာင္းၾကားရျခင္း ျဖစ္ပါသည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"Notes are now enabled on the record for \"%(full_name)s\".  To view the "
+"record,\n"
+"follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"\"%(full_name)s\" မွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို ယခုအခါ enable "
+"လုပ္လိုက္ၿပီျဖစ္ပါသည္။   ထိုမွတ္တမ္းအားႀကည့္႐ွဳရန္၊ ေအာက္ေဖာ္ျပပါ လင့္ခ္ "
+"အားႏွိပ္ပါ။ \n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"သင္၏အီးေမးလ္လိပ္စာသည္ ထိုပုဂၢိဳလ္၏ မွတ္တမ္း သို ့မဟုတ္ "
+"မွတ္တမ္းေပၚရွိမွတ္ခ်က္\n"
+"တစ္ခုႏွင့္ ဆက္စပ္ေနသျဖင့္ သင့္အား အေၾကာင္းၾကားရျခင္း ျဖစ္ပါသည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"The author of the record for \"%(full_name)s\"\n"
+"(which was previously deleted) has restored the record.  To view the\n"
+"record, follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"\"%(full_name)s\"မွတ္တမ္းအား ေရးသားသူသည္၊ယခင္က ဖ်က္သိမ္းထားေသာ "
+"မွတ္တမ္းအား (restore) ပံုမွန္အေနအထားသုိ ့ျပန္ထားလိုက္ၿပီ ျဖစ္သည္။\n"
+"\n"
+"\n"
+"    %(record_url)s\n"
+"သင္၏အီးေမးလ္လိပ္စာသည္ ထိုပုဂၢိဳလ္၏ မွတ္တမ္း သို ့မဟုတ္ "
+"မွတ္တမ္းေပၚရွိမွတ္ခ်က္\n"
+"တစ္ခုႏွင့္ ဆက္စပ္ေနသျဖင့္ သင့္အား အေၾကာင္းၾကားရျခင္း ျဖစ္ပါသည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"There is a new note on the record for \"%(full_name)s\".\n"
+msgstr ""
+"\n"
+"\"%(full_name)s\". မွတ္တမ္းေပၚတြင္ မွတ္စုအသစ္တစ္ခု ရွိေနပါသည္။\n"
+
+#, python-format
+msgid ""
+"\n"
+"You have subscribed to notes on \"%(full_name)s\".\n"
+"\n"
+"You can view this record at\n"
+"\n"
+"     %(view_url)s\n"
+"\n"
+"To unsubscribe, follow this link: %(unsubscribe_link)s\n"
+msgstr ""
+"\n"
+"\"%(full_name)s\". ေပၚရွိ မွတ္စုမ်ားႏွင့္ပတ္သတ္ၿပီး  ျဖစ္ေပၚခ်က္မ်ားအား "
+"သင့္ထံ အေၾကာင္းၾကားရန္ (subscribe) ေရြးခ်ယ္ထားသျဖင့္\n"
+"\n"
+"     %(view_url)s တြင္ ထိုမွတ္တမ္းအား သင္ႀကည့္႐ွဳႏိုင္ပါသည္။\n"
+"\n"
+"(unsubscribe) ျပဳလုပ္ရန္အတြက္ ဤ %(unsubscribe_link)s လင့္ခ္ကို ႏိွပ္ၿပီး "
+"ၫႊန္ႀကားခ်က္မ်ားကိုလိုက္နာပါ။\n"
+
+msgid " (normal connection fee may apply)"
+msgstr ""
+
+msgid "(click to reveal)"
+msgstr "(ကြည့်ရှုရန် နှိပ်ပါ။)"
+
+msgid "(unknown)"
+msgstr "(unknown ခေါ် မသိသည့်အရာ။)"
+
+msgid "A message for this person or others seeking this person"
+msgstr "ဒီလူႏွင့္ သူ ့အားရွာေဖြေနသူမ်ားအတြက္ စာတစ္ေဆာင္။"
+
+msgid "A new API key has been created successfully."
+msgstr "APIကီးအသစ် အောင်မြင်စွာ ပြုလုပ်ပြီးပါပြီ။"
+
+msgid "API Key Management"
+msgstr "API ကီး စီမံရန်"
+
+msgid "About 1 month (30 days) from now"
+msgstr "ယခုမှစ၍ တစ်လ(ရက်ပေါင်း ၃၀) ခန့် ။"
+
+msgid "About 1 year (360 days) from now"
+msgstr "ယခုမှစ၍ တစ်နှစ်(ရက်ပေါင်း ၃၆၀) ခန့် ။"
+
+msgid "About 2 months (60 days) from now"
+msgstr "ယခုမှစ၍ နှစ်လ (ရက်ပေါင်း ၆၀) ခန့် ။"
+
+msgid "About 3 months (90 days) from now"
+msgstr "ယခုမွစ၍ သံုးလ(ရက္ေပါင္း ၉၀) ခန္ ့။"
+
+msgid "About 6 months (180 days) from now"
+msgstr "ယခုမွစ၍ ေျခာက္လ(ရက္ေပါင္း ၁၈၀) ခန္ ့။"
+
+msgid "About Google Person Finder"
+msgstr "Google Person Finder အကြောင်း။"
+
+#. Translators: The title of a section in a form where the user inputs their
+#. own information e.g., "Your name", "Your e-mail address".
+msgid "About You"
+msgstr "သင့်အကြောင်း"
+
+#. Translators: An SMS message sent to a user when the user
+#. successfully added a record for the given person.
+#, python-format
+msgid "Added a record for: %(person_name)s"
+msgstr "ဤပုဂ္ဂိုလ်အတွက် မှတ်တမ်းတစ်ခု ထည့်ထားပါသည်− %(person_name)s"
+
+msgid "Age"
+msgstr "အသက်"
+
+msgid ""
+"All data entered in Person Finder is available to the public and usable "
+"by anyone. Google does not review or verify the accuracy of this data "
+"google.org/personfinder/global/tos"
+msgstr ""
+"Person Finder တွင် ထည့်သွင်းခဲ့သည့် ဒေတာများအားလုံးကို "
+"လူတိုင်းသုံးစွဲနိုင်ပါသည်။ Google သည် ၎င်းဒေတာ "
+"google.org/personfinder/global/tos ကို ပြန်လည်သုံးသပ်ခြင်း သို့မဟုတ် "
+"မှန်ကန်မှုရှိမရှိ အတည်ပြုခြင်း မရှိပါ"
+
+msgid "Alternate family names"
+msgstr "အခြားသင့်တွင်ရှိသော  family names ခေါ်မိသားစုနာမည်။"
+
+msgid "Alternate given names"
+msgstr "သင့္တြင္ရွိေသာ အျခားနံမည္မ်ား။"
+
+msgid "Alternate names"
+msgstr "အျခား နံမည္မ်ား။"
+
+msgid "Are you sure this note isn't spam?"
+msgstr "ဤမွတ္စုသည္ spamမဟုတ္ေၾကာင္း သင္ေသခ်ာပါသလား။"
+
+msgid "Are you sure you want to mark this note as spam?"
+msgstr "ဤမွတ္စုအား spamအျဖစ္ သတ္မွတ္ရန္ သင္ေသခ်ာၿပီးလား။"
+
+msgid "Are you sure you want to restore this record from deletion?"
+msgstr ""
+"ဤမွတ္စုအား ယခင္ဖ်က္ထားရာမွ ပံုမွန္အေနအထားသို ့ျပန္လည္ထားရန္\n"
+"(restore လုပ္ရန္) သင္ေသခ်ာၿပီလား။"
+
+msgid "Atom feed of updates about this person"
+msgstr "ယခုပုဂၢိဳလ္ႏွင့္ပတ္သတ္ေသာ updates မ်ား၏ Atom feed။"
+
+msgid "Author's e-mail address"
+msgstr "ရေးသားသူ၏ အီးမေးလ်လိပ်စာ။"
+
+msgid "Author's name"
+msgstr "ရေးသားသူ၏ အမည်။"
+
+msgid "Author's phone number"
+msgstr "ရေးသားသူ၏ ဖုန်းနံပါတ်။"
+
+msgid "Authorization already exists for another repo! That's not expected."
+msgstr ""
+
+msgid "Authorization key"
+msgstr "Authorization key ခေါ် ခွင့် ပြုသည့် သော့နံပါတ်။"
+
+#. Translators: A link text to go back to the form where the user
+#. can import or export records in the site.
+msgid "Back to import/export form"
+msgstr "ထည့်သွင်း /ထုတ်ယူ ပုံစံသို့ ပြန်သွားရန်"
+
+msgid ""
+"By marking this note as spam, you will make it hidden by default. It will"
+" still be a part of the record, but will require an extra click to view "
+"the contents of the note. Users will also be able to remove the spam mark"
+" from this note."
+msgstr ""
+"သင္သည္ ဤမွတ္စုကုိ spamအျဖစ္ မွတ္သားျခင္းျဖင့္၊ ထိုမွတ္တမ္းသည္ default "
+"အေနျဖင့္ ေပ်ာက္ကြယ္သြားမည္ျဖစ္သည္။ ထို မွတ္စုသည္ "
+"မွတ္တမ္း၏အပုိင္းတစ္ခုအေနျဖင့္ ဆက္လက္ရွိေနမည္ျဖစ္ေသာ္လည္း  "
+"မွတ္စုပါအေၾကာင္းအရာအား ျပန္လည္ၾကည့္လုိပါက ကလစ္အပုိထပ္မံႏွိပ္ရန္ "
+"လုိအပ္ပါသည္။  အသံုးျပဳသူက မွတ္စုမွ ဤspam အမွတ္အသားကုိလဲ ဖယ္ရွားႏုိင္သည္။"
+
+msgid "By unmarking this note as spam, you will make it visible by default."
+msgstr ""
+"သင္သည္ ဤမွတ္စုကုိ spamအေနျဖင့္ မွတ္သားမထားပါက defaultအေနျဖင့္ မွတ္စုအား "
+"ျမင္ေတြ႕ရပါလိမ့္မည္။"
+
+msgid "CSV file"
+msgstr "CSV ဖိုင်။"
+
+#, python-format
+msgid "Can not find note with id %(id)s"
+msgstr "အိုင္ဒီ %(id)sပါရွိေသာ မွတ္စုကို ရွာေဖြ၍မရပါ။"
+
+msgid "Cancel"
+msgstr "ပယ္ဖ်က္ပါ။"
+
+msgid "City"
+msgstr "လမ်းနာမည်သာ၊ လမ်းနံပါတ်မပါ။"
+
+msgid ""
+"Click here to see the terms of service (external site; normal connection "
+"fee may apply)"
+msgstr ""
+"ဝန်ဆောင်မှု စည်းမျဉ်းများကို ကြည့်ရန် ဤနေရာတွင် နှိပ်ပါ (ပြင်ပဆိုက်၊ "
+"ပုံမှန်ချိတ်ဆက်မှုနှုန်းများ ကျခံရနိုင်ပါသည်)"
+
+msgid "Click here to view results."
+msgstr "results ေခၚ ရလဒ္မ်ားကို ႀကည့္ရန္ ဒီမွာႏွိပ္ပါ။"
+
+msgid "Close window"
+msgstr "၀င်းဒိုး ကိုပိတ်လိုက်ပါ။"
+
+msgid "Compare these records"
+msgstr "ဒီမွတ္တမ္းမ်ားကို ႏွိင္းယွဥ္ႀကည့္ပါ။"
+
+#. Translators: The title of a section to input the user's own
+#. email address and phone number, in the form to register a
+#. person record.
+msgid "Contact information"
+msgstr "ဆက်သွယ်ရန် အချက်အလက်"
+
+msgid "Copy and paste the following HTML code to put this tool on your site"
+msgstr ""
+"သင်၏ ဝဘ်ဆိုက်တွင် ဤကိရိယာ tool ကိုတင်ရန် အောက်ပါ HTML ကုဒ်ကိုကူးယူပြီး "
+"ဖြတ်ညှပ်ကပ် အသုံးပြုပါ။"
+
+msgid "Create a new API key"
+msgstr "API ကီးအသစ် ပြုလုပ်ရန်။"
+
+msgid "Create a new record"
+msgstr "မှတ်တမ်းအသစ်တစ်ခု ဖန်တီးပါ။"
+
+msgid "Create a new record for"
+msgstr "----အတွက်မှတ်တမ်း အသစ်တစ်ခု ဖန်တီးပါ။"
+
+msgid "Crisis events"
+msgstr ""
+"သဘာ၀ေဘးအႏၲရာယ္စသည့္ အခက္အခဲကာလအတြင္း ျဖစ္ပြားေသာ အျဖစ္အပ်က္မ်ား။ (Crisis "
+"events)"
+
+#, python-format
+msgid "Currently tracking about %(num_people)s records."
+msgstr "%(num_people)s ၏မွတ္တမ္းမ်ားကို ေလာေလာဆယ္ အျမဲမျပတ္ ေလ့လာေနသည္။"
+
+msgid "Date cannot be in the future.  Please go back and try again."
+msgstr ""
+"ရက်စွဲသည် အနာဂါတ်တွင် ဖြစ်၍မရပါ။ ကျေးဇူးပြု၍ နောက်ပြန်သွားပြီး "
+"ထပ်မံကြိုးစားကြည့်ပါ။"
+
+msgid "Date of birth"
+msgstr "မွေးနေ့"
+
+msgid "Delete this record"
+msgstr "ဤမွတ္တမ္းအား ဖ်က္ပါ။"
+
+msgid "Describe how to identify this person."
+msgstr "အဲဒီသူအား မည္သူမည္၀ါျဖစ္ေႀကာင္း ဘယ္လို ခြဲျခားရမည္ကို ေဖာ္ျပပါ။"
+
+msgid "Description"
+msgstr "ေဖၚျပခ်က္"
+
+msgid "Desktop version"
+msgstr "Desktop ကြန္ပ်ဳတာအတြက္ version ။"
+
+msgid "Developers"
+msgstr "ကြန္ပ်ဳတာပ႐ိုဂရမ္ ေရးသားသူမ်ား။"
+
+msgid "Does this person have profile pages at other websites?"
+msgstr "အျခား၀က္ဗ္ဆိုက္မ်ားတြင္ ဤလူ၏ profile စာမ်က္ႏွာမ်ား ရွိပါသလား။"
+
+#. Translators: A button label to download a file.
+msgid "Download"
+msgstr "ဒေါင်းလုဒ် လုပ်ရန်"
+
+#, python-format
+msgid "Download %(begin_link)sthis Excel template%(end_link)s and add rows to it"
+msgstr ""
+"%(begin_link)sဤ Excel ပုံစံ%(end_link)s ကို ဒေါင်းလုဒ်လုပ်ပြီး "
+"ဇယားကွက်တန်းများ ထပ်ထည့်ပါ။"
+
+#. Translators: The title of a section where the user can download person
+#. records in the site.
+msgid "Download all person records in CSV format"
+msgstr "ပုဂ္ဂိုလ်၏ မှတ်တမ်းအားလုံးကို CSV ပုံစံဖြင့် ဒေါင်းလုဒ်လုပ်ပါ"
+
+msgid "E-mail"
+msgstr "အီးမေးလ်"
+
+msgid "E-mail address"
+msgstr "အီးမေးလ်လိပ်စာ။"
+
+msgid "Edit"
+msgstr "တည္းျဖတ္ပါ။"
+
+#. Translators: The label for an email address field.
+msgid "Email address"
+msgstr "အီးမေးလ်လိပ်စာ"
+
+msgid "Embedding the Application"
+msgstr ""
+"ကုတ္ကို ကူးယူၿပီး Application ပ႐ိုဂရမ္တစ္ခုကို "
+"၀က္ဗ္ဆိုက္ထဲတြင္ထည့္သြင္းျခင္း သို ့မဟုတ္ Embed လုပ္ျခင္း။"
+
+msgid "Enter as YYYY-MM-DD"
+msgstr "ခုနှစ်-လ-ရက် (YYYY-MM-DD) ကိုရိုက်ထည့်ပါ။"
+
+msgid "Enter the person's given and family names."
+msgstr "သူ၏ အမည် နှင့် family names ခေါ်မိသားစုအမည် ကိုရိုက်ထည့်ပါ။"
+
+msgid "Enter the person's name."
+msgstr "သူ၏ နာမည်ကိုရိုက်ထည့်ပါ။"
+
+msgid "Expiry"
+msgstr "သက္တမ္းကုန္ဆံုးျခင္း။"
+
+msgid "Expiry date of this record"
+msgstr "ဤမွတ္တမ္း၏ သက္တမ္းကုန္ဆံုးမည့္ရက္။"
+
+#, python-format
+msgid ""
+"Extend expiration date by %(extension_days)s days\n"
+"                "
+msgstr ""
+"ကုန်ဆုံးရက် %(extension_days)s ရက် တိုးချဲ့ပါ\n"
+"                "
+
+msgid "External photo"
+msgstr ""
+
+#. Translators: An error message indicating that we
+#. failed to obtain search result for the phone number
+#. given by the user.
+msgid "Failed to obtain search result for the phone number."
+msgstr "ဖုန်းနံပါတ်အတွက် ရှာဖွေမှုရလဒ် ရယူခြင်းမအောင်မြင်ပါ။"
+
+#. Translators: The label for a text field to input the family
+#. name of the person record. "(Surname)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "family name".
+msgid "Family name (Surname)"
+msgstr "မိသားစုအမည် (နောက်အမည်)"
+
+#. Translators: The label for a text field to input the family
+#. name of the person record. "(Surname)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "family name".
+msgid "Family name (Surname) (required)"
+msgstr "မိသားစုနာမည် (နောက်အမည်) (လိုအပ်သည်)"
+
+msgid "Feed of updates about this person"
+msgstr "ဒီလူ၏အေႀကာင္း အပ္ဒိတ္ updates မ်ားကို အျမဲမျပတ္ ရရွိျခင္း။"
+
+msgid "Feedback"
+msgstr "အကြံပြုချက်"
+
+msgid "Follow this link to create a new record"
+msgstr ""
+"မွတ္တမ္းအသစ္တစ္ခုဖန္တီးရန္ ဒီလင့္ခ္ကို ႏွိပ္ၿပီး ၫႊန္ႀကားခ်က္မ်ားကို\n"
+"လိုက္နာပါ။"
+
+msgid ""
+"For phones other than mobile phones, please use 171 service provided by "
+"NTT."
+msgstr ""
+"မိုဘိုင္းမဟုတ္ေသာဖုန္းမ်ားအတြက္၊ ေက်းဇူၿပဳ၍ NTT မွ၀န္ေဆာင္မႈေပးေသာ 171 \n"
+"ဆားဗစ္အား သံုးပါ။"
+
+#. Translators: The title of a page for people who respond to disasters.
+msgid "For responders"
+msgstr "ကယ်ဆယ်ရေးသမားများ အတွက်"
+
+#. Translators: The title of a page of frequently asked questions.
+msgid "Frequently asked questions"
+msgstr "မကြာခဏမေးတတ်သော မေးခွန်းများ"
+
+#, python-format
+msgid "From: %(home_location)s"
+msgstr "မှ − %(home_location)s"
+
+msgid "Full name"
+msgstr "နာမည္ အျပည့္အစံု။"
+
+#. Translators: The label for a text field to input the given
+#. name of the person record. "(First name)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "given name".
+msgid "Given name (First name)"
+msgstr "ကိုယ်ပိုင် အမည် (ပထမအမည်)"
+
+#. Translators: The label for a text field to input the given
+#. name of the person record. "(First name)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "given name".
+msgid "Given name (First name) (required)"
+msgstr "ကိုယ်ပိုင် အမည် (ပထမအမည်) (လိုအပ်သည်)"
+
+msgid "Google Person Finder"
+msgstr "Google Person Finder ခေါ် Google ၏ လူရှာဖွေပေးသည့် ၀န်ဆောင်မှု။"
+
+#. Translators: A sentence in the privacy statement in the footer of pages.
+msgid ""
+"Google may share the data with public and private organizations "
+"participating in disaster response efforts."
+msgstr ""
+"Google သည် ဘေးအန္တရာယ်ကယ်ဆယ်ရေး လှုပ်ရှားမှုများတွင် ပါဝင်ဆောင်ရွက်နေသော "
+"အများပြည်သူ၊ ပုဂ္ဂလိက အဖွဲ့အစည်းများနှင့် ဒေတာကို မျှဝေနိုင်ပါသည်။"
+
+msgid "Have you personally talked with this person AFTER the disaster? (required)"
+msgstr ""
+"သဘာ၀ေဘးအႏၲာရယ္ျဖစ္ပြားၿပီးေနာက္ အဲဒီသူနဲ ့သင္ကိုယ္တုိင္ စကားေျပာ\n"
+"ျဖစ္သလား။ (လိုအပ္သည္။)"
+
+#, python-format
+msgid "Here is %(begin_tag)sa sample CSV file%(end_tag)s you can edit and upload"
+msgstr ""
+"ဤအရာသည် တည်းဖြတ်ပြီး ပြန်တင်နိုင်သော %(begin_tag)sနမူနာ CSV ဖိုင် "
+"%(end_tag)sဖြစ်သည်။"
+
+msgid "Hide Map"
+msgstr "ေျမပံုကို ျမင္ကြင္းမွ ဖံုးကြယ္ထားပါ။ Hide လုပ္ထားပါ။"
+
+msgid "Hide note"
+msgstr "မွတ္စုကို ျမင္ကြင္းမွ ဖံုးကြယ္ထားပါ။ Hide လုပ္ထားပါ။"
+
+msgid "Home Address"
+msgstr "အိမ္လိပ္စာ။"
+
+msgid "Home address"
+msgstr "အိမ္လိပ္စာ။"
+
+msgid "Home country"
+msgstr "နေရင်း နိုင်ငံ။"
+
+#. Translators: A label the home location field in the form to
+#. search person records.
+msgid "Home location"
+msgstr "အိမ်တည်နေရာ"
+
+msgid "How can this person be reached now?"
+msgstr "ဒီလူအား အခု ဘယ်လို ဆက်သွယ်နိုင်သလဲ။"
+
+msgid "How others who are interested in this person can contact you"
+msgstr ""
+"ဒီလူႏွင့္ပတ္သတ္ၿပီး စိတ္၀င္စားေသာသူမ်ားက၊ သင့္ကို ဘယ္လိုဆက္\n"
+"သြယ္ႏိုင္သလဲ။"
+
+msgid "I Have Information About This Person"
+msgstr "ဤပုဂ္ဂိုလ်အကြောင်း အချက်အလက်များ ကျွန်ုပ်တွင် ရှိပါသည်"
+
+msgid "I am seeking information"
+msgstr "ကၽြန္ေတာ္(ကၽြန္မ) သတင္းအခ်က္အလက္မ်ားကို ရွာေဖြေနပါတယ္။"
+
+msgid "I am this person"
+msgstr "ကၽြန္ေတာ္(ကၽြန္မ)က အဲဒီသူပါ။"
+
+msgid "I do not want my information online anymore."
+msgstr ""
+"ကၽြန္ေတာ္(ကၽြန္မ) ၏ အခ်က္အလက္မ်ားကို အြန္လိုင္းေပၚ တြင္မထား\n"
+"ခ်င္ေတာ့ပါ။"
+
+msgid "I have information about someone"
+msgstr ""
+"လူတစ္ေယာက္ႏွင့္ပတ္သတ္သည့္ သတင္းအခ်က္အလက္မ်ား ကၽြန္ေတာ္(ကၽြန္မ) "
+"တြင္ရွိပါသည္။"
+
+msgid "I have reason to think this person is missing"
+msgstr "ဒီလူ ေပ်ာက္ဆံုးေနတယ္လုိ ့ကၽြန္ေတာ္(ကၽြန္မ) ယူဆသည္။"
+
+msgid "I have received information that this person is alive"
+msgstr "အဲဒီလူ အသက္ရွင္ေနေသးတယ္ဆိုတဲ့အေႀကာင္း ကၽြန္ေတာ္(ကၽြန္မ)  သတင္းရထားတယ္။"
+
+msgid "I have received information that this person is dead"
+msgstr "အဲဒီလူ ဆံုးပါးသြားၿပီ ဆိုတဲ့အေႀကာင္း ကၽြန္ေတာ္(ကၽြန္မ) သတင္းရထားတယ္။"
+
+msgid "I have received spam due to this note."
+msgstr "အဲဒီ မွတ္တမ္းေႀကာင့္ ကၽြန္ေတာ္(ကၽြန္မ) spam ရပါတယ္။"
+
+msgid "I have received spam."
+msgstr "ကၽြန္ေတာ္(ကၽြန္မ) spam ရပါတယ္။"
+
+msgid "I prefer not to specify."
+msgstr "ကၽြန္ေတာ္(ကၽြန္မ) အေသးစိတ္ မေျပာလိုဘူး။"
+
+#. Translators: The label of an option to input the user's
+#. own information, not someone else's, in the form to
+#. register a person record.
+msgid "I want to input my own information"
+msgstr "ကျွန်ုပ်၏ ကိုယ်ပိုင်အချက်အလက်များကို ထည့်သွင်းလိုပါသည်"
+
+#. Translators: The label of an option to input someone
+#. else's information, not of the user themselves, in the
+#. form to register a person record.
+msgid "I want to input someone else's information"
+msgstr "တစ်စုံတစ်ယောက်၏ အချက်အလက်များကို ထည့်သွင်းလိုပါသည်"
+
+msgid "I'm looking for someone"
+msgstr "ကၽြန္ေတာ္(ကၽြန္မ) လူတစ္ေယာက္ကို ရွာေနတယ္။"
+
+msgid "Identifying information"
+msgstr "မည္သူမည္၀ါျဖစ္ေႀကာင္း ခြဲျခားေဖာ္ျပႏိုင္ေသာ အခ်က္အလက္မ်ား။"
+
+msgid ""
+"If none of these records match the person you had in mind, you can click "
+"below to create a new record."
+msgstr ""
+"သင္ရွာေဖြေနေသာသူက မွတ္တမ္းမ်ားထဲရွိ သူမ်ားမဟုတ္ပါက၊ ေအာက္တြင္\n"
+"ႏွိပ္ၿပီး မွတ္တမ္းအသစ္တစ္ခု သင္ဖန္တီးႏိုင္ပါသည္။"
+
+#, python-format
+msgid ""
+"If this webpage is not replaced in a few seconds, please <a "
+"href=\"%(light_url)s\">click here.</a>"
+msgstr ""
+
+msgid ""
+"If you are the author of this note, please check your e-mail for a link "
+"to confirm that you want to enable notes on this record.  Otherwise, "
+"please wait for the record author to confirm your request."
+msgstr ""
+"ဒီမွတ္စုကို သင္ေရးသားပါက၊ မွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို  သင္ enable "
+"လုပ္ရန္၊\n"
+"အလုိရွိသလားဆိုတာအတည္ျပဳေပးရန္အတြက္လင့္ခ္တစ္ခုပါရွိသည့္ အီးေမးလ္ "
+"တစ္ေဆာင္အား သင့္အီးေမးလ္ထဲတြင္ စစ္ႀကည့္ပါ။ သင္သည္ ဒီမွတ္စုအား \n"
+"ေရးသားသူမဟုတ္ပါက၊ ေရးသားသူမွ သင္၏ ေတာင္းဆိုခ်က္ကို အတည္ျပဳေပးရန္ "
+"ေစာင့္ဆိုင္းပါ။"
+
+msgid "If you have a photo of this person, upload it or enter its URL address."
+msgstr ""
+"သင့္တြင္ထိုလူ၏ ဓာတ္ပံုရွိပါက ထိုဓာတ္ပံုအား upload လုပ္ပါ။ သို ့မဟုတ္ "
+"ဓာတ္ပံု\n"
+"၏ URL လိပ္စာအား ႐ိုက္ထည့္ပါ။"
+
+msgid "In Excel, use File &gt; Save as... and save in CSV format (.csv)"
+msgstr ""
+"Excel ထဲတွင် File &gt; Save as... ကို သုံးပြီး CSV ဖိုင်အမျိုးအစား (.csv)"
+" ဖြင့် သိမ်းထားပါ။"
+
+msgid "Invalid e-mail address. Please try again."
+msgstr "အီးေမးလ္လိပ္စာ မမွန္ပါ။ ေက်းဇူးျပဳျပီး ထပ္မံႀကိဳးစားႀကည့္ပါ။"
+
+msgid "Language selection"
+msgstr "ဘာသာစကား ေရြးခ်ယ္ျခင္း။"
+
+msgid "Last known location"
+msgstr "ေနာက္ဆံုး သိရတဲ ့ေနရာ။"
+
+msgid "Link"
+msgstr "လင့်ခ် (Link)"
+
+msgid "Link to profile page"
+msgstr "profile စာမ်က္ႏွာသို ့သြားရန္ လင့္ခ္။"
+
+msgid "List API keys"
+msgstr "API ကီးမ်ား စာရင္း"
+
+msgid "Mark records as duplicate"
+msgstr "မွတ္တမ္းမ်ားကို မူရင္းမဟုတ္သည့္ အပြားမ်ားျဖစ္ေႀကာင္း မွတ္သားပါ။"
+
+msgid "Mark the selected records as duplicate"
+msgstr "ေရြးခ်ယ္ထားေသာ မွတ္တမ္းမ်ားကို မူပြားမ်ားအျဖစ္ သတ္မွတ္ပါ။"
+
+msgid "Message (required)"
+msgstr "မက်ဆေ့ Message  (လိုအပ်သည်။)"
+
+msgid "Message is required. Please go back and try again."
+msgstr ""
+"မက်ဆေ့ဂျ်ရေးရန် လိုအပ်သည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍ "
+"ထပ်ကြိုးစားကြည့်ပါ။"
+
+msgid "Missing person's current contact information"
+msgstr "ေပ်ာက္ဆံုးေနသူအား လက္ရွိဆက္သြယ္ႏိုင္မည့္ အခ်က္အလက္မ်ား။"
+
+msgid "Missing person's current e-mail address"
+msgstr "ေပ်ာက္ဆံုးေနသူ၏ လက္ရွိ အီးေမးလ္လိပ္စာ။"
+
+msgid "Missing person's current phone number"
+msgstr "ေပ်ာက္ဆံုးေနသူ၏ လက္ရွိဖုန္း နံပါတ္။"
+
+#, python-format
+msgid "More at: %(url)s"
+msgstr "နောက်ထပ် − %(url)s"
+
+#. Translators: A link to expand the form to allow the user to
+#. input more detailed information about the source of the record,
+#. in the form to register a person record.
+msgid "More information about source of record"
+msgstr "မှတ်တမ်းအရင်းအမြစ်အကြောင်း နောက်ထပ် အချက်အလက်များ"
+
+#. Translators: A link to expand the form to allow the user to input
+#. more information about the status of the person, in the form to either
+#. register a person record or add a note to an existing record.
+msgid "More information about status of the person"
+msgstr "ဤပုဂ္ဂိုလ်၏အခြေအနေအကြောင်း နောက်ထပ် အချက်အလက်များ"
+
+#, python-format
+msgid ""
+"More information for developers can now be found "
+"%(developers_link_html)shere%(link_end_html)s."
+msgstr ""
+"ကၽြန္ပ်ဴတာ ပ႐ိုဂရမ္ေရးသားသူမ်ား ႏွင့္ ပတ္သတ္သည့္သတင္းအခ်က္ အလက္မ်ားကို "
+"%(developers_link_html)sဒီမွာ%(link_end_html)s.ရွာေဖြနိုင္ပါသည္။"
+
+#. Translators: A link to expand the form to allow the user to
+#. input more detailed information to identify the person, in the
+#. form to register a person record.
+msgid "More information to identify the person"
+msgstr "ဤပုဂ္ဂိုလ်အား ခွဲခြားသတ်မှတ်နိုင်ရန် နောက်ထပ် အချက်အလက်များ"
+
+msgid ""
+"More than 100 results; only showing the first 100.  Try entering more of "
+"the name"
+msgstr ""
+"ရလဒ္(results) ၁၀၀ ေက်ာ္ထဲမွ၊ ပထမ ရလဒ္ ၁၀၀ ကိုသာ ျပထားသည္။\n"
+"နာမည္ မ်ားကို ထပ္ရိုက္ထည့္ႀကည့္ပါ။"
+
+msgid "Name"
+msgstr "အမည်။"
+
+msgid "Name (required)"
+msgstr "အမည် (လိုအပ်သည်။)"
+
+msgid "Name is required.  Please go back and try again."
+msgstr "နာမည် လိုပါသည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍ ထပ်ကြိုးစားကြည့်ပါ။"
+
+#. Translators: The label of a field for either the name of the
+#. person or their mobile phone number, in the form to search
+#. person records.
+msgid "Name or mobile phone number (required)"
+msgstr "အမည် သို့မဟုတ် မိုဘိုင်းဖုန်းနံပါတ် (လိုအပ်ပါသည်)"
+
+msgid "Neighborhood"
+msgstr "အိမ်နီးနားတစ်ဝိုက် (Neighborhood)"
+
+msgid "No"
+msgstr "No"
+
+#, python-format
+msgid "No author email for record %(id)s."
+msgstr "မှတ်တမ်း%(id)s.ရေးသားသူ၏ အီးမေးလ်လိပ်စာ မရှိပါ။"
+
+msgid "No messages are found registered to the carrier's message board service."
+msgstr "ဖုန်းကုမ္ပဏီ၏ မက်ဆေ့ဂျ်ဘုတ်ဝန်ဆောင်မှုတွင် မည်သည့် မက်ဆေ့ဂျ်မျှ မတွေ့ပါ။"
+
+#, python-format
+msgid "No note with ID: %(id_str)s."
+msgstr "%(id_str)s.အိုင္ဒီပါေသာ မွတ္စုမရွိပါ။"
+
+msgid "No notes have been posted"
+msgstr "မည်သည့် မှတ်စုမှ တင်မထားပါ။"
+
+msgid "No person id was specified."
+msgstr "ပုဂ္ဂိုလ်အိုင်ဒီများ သတ်မှတ်မထားပါ။"
+
+#, python-format
+msgid "No results found for: %(query)s"
+msgstr "ဤရှာဖွေမှုအတွက် ရလဒ်များ မရှိပါ − %(query)s"
+
+msgid "No such Authorization entity."
+msgstr "ထုိကဲ့သုိ႔သီးျခား လုပ္ပုိင္ခြင့္မရွိပါ။"
+
+msgid "Not authorized to post notes with the status \"believed_dead\"."
+msgstr ""
+".\"ေသၿပီလို ့ယံုၾကည္ရတယ္\" ဆိုတဲ့ေခါင္းစဥ္နဲ ့ မွတ္စုမ်ား ေရးသားရန္ "
+"ခြင့္မျပဳပါ။"
+
+msgid "Not spam"
+msgstr "spam မဟုတ္ပါ။"
+
+msgid "Note author"
+msgstr "မွတ္စုေရးသားသူ။"
+
+msgid "Note text"
+msgstr "မွတ္စု စာသား။"
+
+msgid "Notes for a possible duplicate"
+msgstr "ျဖစ္ႏိုင္ေျခရွိတဲ ့မူပြားအတြက္ မွတ္စု။"
+
+msgid "Notes for this person"
+msgstr "ဒီလူအတြက္ မွတ္စုမ်ား။"
+
+msgid "Number or range (e.g. 20-30)"
+msgstr "နံပါတ် သို့ မဟုတ် နံပါတ်တစ်ခုမှ နောက်တစ်ခုအတွင်း (ဥပမာ။ ၂၀ မှ ၃၀)။"
+
+#, python-format
+msgid ""
+"Or add to your site as a %(gadget_link_html)sGoogle "
+"Gadget%(link_end_html)s."
+msgstr ""
+"သို့ မဟုတ် သင့်၀က်ဗ်ဆိုက်တွင်%(gadget_link_html)sGoogle "
+"Gadget%(link_end_html)s. အနေ ဖြင့်ထည့်ပါ။"
+
+msgid "Original URL"
+msgstr "မူရင်း URL"
+
+msgid "Original author's name"
+msgstr "မူရင်း ရေးသားသူ၏ အမည်။"
+
+msgid "Original posting date"
+msgstr "မူလ တင်ထားသည့် ရက်စွဲ။"
+
+msgid ""
+"Original posting date is not in YYYY-MM-DD format, or is a nonexistent "
+"date.  Please go back and try again."
+msgstr ""
+"မူလတင်ထားသည့် ရက်စွဲသည် နှစ်-လ-ရက် ပုံစံ မဟုတ်ပါ။ သို့မဟုတ် "
+"ရက်စွဲ​မှားယွင်းနေပါသည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍ "
+"ထပ်မံကြိုးစားကြည့်ပါ။"
+
+msgid "Original site name"
+msgstr "မူရင်း ၀က်ဗ်ဆိုက် အမည်။"
+
+msgid "Other website"
+msgstr "တစ်ခြားဝဘ်ဆိုက်"
+
+msgid ""
+"PLEASE NOTE: All data entered is available to the public and usable by "
+"anyone.  Google does not review or verify the accuracy of this data."
+msgstr ""
+"မှတ်ချက် − ထည့်သွင်းခဲ့သည့် ဒေတာများအားလုံးကို လူတိုင်းသုံးစွဲနိုင်ပါသည်။"
+" Google သည် ၎င်းဒေတာကို ပြန်လည်သုံးသပ်ခြင်း သို့မဟုတ် မှန်ကန်မှုရှိမရှိ "
+"အတည်ပြုခြင်း မရှိပါ။"
+
+msgid "Person Finder"
+msgstr "Person Finder ခေါ်လူရှာဖွေပေးသည့် ၀န်ဆောင်မှု။"
+
+msgid "Phone"
+msgstr "ဖုန်း"
+
+msgid "Phone number"
+msgstr "ဖုန်းနံပါတ်။"
+
+msgid "Photo"
+msgstr "ဓာတ္ပံု။"
+
+msgid ""
+"Photo uploaded is in an unrecognized format.  Please go back and try "
+"again."
+msgstr ""
+"တင်လိုက်သော ဓာတ်ပုံသည် အသိအမှတ်မပြုနိုင်သော ဖိုင်အမျိုးအစား ဖြစ်နေပါသည်။ "
+"ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍ ထပ်မံကြိုးစားကြည့်ပါ။ "
+
+msgid "Physical characteristics"
+msgstr "ခႏၶာကိုယ္ေပၚရွိ အမွတ္အသားမ်ား။"
+
+msgid ""
+"Please check that you have been in contact with the person after the "
+"disaster, or change the \"Status of this person\" field."
+msgstr ""
+"ဘေးအန္တရာယ်ကျရောက်ပြီးနောက် ထိုပုဂ္ဂိုလ်နှင့် အဆက်အသွယ်ရှိမရှိ စစ်ဆေးပါ "
+"သို့မဟုတ် \"ဤပုဂ္ဂိုလ်၏ အခြေအနေ\" ကို ပြောင်းပါ။"
+
+msgid "Please check whether it matches the person you were planning to report."
+msgstr "သင္ သတင္းပို ့မည့္သူ နွင့္ကိုက္ညီမညီ ေက်းဇူးျပဳၿပီး စစ္ေဆးပါ။"
+
+msgid "Please confirm your e-mail address to subscribe to updates"
+msgstr ""
+"အပ္ဒိတ္(updates) ေခၚေနာက္ဆံုးအေျခအေနမ်ားကို အျမဲမျပတ္သိရွိရန္၊ \n"
+"သင္၏အီးေမးလ္လိပ္စာကို ေက်းဇူးၿပဳၿပီး အတည္ျပဳေပးပါ။"
+
+msgid "Please enter your e-mail address to subscribe to updates"
+msgstr ""
+"အပ္ဒိတ္(updates) ေခၚေနာက္ဆံုးအေျခအေနမ်ားကို အျမဲမျပတ္သိရွိရန္၊ "
+"ေက်းဇူးၿပဳၿပီး\n"
+"သင့္၏ အီးေမးလ္လိပ္စာကို ထည့္သြင္းပါ။"
+
+msgid "Please explain why you think these are the same person"
+msgstr ""
+"ဒီလူေတြက လူတစ္ေယာက္ထဲဘဲ ျဖစ္တယ္ဆို ဘာျဖစ္လို ့သင္ထင္သ\n"
+"လဲဆိုတာ ေက်းဇူးၿပဳၿပီးရွင္းျပပါ။"
+
+msgid "Please fill in all the required fields."
+msgstr "လုိအပ္သည့္ကြက္လပ္မ်ား အားလံုးကို ေက်းဇူးၿပဳၿပီး ျဖည့္ပါ။"
+
+msgid "Please fill in your email address."
+msgstr "သင့္ အီးေမးလ္လိပ္စာကို ေက်းဇူးၿပဳၿပီး ျဖည့္ပါ။"
+
+msgid "Please only enter valid profile URLs."
+msgstr ""
+
+msgid "Please provide an valid email address."
+msgstr "ေက်းဇူးၿပဳၿပီး အီးေမးလ္လိပ္စာ အမွန္တစ္ခုကို ေပးပါ။"
+
+msgid "Possible duplicates"
+msgstr "မူရင္းမဟုတ္သည့္ အပြားမ်ားျဖစ္ႏိုင္သည္။"
+
+msgid "Postal or zip code"
+msgstr "Postal or zip code ခေါ် စာတိုက်လိပ်စာ နံပါတ်။"
+
+msgid "Posted by"
+msgstr "--တွင်တင်ထားသည်။"
+
+msgid "Proceed"
+msgstr "ရှေ ့ ဆက်သွားပါ။"
+
+msgid "Profile Pages"
+msgstr "Profile စာမ်က္ႏွာမ်ား။"
+
+msgid "Profile page"
+msgstr "Profile စာမ်က္ႏွာ။"
+
+msgid "Provide information"
+msgstr "သတင္းအခ်က္အလက္မ်ား ေပးပါ။"
+
+msgid "Provide information about this person"
+msgstr "ဒီလူအေႀကာင္း သတင္းအခ်က္အလက္မ်ား ေပးပါ။"
+
+msgid "Provided by:"
+msgstr "--မှပေးပို့ သည်။"
+
+msgid "Province or state"
+msgstr "ခရိုင် သို့ မဟုတ် တိုင်း။"
+
+msgid "Reason for deletion:"
+msgstr "ဖ်က္ျပစ္ရတဲ ့အေႀကာင္းအရာ။"
+
+#, python-format
+msgid "Records with names and addresses matching \"%(query)s\""
+msgstr "\"%(query)s\" နှင့် ကိုက်ညီသော အမည်နှင့် လိပ်စာပါရှိသည့် မှတ်တမ်းများ"
+
+msgid "Remove"
+msgstr "ဖယ္ပါ။"
+
+msgid "Report spam"
+msgstr "spam ကိုသတင်းပို့ ပါ။"
+
+#, python-format
+msgid "Return to the record for %(full_name)s."
+msgstr "%(full_name)s.အတွက် မှတ်တမ်းကို ပြန်သွားပါ။"
+
+msgid "Reveal note"
+msgstr "မှတ်စုကို ပြပါ။"
+
+msgid "Save this record"
+msgstr "ဤမှတ်တမ်းကို သိမ်းထားပါ။"
+
+msgid "Search for this person"
+msgstr "ဒီလူကို ရွာေဖြပါ။"
+
+#, python-format
+msgid "See %(begin_tag)sthe wiki%(end_tag)s for more instructions"
+msgstr ""
+"%(begin_tag)s ၀ီကီ(the wiki)%(end_tag)s တြင္ ထပ္မံ ၫႊန္ႀကားခ်က္မ်ားကို "
+"ဖတ္႐ွဳႏုိင္ပါ\n"
+"သည္။"
+
+msgid "Select a website to add a profile page..."
+msgstr "profile စာမျက်နှာတစ်ခုထည့်ရန်အတွက် ဝဘ်ဆိုက်တစ်ခု ရွေးချယ်ပါ။"
+
+msgid "Select up to 3 records to mark as duplicate:"
+msgstr "မူပြားမ်ားအျဖစ္ သတ္မွတ္ရန္ မွတ္တမ္း ၃ ခုအထိ ေရြးခ်ယ္ပါ။"
+
+msgid "Send email"
+msgstr "အီးမေးလ် ပို့ ပါ။"
+
+msgid "Sex"
+msgstr "လိင်"
+
+msgid "Show Map"
+msgstr "ေျမပံုကို ျပပါ။"
+
+msgid "Show sensitive information"
+msgstr "အေရးႀကီးေသာ အခ်က္အလက္မ်ားကို ျပပါ။"
+
+msgid "Show who marked these duplicates"
+msgstr "ဤမိတၱဴမ်ားကုိ မည္သူကမွတ္ထားသည္ကုိ ျပပါ။"
+
+msgid "Sign out"
+msgstr "ဆိုင်းအောက် Sign out"
+
+msgid "Skip"
+msgstr "ကျော်ရန်"
+
+msgid "Someone has received information that this person is alive"
+msgstr ""
+"အဲဒီလူ အသက္ရွင္ေနေသးသည့္ အေႀကာင္း လူတစ္ေယာက္ သတင္း\n"
+"ရထားပါတယ္။"
+
+msgid "Someone has received information that this person is dead"
+msgstr ""
+"အဲဒီလူ ဆံုးပါးသြားသည့္ အေႀကာင္း လူတစ္ေယာက္ သတင္း\n"
+"ရထားပါတယ္။"
+
+msgid "Someone has reported that this person is missing"
+msgstr "အဲဒီလူ ေပ်ာက္ဆံုးေနတဲ့ အေႀကာင္း လူတစ္ေယာက္ သတင္းပို ့ထားပါတယ္။"
+
+msgid "Someone is seeking information about this person"
+msgstr ""
+"အဲဒီလူ ႏွင့္ပတ္သတ္ၿပီး လူတစ္ေယာက္က သတင္းအခ်က္အလက္ေတြ\n"
+"ရွာေဖြေနတယ္။"
+
+msgid "Source of Record"
+msgstr "မှတ်တမ်းအရင်းအမြစ်"
+
+msgid "Source of this record"
+msgstr "ဤမှတ်တမ်း၏ Source ခေါ် မူရင်းနေရာ။"
+
+msgid "Status"
+msgstr "စေတးတပ္ ေခၚ လက္ရွိအေျခအေန (Status)"
+
+#, python-format
+msgid "Status of %(full_name)s "
+msgstr "%(full_name)s ၏ အခြေအနေ "
+
+msgid "Status of Person"
+msgstr "ပုဂ္ဂိုလ်၏ အခြေအနေ"
+
+msgid "Status of this person:"
+msgstr "ဤပုဂ္ဂိုလ်၏ အခြေအနေ −"
+
+msgid "Street name only, no number"
+msgstr "လမ်းနာမည်သာ၊ လမ်းနံပါတ်မပါ။"
+
+#. Translators: A placeholder text for the home location field
+#. in the form to search person records.
+msgid "Street name, neighborhood, city, etc."
+msgstr "လမ်းအမည်၊ ရပ်ကွက်၊ မြို့နယ်၊ စသည်။"
+
+msgid "Submit"
+msgstr "ပေးပို့ရန်"
+
+msgid "Subscribe"
+msgstr ""
+"Subscribe ေခၚ အျမဲအျပတ္ ေနာက္ဆံုးအေျခအေနကိုသိရွိရန္၊ အီးေမးလ္လိပ္စာေပး "
+"ၿပီးစာရင္းသြင္း ထားသည္။"
+
+#, python-format
+msgid "Subscribe to updates about %(full_name)s"
+msgstr ""
+"%(full_name)s အေႀကာင္း ေနာက္ဆံုးအေျခအေနမ်ားကို အျမဲမျပတ္သိရွိႏိုင္ရန္\n"
+"အီးေမးလ္လိပ္စာေပးၿပီးစာရင္းသြင္း ထားသည္။ Subscribe လုပ္ထားသည္။"
+
+msgid "Subscribe to updates about this person"
+msgstr ""
+"ဒီလူအေႀကာင္း ေနာက္ဆံုးအေျခအေနမ်ားကို အျမဲမျပတ္သိရွိႏိုင္ရန္\n"
+"အီးေမးလိပ္စာေပးၿပီးစာရင္း သြင္းထားသည္။ Subscribe လုပ္ထားသည္။"
+
+#. Translators: The label for a check-box to subscribe to
+#. updates about the person record the user creates, in the
+#. form to register a person record.
+msgid "Subscribe to updates about your record"
+msgstr "သင့်မှတ်တမ်းအကြောင်း အပ်ဒိတ်များအတွက် စာရင်းပေးသွင်းရန်"
+
+msgid "Switch to address"
+msgstr "လိပ္စာသို ့သြားပါ။"
+
+msgid "Switch to lat/long"
+msgstr "လတၱီတြဒ္၊ေလာင္ဂ်ီတြဒ္ မ်ည္းမ်ားသို ့ သြားပါ။"
+
+msgid "Terms of Service"
+msgstr "၀န္ေဆာင္မႈမ်ား၏ သတ္မွတ္ခ်က္မ်ား။ (Terms of Service)"
+
+msgid "The API key has been updated successfully."
+msgstr "APIကီးကုိ ေအာင္ျမင္စြာ updateလုပ္ၿပီးပါၿပီ။"
+
+msgid ""
+"The Given name and Family name are both required.  Please go back and try"
+" again."
+msgstr ""
+"ကိုယ်ပိုင်အမည်နှင့် မိသားစုအမည် နှစ်မျိုးစလုံး လိုအပ်ပါသည်။ "
+"နောက်ပြန်သွားပြီး ထပ်မံကြိုးစားကြည့်ပါ။"
+
+msgid "The Original author's name is required.  Please go back and try again."
+msgstr ""
+"မူရင်းရေးသားသူ၏ အမည် လိုအပ်ပါသည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍ "
+"ထပ်ကြိုးစားကြည့်ပါ။ "
+
+msgid "The author has disabled notes on this record."
+msgstr "ဒီမွတ္တမ္းေပၚရွိ မွတ္စုမ်ားကို ေရးသားသူမွ disable လုပ္ထားပါသည္။"
+
+msgid "The author has disabled status updates on this record."
+msgstr ""
+"ဒီမွတ္တမ္းေပၚရွိ စေတးတပ္ (status) ေနာက္ဆံုးအေျခအေနကို ေရးသားသူမွ disable "
+"လုပ္ထားပါသည္။"
+
+#. Translators: An error message indicating that the data
+#. requested by the user is not available yet.
+msgid "The data is not ready yet. Try again in 24 hours."
+msgstr "ဒေတာအဆင်သင့် မဖြစ်သေးပါ။ ၂၄ နာရီအကြာတွင် ထပ်စမ်းကြည့်ပါ။"
+
+msgid "The email address you entered appears to be invalid."
+msgstr ""
+
+#, python-format
+msgid "The note for %(full_name)s has been added"
+msgstr "%(full_name)s အတွက် မှတ်စုကို ထည့်သွင်းပြီးပါပြီ"
+
+msgid "The provided image is too large.  Please upload a smaller one."
+msgstr ""
+"သင္ေပးပို ့ေသာဓာတ္ပံုသည္ ဖိုင္အရြယ္အစား အလြန္ႀကီးသည္။ ေက်းဇူးၿပဳ\n"
+"ၿပီး ပိုေသးေသာ ဓာတ္ပံု ကိုတင္ပါ။ ."
+
+msgid "The reason this note is being marked as spam:"
+msgstr "ဒီမှတ်တမ်းအား spam အဖြစ်သတ်မှတ်ထားရသည့် အကြောင်းအရာ။"
+
+msgid "The record cannot be extended."
+msgstr "ဤမှတ်တမ်းအား ထပ်မံသက်တမ်းတိုး၍ မရနိုင်တော့ပါ။"
+
+#, python-format
+msgid "The record for %(full_name)s has been registered"
+msgstr "%(full_name)s အတွက် မှတ်တမ်းကို စာရင်းသွင်းပြီးပါပြီ"
+
+msgid "The record has been deleted."
+msgstr "မွတ္တမ္းအား ဖ်က္ထားလိုက္ၿပီ။"
+
+msgid ""
+"The status you selected indicates that you are this person.  If this is "
+"true, please also select 'Yes' to indicate that you have contacted this "
+"person."
+msgstr ""
+"သင္ေရြးခ်ယ္ထားေသာ စေတးတပ္ (status)အရ၊ သင္သည္ ဒီလူျဖစ္သည္။\n"
+"အကယ္၍ သင္သည္ အဲဒီလူျဖစ္တယ္ဆိုရင္ 'Yes' ကိုေရြးၿပီး၊ အဲဒီလူကို သင္ "
+"ဆက္သြယ္ၿပီးၿပီဆိုတာ ေဖာ္ျပပါ။"
+
+#, python-format
+msgid "The token %(token)s was invalid."
+msgstr "တိုကင် token  %(token)s ကမမှန်ပါ။"
+
+#, python-format
+msgid "There are %(num_results)s existing records with similar names."
+msgstr "နာမည္တူေသာ မွတ္တမ္းမ်ား %(num_results)s ေလာက္ရွိပါတယ္။"
+
+msgid "There are some existing records with similar names."
+msgstr "နာမည္တူနဲ ့ မွတ္တမ္း အခ်ိဳ  ့ရွိပါတယ္။"
+
+msgid "There is one existing record with a similar name."
+msgstr "နာမည်တူနဲ့  မှတ်တမ်းတစ်ခု ရှိပါတယ်။."
+
+msgid "There was a problem processing the image.  Please try a different image."
+msgstr ""
+"ဓာတ္ပံုကို တင္ရာမွာ အခက္အခဲတစ္စံုတစ္ရာ ရွိေနပါတယ္။ ေက်းဇူးၿပဳၿပီး ဓာတ္ပံု"
+" ေနာက္တစ္ခုနဲ ့ထပ္ႀကိဳးစားႀကည့္ပါ။"
+
+msgid ""
+"There was an error processing your request.  Sorry for the inconvenience."
+"  Our administrators will investigate the source of the problem, but "
+"please check that the format of your request is correct."
+msgstr ""
+"သင္၏ ေတာင္းခံမႈ(request)ကို ၀န္ေဆာင္မႈေပးရာမွာ အခက္အခဲတစ္စံု\n"
+"တစ္ရာ ရွိေနပါတယ္။ အဆင္မေျပျဖစ္ရျခင္းအတြက္ ေတာင္းပန္ပါတယ္။ \n"
+"ကၽြႏ္ုပ္တို ့ရဲ  ့စီမံခန္ ့ခြဲသူ မ်ားက ျပႆနာရဲ  ့အရင္းအျမစ္ကုိ "
+"စစ္ေဆးပါလိမ့္\n"
+"မယ္။ သို ့ေသာ္ သင့္ေတာင္းခံမႈ ရဲ  ့(format) ပံုစံ၊ မွန္မမွန္ "
+"ေက်းဇူးျပဳၿပီး စစ္ေဆးပါ။"
+
+#, python-format
+msgid ""
+"These gadgets are made available under the %(apache_link_html)sApache 2.0"
+" license%(link_end_html)s."
+msgstr ""
+"gadgets မ်ားကို  %(apache_link_html)sApache 2.0 "
+"လိုင္စင္%(link_end_html)s.ေအာက္တြင္ အသံုးျပဳႏိုင္ပါသည္။"
+
+msgid "This is a new record."
+msgstr "ဒီဟာသည် မှတ်တမ်းအသစ်ဖြစ်ပါသည်။"
+
+msgid "This link is invalid."
+msgstr "ဒီလင့်ခ်သည် မမှန်ကန်ပါ။"
+
+msgid "This note has been marked as spam."
+msgstr "ဒီမွတ္တမ္းကုိ spam အျဖစ္သတ္မွတ္ထားသည္။"
+
+msgid "This note is inappropriate."
+msgstr "ဤမွတ္စုသည္ လူအမ်ားအတြက္ မသင့္ေလ်ာ္ပါ။"
+
+msgid "This note is incorrect or untrue."
+msgstr "ဤမှတ်စုသည် မမှန်ကန်ပါ။"
+
+msgid "This note is spam."
+msgstr "ဤမှတ်စုသည် spam ဖြစ်ပါသည်။"
+
+msgid "This person has been in contact with someone"
+msgstr "ဒီလူသည္ တစ္စံုတစ္ေယာက္ႏွင့္အဆက္အသြယ္ ရေနၿပီ ျဖစ္သည္။"
+
+msgid "This person has posted a message"
+msgstr "ဒီလူက မက်ဆေ့ တစ်ဆောင် ပို့ ထားသည်။"
+
+msgid "This person's entry does not exist or has been deleted."
+msgstr ""
+"ဒီလူႏွင့္ပတ္သတ္သည့္ ထည့္သြင္းထားခ်က္မ်ား မရွိပါ။ သို ့မဟုတ္ "
+"ဒီလူ၏ထည့္သြင္းထားခ်က္မ်ားအား ဖ်က္ထားလိုက္ၿပီ ျဖစ္သည္။"
+
+msgid "This record has served its purpose."
+msgstr "ဒီမွတ္တမ္းသည္ အသံုး၀င္သည္။"
+
+msgid "This record is a duplicate of"
+msgstr "ဤမွတ္တမ္းသည္-----------၏ မႈပြားတစ္ခုျဖစ္ပါသည္။"
+
+msgid "This record is copied from another source."
+msgstr "အျခားေနရာတစ္ခုမွ ဤမွတ္တမ္းအား ကူးယူထားျခင္းျဖစ္ပါသည္။"
+
+msgid "This record is inappropriate."
+msgstr "ဤမွတ္တမ္းသည္ အမ်ားသူငွာအတြက္ မသင့္ေလ်ာ္ပါ။"
+
+msgid "This record is spam."
+msgstr "ဤမှတ်တမ်းသည် spam ဖြစ်သည်။"
+
+msgid ""
+"This repository is currently in test mode. While test mode is in effect, "
+"records that are over 24 hours old are deleted."
+msgstr ""
+"ယခုအချက်အလက်များ သိမ်းထားသည့်နေရာအား စမ်းသပ်နေဆဲ ဖြစ်သည်။ "
+"စမ်းသပ်နေဆဲကာလတွင် ၂၄နာရီအထက် သက်တမ်းရှိ မှတ်တမ်းများကို ဖျက်သွားမည် "
+"ဖြစ်ပါသည်။"
+
+msgid "To attach a photo to this note, upload it or enter its URL."
+msgstr ""
+"ဤမွတ္စုအား ဓာတ္ပံုတစ္ပံုႏွင့္ တြဲထားရန္၊ ဓာတ္ပံုတစ္ပံုအား upload တင္ပါ "
+"သို ့မဟုတ္ ဓာတ္ပံု၏ URL ကို႐ိုက္ထည့္ပါ။"
+
+msgid "To delete your data, access Person Finder from your desktop."
+msgstr ""
+"သင့္အခ်က္အလက္မ်ားကိုဖ်က္ရန္  Person Finder ေခၚ လူရွာေပးသည့္၀န္ေဆာင္မႈသို "
+"့ သင့္ desktop ကၽြန္ပ်ဳတာကိုသံုးၿပီး ၀င္ေရာက္ပါ။"
+
+msgid "To unsubscribe, follow this link"
+msgstr ""
+"ေနာက္ဆံုးအေျခအေနမ်ားအေႀကာင္းကို အီးေမးလ္ျဖင့္မရရွိလိုေတာ့ပါက(unsubscribe)"
+" ေအာက္ပါ\n"
+"လင့္ခ္ ကို ႏွိပ္ၿပီး ၫႊန္ႀကားခ်က္မ်ားကို လိုက္နာပါ။"
+
+msgid "To view or add information, select a name below."
+msgstr ""
+"အခ်က္အလက္မ်ားကိုထည့္ရန္ သို ့မဟုတ္ ႀကည္႐ႈရန္ ေအာက္ရွိ နာမည္\n"
+"တစ္ခုကို ေရြးပါ။."
+
+msgid ""
+"Type an address or open the map below and indicate the location by "
+"clicking on the map."
+msgstr ""
+"တည်နေရာကို ညွှန်ပြရန် လိပ်စာကို ရိုက်ထည့်ပါ၊ သို့မဟုတ် မြေပုံကို "
+"ဖွင့်ပြီး ကလစ်ထောက်ပြပါ။ "
+
+msgid "Type an address."
+msgstr "လိပ်စာတစ်ခုအား ရိုက်ထည့်ပါ။"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL of original record"
+msgstr "မူရင်းမှတ်တမ်း၏ URL"
+
+msgid "Unspecified"
+msgstr "အသေးစိတ်မဟုတ်သည့် (ပါ)။"
+
+msgid "Update an existing key"
+msgstr "လက္ရွိကီးကုိ Updateလုပ္ရန္။"
+
+msgid "Upload"
+msgstr "Upload လုပ္ပါ။"
+
+msgid "Upload notes in CSV format"
+msgstr "မွတ္စုမ်ားကို CSV ဖိုင္ပံုစံျဖင့္  Uploadလုပ္ပါ။"
+
+msgid "Upload person records in CSV format"
+msgstr "လူပုဂၢိဳလ္ဆိုင္ရာ မွတ္တမ္းမ်ားကို CSV ေဖာ္မက္ပံုစံႏွင့္ တင္ပါ။"
+
+msgid "Upload your CSV file below"
+msgstr "သင်C့SV ဖိုင်ကိုအောက်တွင်Uploadလုပ်ပါ။"
+
+msgid "Use current location"
+msgstr "လက်ရှိတည်နေရာကို အသုံးပြုပါ"
+
+#. Translators: The title of the page which explains how to use
+#. Person Finder.
+msgid "User's Guide"
+msgstr "အသုံးပြုသူ လမ်းညွှန်"
+
+msgid "View the record"
+msgstr "မှတ်တမ်းကို ကြည့်ပါ။"
+
+msgid "We have nothing matching your search."
+msgstr "သင်ရှာဖွေသည့်အရာ နှင့် ကိုက်ညီတာ ကျွန်ုပ်တို့ မှာဘာမှမရှိပါ။"
+
+msgid "When should this record disappear?"
+msgstr "ဒီမွတ္တမ္းက ဘယ္အခ်ိန္မွာ ေပ်ာက္ကြယ္သြား သင့္သလဲ။"
+
+#. Translators: A title of a section to input the source of the
+#. person information e.g., the name of the person who originally
+#. provided the information.
+msgid "Where did this information come from?"
+msgstr "ဒီသတင္းအခ်က္အလက္က ဘယ္ကေနရတာလဲ။"
+
+#. Translators: A title of a section to input the source of the
+#. person record e.g., the URL which contains the record.
+msgid "Where did this record come from?"
+msgstr "ဤမှတ်တမ်းကို ဘယ်ကနေ ရယူထားပါသလဲ။"
+
+msgid ""
+"While test mode is in effect, records that are over 24 hours old are "
+"deleted regardless of the expiry date."
+msgstr ""
+"စမ်းသပ်နေဆဲကာလတွင်  ၂၄ နာရီအထက် သက်တမ်းရှိ\n"
+"မှတ်တမ်းများကို သက်တမ်းကုန်ဆုံးမည့်ရက်ကို ထည့်မစဉ်းစားပဲ\n"
+"ဖျက်သွားမည်ဖြစ်သည်။"
+
+msgid ""
+"While test mode is in effect, records that are over 6 hours old are "
+"deleted regardless of the expiry date."
+msgstr ""
+"စမ္းသပ္ေနဆဲကာလတြင္  ၆ နာရီအထက္ သက္တမ္းရွိ\n"
+"မွတ္တမ္းမ်ားကို ဖ်က္သြားမည္ ျဖစ္ပါသည္။ သက္တမ္း ရက္စြဲမ်ားပါရွိသည့္တုိင္\n"
+"ဖ်က္သြားမည္ျဖစ္သည္။"
+
+#. Translators: The title of a section to input information about
+#. the person whom the user is looking for, in the form to register
+#. a person record.
+msgid "Who you are looking for"
+msgstr "သင်ရှာဖွေနေသည့်သူ၏ အချက်အလက်များ"
+
+#. Translators: The title of a section to input information about
+#. the person whom the user have information about, in the form to
+#. register a person record.
+msgid "Who you have information about"
+msgstr "သင်သိထားသူ၏ အချက်အလက်များ"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Yes, ask the record author to enable notes"
+msgstr "ဤမှတ်တမ်းပါ အချက်အလက်များကို ဖော်ပြပေးရန် မှတ်တမ်းရေးသူကို တောင်းဆိုပါ"
+
+msgid "Yes, delete the record"
+msgstr "မှတ်တမ်းကို ဖျက်လိုက်ပါ"
+
+msgid "Yes, extend the record"
+msgstr "ဤမှတ်တမ်းကို ထပ်တိုးလိုက်ပါ"
+
+msgid "Yes, restore this record"
+msgstr "ဤမှတ်တမ်းကို ပြန်လည်ရယူပါ"
+
+msgid "Yes, these are the same person"
+msgstr "ဤသူများသည် တစ်ဦးတည်းဖြစ်ပါသည်"
+
+msgid "Yes, update the note"
+msgstr "မှတ်တမ်းကို အပ်ဒိတ်လုပ်ပါ"
+
+msgid "You are already subscribed. "
+msgstr ""
+"သင္သည္ ေနာက္ဆံုးအေျခအေနမ်ားကိုသိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ "
+"စာရင္းေပးသြင္းထားၿပီးျဖစ္သည္။ subscribe လုပ္ထားၿပီးျဖစ္သည္။ "
+
+msgid "You are already unsubscribed."
+msgstr ""
+"သင္သည္ ေနာက္ဆံုးအေျခအေနမ်ားကိုသိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ "
+"စာရင္းေပးသြင္းထားျခင္းကို ပယ္ဖ်က္လိုက္ၿပီးသည္။ unsubscribe "
+"လုပ္ထားၿပီးျဖစ္သည္။"
+
+msgid "You are not currently signed in."
+msgstr "သင်သည် လောလောဆယ် ဆိုင်းအင် မလုပ်ထားပါ။"
+
+#, python-format
+msgid "You can %(begin_tag)sview the record%(end_tag)s before deleting it."
+msgstr "မဖ်က္မွီ၊ သင္ %(begin_tag)sမွတ္တမ္းမ်ား%(end_tag)sကိုႀကည့္ႏိုင္ပါသည္။"
+
+#, python-format
+msgid ""
+"You can subscribe to updates about %(full_name)s by entering your e-mail "
+"address here"
+msgstr ""
+"ဤနေရာတွင် သင့်အီးမေးလ်လိပ်စာကို ထည့်သွင်းခြင်းဖြင့် %(full_name)s "
+"အကြောင်း အပ်ဒိတ်များအားရယူရန် စာရင်းပေးသွင်းနိုင်သည်"
+
+#, python-format
+msgid "You can view the full record at %(view_url)s"
+msgstr "%(view_url)s တြင္ မွတ္တမ္းအျပည့္အစံုကို ႀကည့္ႏိုင္သည္။"
+
+msgid "You have successfully subscribed."
+msgstr ""
+"သင္သည္ ေနာက္ဆံုးအေျခအေနမ်ားကိုသိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ \n"
+"ေအာင္ျမင္စြာ စာရင္းေပးသြင္းလိုက္ၿပီျဖစ္သည္။ subscribe \n"
+"လုပ္လိုက္ၿပီျဖစ္သည္။"
+
+msgid "You have successfully unsubscribed."
+msgstr ""
+"သင္သည္ ေနာက္ဆံုးအေျခအေနမ်ားကိုသိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ \n"
+" စာရင္းေပးသြင္းထားျခင္းအား ေအာင္ျမင္စြာ ဖ်က္ပယ္လိုက္ၿပီျဖစ္သည္။ "
+"unsubscribe လုပ္လိုက္ၿပီျဖစ္သည္။"
+
+msgid ""
+"You received this notification because you have subscribed to updates on "
+"the following person:\n"
+msgstr ""
+"ေအာက္ေဖာ္ျပပါလူႏွင့္ပတ္သတ္ၿပီး ေနာက္ဆံုးျဖစ္ေပၚခ်က္မ်ား ေခၚ "
+"အပ္ဒိတ္မ်ားကို သင္သိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ စာရင္းေပးသြင္းထားသျဖင့္ "
+"သင္ယခု အေႀကာင္းႀကားခ်က္ (notification) အား ရရွိျခင္းျဖစ္သည္။\n"
+
+#. Translators: A message shown when the browser is about to start
+#. downloading a file.
+msgid "Your download should start automatically."
+msgstr "သင့်ဒေါင်းလုဒ် အလိုအလျောက် စတင်ပါမည်။"
+
+msgid "Your e-mail address"
+msgstr "သင်၏ အီးမေးလ်လိပ်စာ။"
+
+msgid "Your e-mail address:"
+msgstr "သင်၏ အီးမေးလ်လိပ်စာ။"
+
+msgid "Your email"
+msgstr "သင့်အီးမေးလ်"
+
+msgid "Your name (required)"
+msgstr "သင့်အမည် (လိုအပ်ပါသည်)"
+
+msgid ""
+"Your name is required in the \"About you\" section.  Please go back and "
+"try again."
+msgstr ""
+"\"သင့်အကြောင်း\" ဆိုသည့် ခေါင်းစဉ်အောက်တွင် သင့်နာမည်ကို ရိုက်ထည့်ရန် "
+"လိုအပ်သည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍၊ ပြန်ကြိုးစားကြည့်ပါ။"
+
+msgid ""
+"Your name is required in the \"Source\" section.  Please go back and try "
+"again."
+msgstr ""
+"\"Source\" ဆိုသည့် ခေါင်းစဉ်အောက်တွင် သင့်နာမည်ကို ရိုက်ထည့်ရန် "
+"လိုအပ်သည်။ ကျေးဇူးပြုပြီး နောက်ပြန်သွား၍၊ ထပ်ကြိုးစားကြည့်ပါ။ "
+
+msgid "Your phone number"
+msgstr "သင့်ဖုန်းနံပါတ်။"
+
+msgid ""
+"Your request has been processed successfully. Please check your inbox and"
+" confirm that you want to post your note by following the url embedded."
+msgstr ""
+"သင့်တောင်းဆိုချက်အတိုင်း ဆောင်ရွက်ပြီးပါပြီ။ အဝင်အီးမေးလ်ကို စစ်ဆေးပြီး "
+"ပို့ပေးထားသော url ကို နှိပ်၍ သင့်စာစုကိုတင်ရန် အတည်ပြုပေးပါ။"
+
+#, python-format
+msgid "[Person Finder] Confirm your note on \"%(full_name)s\""
+msgstr "[Person Finder]  \"%(full_name)s\" ေပၚရွိ သင့္မွတ္စုကိုအတည္ျပဳေပးပါ။"
+
+#, python-format
+msgid "[Person Finder] Deletion notice for \"%(full_name)s\""
+msgstr "[Person Finder]  \"%(full_name)s\" ကို ဖ်က္သည့္ အေႀကာင္းႀကားခ်က္။"
+
+#, python-format
+msgid "[Person Finder] Disable notes on \"%(full_name)s\"?"
+msgstr ""
+"[Person Finder]  \"%(full_name)s\" ေပၚရွိ မွတ္စုမ်ားကို Disable "
+"လုပ္မွာလား ?"
+
+#, python-format
+msgid "[Person Finder] Enable notes on \"%(full_name)s\"?"
+msgstr ""
+"[Person Finder]  \"%(full_name)s\" ေပၚရွိ မွတ္စုမ်ားကို Enable လုပ္မွာလား"
+" ?"
+
+#, python-format
+msgid "[Person Finder] Notes are now disabled for \"%(full_name)s\""
+msgstr ""
+"[Person Finder] \"%(full_name)s\" ၏ မွတ္စုမ်ားအား  ယခု disable "
+"လုပ္လုိက္ၿပီျဖစ္သည္။"
+
+#, python-format
+msgid "[Person Finder] Record restoration notice for \"%(full_name)s\""
+msgstr ""
+"[Person Finder]  \"%(full_name)s\" မွတ္တမ္းအား မူရင္းအေနအထားသို "
+"့ျပန္ထားလိုက္ၿပီျဖစ္သည္။"
+
+#, python-format
+msgid "[Person Finder] Status update for %(full_name)s"
+msgstr "[Person Finder]  %(full_name)s ၏ ေနာက္ဆံုးအေနအထား အပ္ဒိတ္ (Status update)"
+
+#, python-format
+msgid "[Person Finder] You are subscribed to status updates for %(full_name)s"
+msgstr ""
+"[Person Finder]  %(full_name)s ၏ ေနာက္ဆံုးအေနအထား အပ္ဒိတ္ (Status update)"
+" ကို သိရွိရန္ အီးေမးလ္လိပ္စာျဖင့္ သင္စာရင္းသြင္းထားသည္။ subscribe "
+"လုပ္ထားသည္။"
+
+#. Translators: A placeholder text for the name field in the form
+#. to search person records. It indicates that the user can put
+#. either a full name, a given name or a family name. The example
+#. name should be changed to a typical name in the language.
+msgid "e.g., Will Smith, Will, or Smith"
+msgstr "ဥပမာ၊ ဝီလ်စမစ်၊ ဝီလ် သို့မဟုတ် စမစ်"
+
+msgid "external site; normal connection fee may apply"
+msgstr "ပြင်ပဆိုက်၊ ပုံမှန်ချိတ်ဆက်မှုနှုန်းများ ကျခံရနိုင်ပါသည်"
+
+msgid "female"
+msgstr "အမ်ိဳးသမီး"
+
+msgid "in test mode"
+msgstr "စမ်းသပ်ဆဲ။"
+
+msgid "male"
+msgstr "အမ်ိဳးသား။"
+
+msgid "on"
+msgstr "မွာ"
+
+msgid "other"
+msgstr "အျခား"
+

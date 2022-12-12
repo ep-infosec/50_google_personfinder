@@ -1,0 +1,56 @@
+cron:
+
+# Generate statistics used by /admin/dashboard and /api/stats.
+- description: update person counts
+  url: /global/tasks/count/person
+  schedule: every 20 minutes
+- description: update note counts
+  url: /global/tasks/count/note
+  schedule: every 20 minutes
+
+# Ensure each Person's latest_status reflects the latest non-flagged Note
+- description: update person statuses
+  url: /global/tasks/count/update_status
+  schedule: every 15 minutes
+
+# This does a subset of the work of update_status, a little more often.
+- description: update person statuses (if believed_dead)
+  url: /global/tasks/count/update_dead_status
+  schedule: every 5 minutes
+
+- description: process expirations
+  url: /global/tasks/process_expirations
+  schedule: every 4 hours
+- description: clean up unassociated notes
+  url: /global/tasks/cleanup_stray_notes
+  schedule: every 4 hours
+- description: clean up unassociated subscriptions
+  url: /global/tasks/cleanup_stray_subscriptions
+  schedule: every 4 hours
+- description: clean up in test mode
+  url: /global/tasks/clean_up_in_test_mode
+  schedule: every 60 minutes
+- description: Send email notification when there are many unreviewed notes
+  url: /global/tasks/notify_many_unreviewed_notes
+  schedule: every 6 hours
+- description: prepare thumbnails
+  url: /global/tasks/thumbnail_preparer
+  schedule: every 30 minutes
+- description: dump CSV
+  url: /global/tasks/dump_csv
+  schedule: every day 0:00
+  timezone: UTC
+
+# Datacheck crons
+- description: Check expired person records.
+  url: /global/tasks/check_expired_person_records/
+  schedule: every day 18:00
+  timezone: UTC
+- description: Check note record validity.
+  url: /global/tasks/check_note_data_validity/
+  schedule: every day 18:00
+  timezone: UTC
+- description: Check person record validity.
+  url: /global/tasks/check_person_data_validity/
+  schedule: every day 18:00
+  timezone: UTC

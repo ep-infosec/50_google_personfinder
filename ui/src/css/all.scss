@@ -1,0 +1,49 @@
+/*
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import '_material-values.scss';
+@import '@material/react-button/index.scss';
+@import '@material/react-card/index.scss';
+@import '@material/react-checkbox/index.scss';
+@import '@material/react-chips/index.scss';
+@import '@material/react-fab/index.scss';
+@import '@material/react-layout-grid/index.scss';
+@import '@material/react-menu-surface/index.scss';
+@import '@material/react-radio/index.scss';
+@import '@material/react-select/index.scss';
+@import '@material/react-tab/index.scss';
+@import '@material/react-tab-bar/index.scss';
+@import '@material/react-tab-indicator/index.scss';
+@import '@material/react-tab-scroller/index.scss';
+@import '@material/react-text-field/index.scss';
+@import '@material/typography/mdc-typography';
+@import '_common.scss';
+@import 'components/_Captcha.scss';
+@import 'components/_EndBarHeader.scss';
+@import 'components/_Footer.scss';
+@import 'components/_LocationFieldset.scss';
+@import 'components/_Note.scss';
+@import 'components/_PageHeader.scss';
+@import 'components/_PFNotchedOutline.scss';
+@import 'components/_SearchBar.scss';
+@import 'components/_StaticPageWrapper.scss';
+@import 'components/_Zippy.scss';
+@import 'pages/_AddNote.scss';
+@import 'pages/_Create.scss';
+@import 'pages/_GlobalHome.scss';
+@import 'pages/_RepoHome.scss';
+@import 'pages/_Results.scss';
+@import 'pages/_View.scss';

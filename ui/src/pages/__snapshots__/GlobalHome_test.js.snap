@@ -1,0 +1,1528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing GlobalHome snapshot test for GlobalHome 1`] = `
+<InjectIntl(GlobalHome)>
+  <GlobalHome
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+  >
+    <div
+      className="globalhome-wrapper"
+    >
+      <div>
+        <h1
+          className="mdc-typography--headline1"
+        >
+          <img
+            alt="Person Finder logo"
+            src="/static/icons/maticon_person_pin.svg"
+          />
+          <FormattedHTMLMessage
+            defaultMessage="<b>Google</b> Person Finder"
+            id="GlobalHome.productNameWithEmphasis"
+            values={Object {}}
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<b>Google</b> Person Finder",
+                }
+              }
+            />
+          </FormattedHTMLMessage>
+        </h1>
+        <p
+          className="mdc-typography--body1 globalhome-headerdesc"
+        >
+          <FormattedMessage
+            defaultMessage="Reconnect with friends and loved ones in the aftermath of natural and humanitarian disasters."
+            id="GlobalHome.tagline"
+            values={Object {}}
+          >
+            <span>
+              Reconnect with friends and loved ones in the aftermath of natural and humanitarian disasters.
+            </span>
+          </FormattedMessage>
+        </p>
+        <RippledComponent
+          className="pf-button-secondary globalhome-howsitworkbutton"
+          disabled={false}
+          initRipple={[Function]}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          outlined={true}
+          style={Object {}}
+          unbounded={false}
+        >
+          <Component
+            className="pf-button-secondary globalhome-howsitworkbutton"
+            disabled={false}
+            initRipple={[Function]}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            outlined={true}
+            style={Object {}}
+          >
+            <button
+              className="mdc-button pf-button-secondary globalhome-howsitworkbutton mdc-button--outlined"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <span
+                className="mdc-button__label"
+              >
+                How does it work?
+              </span>
+            </button>
+          </Component>
+        </RippledComponent>
+      </div>
+      <div
+        className="globalhome-repolistwrapper"
+      >
+        <div
+          className="globalhome-repolistitem"
+          key="haiti"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 0,
+                "recordCount": 400,
+                "repoId": "haiti",
+                "title": "Haiti",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 0,
+                  "recordCount": 400,
+                  "repoId": "haiti",
+                  "title": "Haiti",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory0"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            H
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Haiti
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 400,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 400 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="japan"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 1,
+                "recordCount": 100,
+                "repoId": "japan",
+                "title": "Japan",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 1,
+                  "recordCount": 100,
+                  "repoId": "japan",
+                  "title": "Japan",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory1"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            J
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Japan
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 100,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 100 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="albany"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 2,
+                "recordCount": 100,
+                "repoId": "albany",
+                "title": "Albany",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 2,
+                  "recordCount": 100,
+                  "repoId": "albany",
+                  "title": "Albany",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory2"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            A
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Albany
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 100,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 100 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="seattle"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 3,
+                "recordCount": 800,
+                "repoId": "seattle",
+                "title": "Seattle",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 3,
+                  "recordCount": 800,
+                  "repoId": "seattle",
+                  "title": "Seattle",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory3"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            S
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Seattle
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 800,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 800 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="montreal"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 4,
+                "recordCount": 500,
+                "repoId": "montreal",
+                "title": "Montreal",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 4,
+                  "recordCount": 500,
+                  "repoId": "montreal",
+                  "title": "Montreal",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory4"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            M
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Montreal
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 500,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 500 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="belgium"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 0,
+                "recordCount": 100,
+                "repoId": "belgium",
+                "title": "Belgium",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 0,
+                  "recordCount": 100,
+                  "repoId": "belgium",
+                  "title": "Belgium",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory0"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            B
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Belgium
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 100,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 100 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+        <div
+          className="globalhome-repolistitem"
+          key="boise"
+        >
+          <InjectIntl(RepoCardImpl)
+            repo={
+              Object {
+                "displayCategory": 1,
+                "recordCount": 100,
+                "repoId": "boise",
+                "title": "Boise",
+              }
+            }
+          >
+            <RepoCardImpl
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              repo={
+                Object {
+                  "displayCategory": 1,
+                  "recordCount": 100,
+                  "repoId": "boise",
+                  "title": "Boise",
+                }
+              }
+            >
+              <Card
+                className="repocard"
+                outlined={true}
+              >
+                <div
+                  className="mdc-card repocard mdc-card--outlined"
+                >
+                  <RippledComponent
+                    className="repocard-content"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={Object {}}
+                    tabIndex="0"
+                    unbounded={false}
+                  >
+                    <Component
+                      className="repocard-content"
+                      disabled={false}
+                      initRipple={[Function]}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={Object {}}
+                      tabIndex="0"
+                    >
+                      <div
+                        className="mdc-card__primary-action repocard-content"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={Object {}}
+                        tabIndex="0"
+                      >
+                        <div
+                          className="repocard-image repocard-imagedisplaycategory1"
+                        >
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            B
+                          </p>
+                        </div>
+                        <div
+                          className="repocard-info"
+                        >
+                          <h5
+                            className="mdc-typography--headline5 repocard-title"
+                          >
+                            Boise
+                          </h5>
+                          <p
+                            className="mdc-typography--body1 repocard-recordcount"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Tracking {recordCount} records"
+                              id="GlobalHome.repoRecordCount"
+                              values={
+                                Object {
+                                  "recordCount": 100,
+                                }
+                              }
+                            >
+                              <span>
+                                Tracking 100 records
+                              </span>
+                            </FormattedMessage>
+                          </p>
+                        </div>
+                      </div>
+                    </Component>
+                  </RippledComponent>
+                </div>
+              </Card>
+            </RepoCardImpl>
+          </InjectIntl(RepoCardImpl)>
+        </div>
+      </div>
+      <div
+        className="globalhome-thirdpartywrapper"
+      >
+        <EndBarHeader>
+          <div
+            className="endbars-headerline-wrapper"
+            dir="ltr"
+          >
+            <span
+              className="mdc-typography--overline endbars-headerline"
+            >
+              <FormattedMessage
+                defaultMessage="You can help"
+                id="GlobalHomePage.youCanHelp"
+                values={Object {}}
+              >
+                <span>
+                  You can help
+                </span>
+              </FormattedMessage>
+            </span>
+          </div>
+        </EndBarHeader>
+        <Grid>
+          <div
+            className="mdc-layout-grid"
+          >
+            <Row>
+              <div
+                className="mdc-layout-grid__inner"
+              >
+                <Cell
+                  desktopColumns={6}
+                >
+                  <div
+                    className="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
+                  >
+                    <Card
+                      className="globalhome-thirdpartycard"
+                      outlined={true}
+                    >
+                      <div
+                        className="mdc-card globalhome-thirdpartycard mdc-card--outlined"
+                      >
+                        <div>
+                          <h3
+                            className="mdc-typography--headline3"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Responders"
+                              id="GlobalHome.responders"
+                              values={Object {}}
+                            >
+                              <span>
+                                Responders
+                              </span>
+                            </FormattedMessage>
+                          </h3>
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            <FormattedHTMLMessage
+                              defaultMessage="You can help people find each other in the aftermath of a disaster:"
+                              id="GlobalHome.respondersHowToHelpFirstLine"
+                              values={Object {}}
+                            >
+                              <span
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "You can help people find each other in the aftermath of a disaster:",
+                                  }
+                                }
+                              />
+                            </FormattedHTMLMessage>
+                          </p>
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            <FormattedHTMLMessage
+                              defaultMessage="<ul><li>Embed Google Person Finder in your site</li><li>Download data from Google Person Finder</li><li>Upload data into Google Person Finder</li></ul>"
+                              id="GlobalHome.respondersHowToHelpList"
+                              values={Object {}}
+                            >
+                              <span
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "<ul><li>Embed Google Person Finder in your site</li><li>Download data from Google Person Finder</li><li>Upload data into Google Person Finder</li></ul>",
+                                  }
+                                }
+                              />
+                            </FormattedHTMLMessage>
+                          </p>
+                        </div>
+                        <Actions>
+                          <div
+                            className="mdc-card__actions"
+                          >
+                            <ActionButtons>
+                              <div
+                                className="mdc-card__action-buttons"
+                              >
+                                <RippledComponent
+                                  className="pf-button-secondary mdc-card__action mdc-card__action--button"
+                                  disabled={false}
+                                  initRipple={[Function]}
+                                  key=".0"
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  outlined={true}
+                                  style={Object {}}
+                                  unbounded={false}
+                                >
+                                  <Component
+                                    className="pf-button-secondary mdc-card__action mdc-card__action--button"
+                                    disabled={false}
+                                    initRipple={[Function]}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchStart={[Function]}
+                                    outlined={true}
+                                    style={Object {}}
+                                  >
+                                    <button
+                                      className="mdc-button pf-button-secondary mdc-card__action mdc-card__action--button mdc-button--outlined"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      onKeyUp={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseUp={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchStart={[Function]}
+                                      style={Object {}}
+                                    >
+                                      <span
+                                        className="mdc-button__label"
+                                      >
+                                        Learn how
+                                      </span>
+                                    </button>
+                                  </Component>
+                                </RippledComponent>
+                              </div>
+                            </ActionButtons>
+                          </div>
+                        </Actions>
+                      </div>
+                    </Card>
+                  </div>
+                </Cell>
+                <Cell
+                  desktopColumns={6}
+                >
+                  <div
+                    className="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
+                  >
+                    <Card
+                      className="globalhome-thirdpartycard"
+                      outlined={true}
+                    >
+                      <div
+                        className="mdc-card globalhome-thirdpartycard mdc-card--outlined"
+                      >
+                        <div>
+                          <h3
+                            className="mdc-typography--headline3"
+                          >
+                            <FormattedMessage
+                              defaultMessage="Developers"
+                              id="GlobalHome.developers"
+                              values={Object {}}
+                            >
+                              <span>
+                                Developers
+                              </span>
+                            </FormattedMessage>
+                          </h3>
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            <FormattedHTMLMessage
+                              defaultMessage="You can help continue to improve Google Person Finder:"
+                              id="GlobalHome.developersHowToHelpFirstLine"
+                              values={Object {}}
+                            >
+                              <span
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "You can help continue to improve Google Person Finder:",
+                                  }
+                                }
+                              />
+                            </FormattedHTMLMessage>
+                          </p>
+                          <p
+                            className="mdc-typography--body1"
+                          >
+                            <FormattedHTMLMessage
+                              defaultMessage="<ul><li>Learn about the PFIF data model</li><li>Customize or improve Person Finder</li></ul>"
+                              id="GlobalHome.developersHowToHelpList"
+                              values={Object {}}
+                            >
+                              <span
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "<ul><li>Learn about the PFIF data model</li><li>Customize or improve Person Finder</li></ul>",
+                                  }
+                                }
+                              />
+                            </FormattedHTMLMessage>
+                          </p>
+                        </div>
+                        <Actions>
+                          <div
+                            className="mdc-card__actions"
+                          >
+                            <ActionButtons>
+                              <div
+                                className="mdc-card__action-buttons"
+                              >
+                                <RippledComponent
+                                  className="pf-button-secondary mdc-card__action mdc-card__action--button"
+                                  disabled={false}
+                                  initRipple={[Function]}
+                                  key=".0"
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  outlined={true}
+                                  style={Object {}}
+                                  unbounded={false}
+                                >
+                                  <Component
+                                    className="pf-button-secondary mdc-card__action mdc-card__action--button"
+                                    disabled={false}
+                                    initRipple={[Function]}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchStart={[Function]}
+                                    outlined={true}
+                                    style={Object {}}
+                                  >
+                                    <button
+                                      className="mdc-button pf-button-secondary mdc-card__action mdc-card__action--button mdc-button--outlined"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      onKeyUp={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseUp={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchStart={[Function]}
+                                      style={Object {}}
+                                    >
+                                      <span
+                                        className="mdc-button__label"
+                                      >
+                                        Get started
+                                      </span>
+                                    </button>
+                                  </Component>
+                                </RippledComponent>
+                              </div>
+                            </ActionButtons>
+                          </div>
+                        </Actions>
+                      </div>
+                    </Card>
+                  </div>
+                </Cell>
+              </div>
+            </Row>
+          </div>
+        </Grid>
+      </div>
+      <InjectIntl(Footer)>
+        <Footer
+          intl={
+            Object {
+              "defaultFormats": Object {},
+              "defaultLocale": "en",
+              "formatDate": [Function],
+              "formatHTMLMessage": [Function],
+              "formatMessage": [Function],
+              "formatNumber": [Function],
+              "formatPlural": [Function],
+              "formatRelative": [Function],
+              "formatTime": [Function],
+              "formats": Object {},
+              "formatters": Object {
+                "getDateTimeFormat": [Function],
+                "getMessageFormat": [Function],
+                "getNumberFormat": [Function],
+                "getPluralFormat": [Function],
+                "getRelativeFormat": [Function],
+              },
+              "locale": "en",
+              "messages": Object {},
+              "now": [Function],
+              "onError": [Function],
+              "textComponent": "span",
+              "timeZone": null,
+            }
+          }
+        >
+          <div
+            className="footer footer-unwrapped"
+          >
+            <p
+              className="mdc-typography--body1"
+            >
+              <FormattedHTMLMessage
+                defaultMessage="PLEASE NOTE: All data entered is available to the public and usable by anyone. Google does not review or verify the accuracy of this data. Google may share the data with public and private organizations participating in disaster response efforts. Learn more about <a href=\\"https://policies.google.com/privacy\\">Google's privacy policy</a>."
+                id="Footer.disclaimerText"
+                values={Object {}}
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "PLEASE NOTE: All data entered is available to the public and usable by anyone. Google does not review or verify the accuracy of this data. Google may share the data with public and private organizations participating in disaster response efforts. Learn more about <a href=\\"https://policies.google.com/privacy\\">Google's privacy policy</a>.",
+                    }
+                  }
+                />
+              </FormattedHTMLMessage>
+            </p>
+          </div>
+        </Footer>
+      </InjectIntl(Footer)>
+    </div>
+  </GlobalHome>
+</InjectIntl(GlobalHome)>
+`;

@@ -1,0 +1,96 @@
+{# Template for static pages (e.g. home.html).                              #}
+
+{% extends "base.html.template" %}
+{% load i18n %}
+
+{# To customize your site, replace, append, or prepend to the blocks below. #}
+
+{# Contents of the <head> element.  Use this to add stylesheets. #}
+{% block head %}
+  {{block.super}}
+  <link
+      rel="stylesheet"
+      href="{{env.fixed_static_url_base}}/sidebar.css"
+      nonce="{{ csp_nonce }}">
+  {% if config.brand == "google" %}
+    <link
+        rel="stylesheet"
+	href="{{env.fixed_static_url_base}}/google.css"
+	nonce="{{ csp_nonce }}">
+  {% endif %}
+{% endblock head %}
+
+{# Page title (used in the <title> element). #}
+{% block title %}
+  {% if config.brand == "google" %}
+    {% trans "Google Person Finder" %}
+  {% else %}
+    {{block.super}}
+  {% endif %}
+{% endblock title %}
+
+{# Header above page content. #}
+{% block header %}
+  {{block.super}}
+  <img class="title-bar-button" id="menu-button" src="{{env.fixed_static_url_base}}/menu.png" alt="Menu">{% trans "Google Person Finder" %}
+  <script nonce="{{ csp_nonce }}">
+    document.querySelector('#menu-button').addEventListener('click', showSideMenu);
+  </script>
+{% endblock header %}
+
+{# Container around page content. #}
+{% block container %}
+  {{block.super}}
+{% endblock container %}
+
+{# Disclaimer text at the bottom of every page. #}
+{% block disclaimer %}
+  {{block.super}}
+{% endblock disclaimer %}
+
+{# Sidenav at the left/right side of every page. #}
+{% block sidenav %}
+  {% if config.brand == "google" %}
+    {% if env.repo and env.ui == "light" %}
+      <a href="{{env.default_ui_url}}">{% trans "Desktop version" %}</a>
+      <span class="link-separator"></span>
+    {% endif %}
+    <a href="{{env.global_url}}" {{env.target_attr|safe}}
+        >{% trans "About Google Person Finder" %}</a>
+    <span class="link-separator"></span>
+    {% include "repo-menu.html.template" %}
+    {% if config.feedback_url %}
+      <span class="link-separator"></span>
+      <a href="{{config.feedback_url}}"
+          {{env.target_attr|safe}}>{% trans "Feedback" %}</a>
+    {% endif %}
+    <span class="link-separator"></span>
+    {% if env.ui != "light" %}
+      <a href="https://support.google.com/personfinder/?hl={{env.lang}}"
+          {% comment %}
+            Translators: The title of a page of frequently asked questions.
+          {% endcomment %}
+          >{% trans "Frequently asked questions" %}</a>
+      <span class="link-separator"></span>
+      {% comment %}
+        Translators: The title of a page for people who respond to disasters.
+      {% endcomment %}
+      <a href="{{env.global_url}}/responders.html">{% trans "For responders" %}</a>
+      <span class="link-separator"></span>
+      <a href="https://github.com/google/personfinder"
+          {{env.target_attr|safe}}>{% trans "Developers" %}</a>
+      <span class="link-separator"></span>
+    {% endif %}
+    <a href="{{env.global_url}}/howto.html" {{env.target_attr|safe}}
+        {% comment %}
+          Translators: The title of the page which explains how to use
+          Person Finder.
+        {% endcomment %}
+        >{% trans "User's Guide" %}</a>
+    <span class="link-separator"></span>
+    <a href="{{env.global_url}}/tos" {{env.target_attr|safe}}
+        >{% trans "Terms of Service" %}</a>
+  {% else %}
+    {{block.super}}
+  {% endif %}
+{% endblock sidenav %}

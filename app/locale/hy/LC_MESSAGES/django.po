@@ -1,0 +1,1725 @@
+# Copyright 2010 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may
+# not use this file except in compliance with the License.  You may obtain
+# a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"\n"
+"A user has requested enabling notes on the record for\n"
+"\"%(full_name)s\".\n"
+"\n"
+"Your e-mail address is recorded as the author of this record.  To enable "
+"notes\n"
+"on this record, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Հարգելի %(author_name)s,\n"
+"\n"
+"Օգտատերը հայցել է միացնել նշումները\n"
+"«%(full_name)s»-ի համար:\n"
+"\n"
+"Ձեր էլ․ հասցեն նշված է որպես հեղինակ: Այս գրառման նշումները միացնելու "
+"համար երեք օրվա ընթացքում սեղմեք սույն հղումը`\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"\n"
+"A user has requested that you disable notes on the record for\n"
+"\"%(full_name)s\".\n"
+"\n"
+"Your e-mail address is recorded as the author of this record.  To disable"
+" notes\n"
+"on this record, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Հարգելի %(author_name)s,\n"
+"\n"
+"Օգտատերը հայցել է անջատել նշումները\n"
+"«%(full_name)s»-ի համար:\n"
+"\n"
+"Ձեր էլ․ հասցեն նշված է որպես հեղինակ: Այս գրառման նշումներն անջատելու "
+"համար երեք օրվա ընթացքում սեղմեք սույն հղումը`\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Dear %(author_name)s,\n"
+"You just entered a note on the record for \"%(full_name)s\".  \n"
+"To publish your note, follow this link within 3 days:\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Հարգելի %(author_name)s,\n"
+"Դուք հենց նոր միացրել եք գրառման նշումները «%(full_name)s»-ի համար:  \n"
+"Ձեր նշումը հրապարակելու համար երեք օրվա ընթացքում սեղմեք այս հղումը`\n"
+"\n"
+"   %(confirm_url)s\n"
+"\n"
+
+#, python-format
+msgid ""
+"\n"
+"                    Warning: this record will expire in less than "
+"%(expiration_days)s days.\n"
+"                  "
+msgstr ""
+"\n"
+"                    Զգուշացում. այս գրառման ժամկետը կսպառվի ավելի քիչ, "
+"քան %(expiration_days)s օրից:\n"
+"                  "
+
+msgid ""
+"\n"
+"                    Warning: this record will expire in less than a day.\n"
+"                  "
+msgstr ""
+"\n"
+"                    Զգուշացում. այս գրառումը կսպառվի ավելի քիչ, քան մեկ "
+"օրվա ընթացքում:\n"
+"                  "
+
+#, python-format
+msgid ""
+"\n"
+"                %(dup_count)s records selected\n"
+"              "
+msgstr ""
+"\n"
+"                Ընտրվել է %(dup_count)s գրառում\n"
+"              "
+
+#. Translators: Text in the footer which provides a link to our privacy
+#. policy.
+#, python-format
+msgid ""
+"\n"
+"                Learn more about Google\n"
+"                <a href=\"%(privacy_policy_url)s\" "
+"%(target_attr)s>Privacy Policy</a>.\n"
+"              "
+msgstr ""
+"\n"
+"                Իմացեք ավելին Google-ի\n"
+"                <a href=\"%(privacy_policy_url)s\" "
+"%(target_attr)s>գաղտնիության քաղաքականության</a> մասին:\n"
+"              "
+
+#, python-format
+msgid ""
+"\n"
+"            %(search_engine_name)s has search result(s) matching this "
+"query.\n"
+"          "
+msgstr ""
+"\n"
+"            %(search_engine_name)s որոնման համակարգը պարունակում է այս "
+"հարցմանը համապատասխանող որոնման արդյունք(ներ):\n"
+"          "
+
+#. Translators: The title of the search results when there are no
+#. results found.
+#, python-format
+msgid ""
+"\n"
+"            No results found for: \"%(query)s\"\n"
+"          "
+msgstr ""
+"\n"
+"            «%(query)s» հարցումով ոչինչ չի գտնվել\n"
+"          "
+
+#. Translators: The title of the search results which show a list
+#. of persons with the given person name in any locations.
+#, python-format
+msgid ""
+"\n"
+"            Results for \"%(query_name)s\" (any location):\n"
+"          "
+msgstr ""
+"\n"
+"            «%(query_name)s»-ի որոնման արդյունքներ (բոլոր "
+"տարածաշրջանները)՝\n"
+"          "
+
+#. Translators: The title of the search results for the given query.
+#, python-format
+msgid ""
+"\n"
+"            Search results for: \"%(query)s\"\n"
+"          "
+msgstr ""
+"\n"
+"«%(query)s» որոնման արդյունքներ"
+
+#, python-format
+msgid ""
+"\n"
+"          Records Similar to: %(full_name)s\n"
+"        "
+msgstr ""
+"\n"
+"          «%(full_name)s» անվանը նման գրառումներ\n"
+"        "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to delete the record for \"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      Իսկապե՞ս ուզում եք ջնջել «%(full_name)s» գրառումը:\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to disable notes on the record of "
+"\"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      Իսկապե՞ս ուզում եք անջատել «%(full_name)s»-ի գրառումների նշումները:"
+"\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to extend the expiration for record "
+"\"%(full_name)s\"?\n"
+"    "
+msgstr ""
+"\n"
+"      Իսկապե՞ս ուզում եք երկարացնել սպառման ժամկետը «%(full_name)s» "
+"գրառման համար:\n"
+"    "
+
+msgid ""
+"\n"
+"      Confirm your note\n"
+"    "
+msgstr ""
+"\n"
+"      Հաստատեք ձեր նշումը\n"
+"    "
+
+msgid ""
+"\n"
+"      If you proceed with deletion,\n"
+"      this record will no longer be searchable or viewable on this site.\n"
+"    "
+msgstr ""
+"\n"
+"      Ջնջելու դեպքում\n"
+"      այս գրառումն այլևս տեսանելի և որոնելի չի լինի այս կայքում:\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      If you would like it permanently deleted,\n"
+"      please contact the original source.\n"
+"      You can view the original record at\n"
+"      %(begin_tag)s%(source_name)s%(end_tag)s.\n"
+"    "
+msgstr ""
+"\n"
+"      Եթե ցանկանում եք ընդմիշտ ջնջել սա,\n"
+"      կապվեք բնօրինակ աղբյուրի հետ:\n"
+"      Դուք կարող եք դիտել բնօրինակ գրառումն այստեղ`\n"
+"      %(begin_tag)s%(source_name)s%(end_tag)s:\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"      The URL you entered doesn't look like a valid %(website)s profile "
+"URL.\n"
+"      Please go to this person's profile page on %(website)s, then copy "
+"and paste\n"
+"      that URL here.\n"
+"      "
+msgstr ""
+"\n"
+"      Ձեր մուտքագրած հասցեն կարծես վավեր %(website)s պրոֆիլի հասցե չէ:\n"
+"      Այցելեք այս օգտատիրոջ էջը %(website)s-ում, ապա պատճենեք և փակցրեք\n"
+"      այդ հասցեն այստեղ:\n"
+"      "
+
+#, python-format
+msgid ""
+"\n"
+"      The record has been extended to %(expiry_date)s.\n"
+"    "
+msgstr ""
+"\n"
+"      Գրառման ժամկետը երկարացվել է մինչև %(expiry_date)s-ը:\n"
+"    "
+
+msgid ""
+"\n"
+"      This record is a copy of a record from another source.\n"
+"      You can delete the record here,\n"
+"      but please be aware that\n"
+"      we might later receive another copy of it from the original source."
+"\n"
+"    "
+msgstr ""
+"\n"
+"      Այս գրառումն այլ աղբյուրից է պատճենված:\n"
+"      Դուք կարող եք ջնջել այն այստեղ,\n"
+"      սակայն տեղյակ եղեք, որ\n"
+"      մենք կարող ենք հետագայում ստանալ բնօրինակ աղբյուրի այլ կրկնօրինակ:\n"
+"    "
+
+#, python-format
+msgid ""
+"\n"
+"    <a href=\"%(admin_api_keys_url)s\">Create a new API key</a>\n"
+"  "
+msgstr ""
+
+#, python-format
+msgid ""
+"\n"
+"    You are currently signed in as <span "
+"class=\"email\">%(user_email)s</span>\n"
+"  "
+msgstr ""
+
+msgid ""
+"\n"
+"  The Email address you entered is not valid.\n"
+"  "
+msgstr ""
+"\n"
+"  Մուտքագրված էլ․ հասցեն անվավեր է:\n"
+"  "
+
+msgid ""
+"\n"
+"  To post your note, please enter your e-mail address below and follow "
+"the\n"
+"  confirmation link that you will receive.\n"
+"  "
+msgstr ""
+"\n"
+"  Ձեր նշումը փակցնելու համար մուտքագրեք ձեր էլ․ հասցեն ստորև, ապա անցեք "
+"հաստատման հղումով, որը կստանաք փոստին:\n"
+"  "
+
+#, python-format
+msgid ""
+"\n"
+"A user has deleted the record for \"%(full_name)s\"\n"
+"at %(site_url)s.\n"
+"\n"
+"We are notifying you of the deletion because your e-mail address is\n"
+"recorded as the author of a note on this record.\n"
+msgstr ""
+"\n"
+"Օգտատերը հեռացրել է «%(full_name)s» գրառումը\n"
+"%(site_url)s-ում:\n"
+"\n"
+"Մենք տեղեկացնում ենք ձեզ հեռացման մասին, քանի որ ձեր էլ․ հասցեն նշված է "
+"որպես այս գրառման նշման հեղինակ:\n"
+
+#, python-format
+msgid ""
+"\n"
+"A user has deleted the record for \"%(full_name)s\"\n"
+"at %(site_url)s.\n"
+"\n"
+"We are notifying you of the deletion because your e-mail address is\n"
+"recorded as the author of this record.\n"
+msgstr ""
+"\n"
+"Օգտատերը հեռացրել է «%(full_name)s» գրառումը\n"
+"%(site_url)s-ում:\n"
+"\n"
+"Մենք տեղեկացնում ենք ձեզ հեռացման մասին, քանի որ ձեր էլ․ հասցեն նշված է "
+"որպես այս գրառման հեղինակ:\n"
+
+#, python-format
+msgid ""
+"\n"
+"After %(days_until_deletion)s days, the record will be permanently "
+"deleted.\n"
+msgstr ""
+"\n"
+"%(days_until_deletion)s օր անց գրառումը ընդմիշտ կջնջվի:\n"
+
+#, python-format
+msgid ""
+"\n"
+"NOTE: If you believe this record was deleted in error, you can\n"
+"restore it by following this link within the next %(days_until_deletion)s"
+" days:\n"
+"\n"
+"    %(restore_url)s\n"
+msgstr ""
+"\n"
+"ՆՇՈՒՄ. Եթե կարծում եք, որ այս գրառումը ջնջվել է սխալմամբ, կարող եք անցնել"
+" այս հղումով առաջիկա %(days_until_deletion)s օրվա ընթացքում`\n"
+"\n"
+"    %(restore_url)s\n"
+
+#, python-format
+msgid ""
+"\n"
+"Notes are now disabled on the record for \"%(full_name)s\".  To view the "
+"record,\n"
+"follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"«%(full_name)s» գրառման նշումներն անջատված են:  Գրառումը տեսնելու համար "
+"անցեք այս հղումով`\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"Մենք տեղեկացնում ենք ձեզ հեռացման մասին, քանի որ ձեր էլ․ հասցեն կապված է "
+"այս օգտատիրոջ գրառման կամ գրառման նշման հետ:\n"
+
+#, python-format
+msgid ""
+"\n"
+"Notes are now enabled on the record for \"%(full_name)s\".  To view the "
+"record,\n"
+"follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"«%(full_name)s» գրառման նշումները միացված են:  Գրառումը տեսնելու համար "
+"անցեք այս հղումով`\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"Մենք տեղեկացնում ենք ձեզ հեռացման մասին, քանի որ ձեր էլ․ հասցեն կապված է "
+"այս օգտատիրոջ գրառման կամ գրառման նշման հետ:\n"
+
+#, python-format
+msgid ""
+"\n"
+"The author of the record for \"%(full_name)s\"\n"
+"(which was previously deleted) has restored the record.  To view the\n"
+"record, follow this link:\n"
+"\n"
+"    %(record_url)s\n"
+"\n"
+"We are notifying you because your e-mail address is associated with this\n"
+"person record or a note on the record.\n"
+msgstr ""
+"\n"
+"Հեղինակը, որը նախկինում հեռացրել էր «%(full_name)s» գրառումը,\n"
+"կրկին վերականգնել է այն: Գրառումը տեսնելու համար անցեք այս հղումով`\n"
+"\n"
+"%(record_url)s\n"
+"\n"
+"Մենք տեղեկացնում ենք ձեզ հեռացման մասին, քանի որ ձեր էլ․ հասցեն կապակցված"
+" է այս օգտատիրոջ գրառման կամ գրառման վերաբերյալ նշման հետ:\n"
+
+#, python-format
+msgid ""
+"\n"
+"There is a new note on the record for \"%(full_name)s\".\n"
+msgstr ""
+"\n"
+"«%(full_name)s» գրառման մեջ նոր նշում կա:\n"
+
+#, python-format
+msgid ""
+"\n"
+"You have subscribed to notes on \"%(full_name)s\".\n"
+"\n"
+"You can view this record at\n"
+"\n"
+"     %(view_url)s\n"
+"\n"
+"To unsubscribe, follow this link: %(unsubscribe_link)s\n"
+msgstr ""
+"\n"
+"Դուք բաժանորդագրվել եք «%(full_name)s»-ի վերաբերյալ նշումներին\n"
+"\n"
+"Այդ գրառումը կարող եք տեսնել այստեղ`\n"
+"\n"
+"%(view_url)s\n"
+"\n"
+"Ապաբաժանորդագրվելու համար սեղմեք հետևյալ հղումը` %(unsubscribe_link)s\n"
+
+msgid " (normal connection fee may apply)"
+msgstr ""
+
+msgid "(click to reveal)"
+msgstr "(ցուցադրել)"
+
+msgid "(unknown)"
+msgstr "(անհայտ)"
+
+msgid "A message for this person or others seeking this person"
+msgstr "Տեղեկություն այս անձի կամ նրան որոնողների համար"
+
+msgid "A new API key has been created successfully."
+msgstr "Նոր API բանալին հաջողությամբ ստեղծվել է:"
+
+msgid "API Key Management"
+msgstr "API բանալու կառավարում"
+
+msgid "About 1 month (30 days) from now"
+msgstr "Մոտ 1 ամիս (30 օր) հետո"
+
+msgid "About 1 year (360 days) from now"
+msgstr "Մոտ 1 տարի (360 օր) հետո"
+
+msgid "About 2 months (60 days) from now"
+msgstr "Մոտ 2 ամիս (60 օր) հետո"
+
+msgid "About 3 months (90 days) from now"
+msgstr "Մոտ 3 ամիս (90 օր) հետո"
+
+msgid "About 6 months (180 days) from now"
+msgstr "Մոտ 6 ամիս (180 օր) հետո"
+
+msgid "About Google Person Finder"
+msgstr "Google Մարդկանց որոնման մասին"
+
+#. Translators: The title of a section in a form where the user inputs their
+#. own information e.g., "Your name", "Your e-mail address".
+msgid "About You"
+msgstr "Ձեր մասին"
+
+#. Translators: An SMS message sent to a user when the user
+#. successfully added a record for the given person.
+#, python-format
+msgid "Added a record for: %(person_name)s"
+msgstr "%(person_name)s-ի համար գրառում է ավելացվել"
+
+msgid "Age"
+msgstr "Տարիքը"
+
+msgid ""
+"All data entered in Person Finder is available to the public and usable "
+"by anyone. Google does not review or verify the accuracy of this data "
+"google.org/personfinder/global/tos"
+msgstr ""
+"Մարդկանց որոնման կայքերում մուտքագրված բոլոր տվյալները հասանելի են "
+"բոլորին: Google-ը չի ստուգում այս տվյալները և չի հաստատում դրանց "
+"ճշտությունը google.org/personfinder/global/tos"
+
+msgid "Alternate family names"
+msgstr "Այլընտրանքային ընտանեկան անուններ"
+
+msgid "Alternate given names"
+msgstr "Այլընտրանքային տրված անուններ"
+
+msgid "Alternate names"
+msgstr "Այլընտրանքային անուններ"
+
+msgid "Are you sure this note isn't spam?"
+msgstr "Համոզվա՞ծ եք, որ այս նշումը սպամ չէ:"
+
+msgid "Are you sure you want to mark this note as spam?"
+msgstr "Իսկապե՞ս ուզում եք նշել այս նշումը որպես սպամ:"
+
+msgid "Are you sure you want to restore this record from deletion?"
+msgstr "Իսկապե՞ս ուզում եք վերականգնել այս գրառումը:"
+
+msgid "Atom feed of updates about this person"
+msgstr "Թարմացումների Atom հոսք այս անձի վերաբերյալ"
+
+msgid "Author's e-mail address"
+msgstr "Հեղինակի էլ․ հասցեն"
+
+msgid "Author's name"
+msgstr "Հեղինակի անունը"
+
+msgid "Author's phone number"
+msgstr "Հեղինակի հեռախոսահամարը"
+
+msgid "Authorization already exists for another repo! That's not expected."
+msgstr ""
+
+msgid "Authorization key"
+msgstr "Լիազորման բանալին"
+
+#. Translators: A link text to go back to the form where the user
+#. can import or export records in the site.
+msgid "Back to import/export form"
+msgstr "Վերադառնալ ներմուծման/արտահանման ձևին"
+
+msgid ""
+"By marking this note as spam, you will make it hidden by default. It will"
+" still be a part of the record, but will require an extra click to view "
+"the contents of the note. Users will also be able to remove the spam mark"
+" from this note."
+msgstr ""
+"Այս գրառումը սպամ նշելով` այն ըստ կանխադրման կթաքցվի: Այն կմնա որպես "
+"գրառման մաս, սակայն նշման բովանդակությունը կարդալու համար անհրաժեշտ կլինի"
+" լրացուցիչ սեղմել: Օգտատերերը նաև կկարողանան հեռացնել սպամի պիտակը այս "
+"նշումից:"
+
+msgid "By unmarking this note as spam, you will make it visible by default."
+msgstr "Այս նշումը լռելյայն կդառնա տեսանելի որպես սպամ ապանշելուց հետո:"
+
+msgid "CSV file"
+msgstr "CSV ֆայլ"
+
+#, python-format
+msgid "Can not find note with id %(id)s"
+msgstr "Հնարավոր չէ գտնել %(id)s-ով նշումը"
+
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+msgid "City"
+msgstr "Քաղաքը"
+
+msgid ""
+"Click here to see the terms of service (external site; normal connection "
+"fee may apply)"
+msgstr ""
+"Սեղմեք այստեղ՝ օգտագործման պայմաններին ծանոթանալու համար (արտաքին կայք. "
+"կգործեն կապի սովորական սակագները)"
+
+msgid "Click here to view results."
+msgstr "Արդյունքները տեսնելու համար սեղմեք այստեղ:"
+
+msgid "Close window"
+msgstr "Փակել պատուհանը"
+
+msgid "Compare these records"
+msgstr "Համեմատեք այս գրառումները"
+
+#. Translators: The title of a section to input the user's own
+#. email address and phone number, in the form to register a
+#. person record.
+msgid "Contact information"
+msgstr "Կոնտակտային տվյալներ"
+
+msgid "Copy and paste the following HTML code to put this tool on your site"
+msgstr ""
+"Պատճենեք և տեղադրեք հետևյալ HTML կոդը` այս գործիքը ձեր կայքում տեղադրելու"
+" համար"
+
+msgid "Create a new API key"
+msgstr "Ստեղծել նոր API բանալի"
+
+msgid "Create a new record"
+msgstr "Ստեղծել նոր գրառում"
+
+msgid "Create a new record for"
+msgstr "Ստեղծել նոր գրառում հետևյալի համար՝"
+
+msgid "Crisis events"
+msgstr "Ճգնաժամային իրադարձություններ"
+
+#, python-format
+msgid "Currently tracking about %(num_people)s records."
+msgstr "Գրառումների մոտավոր թիվը՝ %(num_people)s"
+
+msgid "Date cannot be in the future.  Please go back and try again."
+msgstr "Ամսաթիվը չի կարող լինել ապագայում: Խնդրում ենք վերադառնալ և կրկին փորձել:"
+
+msgid "Date of birth"
+msgstr "Ծննդյան ամսաթիվ"
+
+msgid "Delete this record"
+msgstr "Ջնջել այս գրառումը"
+
+msgid "Describe how to identify this person."
+msgstr "Ինչպե՞ս ճանաչել տվյալ անձին:"
+
+msgid "Description"
+msgstr "Նկարագրություն"
+
+msgid "Desktop version"
+msgstr "Համակարգչային տարբերակ"
+
+msgid "Developers"
+msgstr "Մշակողներ"
+
+msgid "Does this person have profile pages at other websites?"
+msgstr "Այս անձն այլ կայքերում պրոֆիլ ունի՞:"
+
+#. Translators: A button label to download a file.
+msgid "Download"
+msgstr "Ներբեռնել"
+
+#, python-format
+msgid "Download %(begin_link)sthis Excel template%(end_link)s and add rows to it"
+msgstr ""
+"Ներբեռնեք %(begin_link)sայս Excel կազապարը%(end_link)s և ավելացրեք տողերն"
+" այնտեղ:"
+
+#. Translators: The title of a section where the user can download person
+#. records in the site.
+msgid "Download all person records in CSV format"
+msgstr "Ներբեռնեք օգտատիրոջ մասին բոլոր գրառումները CSV ձևաչափով"
+
+msgid "E-mail"
+msgstr "Էլփոստ"
+
+msgid "E-mail address"
+msgstr "Էլ․ հասցե"
+
+msgid "Edit"
+msgstr "Խմբագրել"
+
+#. Translators: The label for an email address field.
+msgid "Email address"
+msgstr "Էլ․ հասցե"
+
+msgid "Embedding the Application"
+msgstr "Ծրագրի ներկառուցում"
+
+msgid "Enter as YYYY-MM-DD"
+msgstr "Մուտքագրել որպես YYYY-MM-DD"
+
+msgid "Enter the person's given and family names."
+msgstr "Մուտքագրեք անձի անունը և ազգանունը:"
+
+msgid "Enter the person's name."
+msgstr "Մուտքագրեք անձի անունը:"
+
+msgid "Expiry"
+msgstr "Պահպանման ժամկետ"
+
+msgid "Expiry date of this record"
+msgstr "Այս գրառման սպառման ժամկետը"
+
+#, python-format
+msgid ""
+"Extend expiration date by %(extension_days)s days\n"
+"                "
+msgstr ""
+"Երկարացնել սպառման ժամկետը %(extension_days)s օրով\n"
+"                "
+
+msgid "External photo"
+msgstr ""
+
+#. Translators: An error message indicating that we
+#. failed to obtain search result for the phone number
+#. given by the user.
+msgid "Failed to obtain search result for the phone number."
+msgstr "Չհաջողվեց հեռախոսահամարով որոնման արդյունքներ ստանալ:"
+
+#. Translators: The label for a text field to input the family
+#. name of the person record. "(Surname)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "family name".
+msgid "Family name (Surname)"
+msgstr "Ազգանուն"
+
+#. Translators: The label for a text field to input the family
+#. name of the person record. "(Surname)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "family name".
+msgid "Family name (Surname) (required)"
+msgstr "Ազգանուն (պարտադիր է)"
+
+msgid "Feed of updates about this person"
+msgstr "Այս անձի մասին թարմացումների հոսք"
+
+msgid "Feedback"
+msgstr "Հետադարձ կապ"
+
+msgid "Follow this link to create a new record"
+msgstr "Անցեք այս հղումով` նոր գրառում ստեղծելու համար"
+
+msgid ""
+"For phones other than mobile phones, please use 171 service provided by "
+"NTT."
+msgstr ""
+"Հեռախոսների կամ շարժական սարքերի համար օգտագործեք NTT-ի կողմից տրամադրվող"
+" 171 ծառայությունը:"
+
+#. Translators: The title of a page for people who respond to disasters.
+msgid "For responders"
+msgstr "Առաջին օգնություն ցուցաբերողների համար"
+
+#. Translators: The title of a page of frequently asked questions.
+msgid "Frequently asked questions"
+msgstr "Հաճախակի տրվող հարցեր"
+
+#, python-format
+msgid "From: %(home_location)s"
+msgstr "Ումից՝ %(home_location)s"
+
+msgid "Full name"
+msgstr "Լրիվ անունը"
+
+#. Translators: The label for a text field to input the given
+#. name of the person record. "(First name)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "given name".
+msgid "Given name (First name)"
+msgstr "Անուն"
+
+#. Translators: The label for a text field to input the given
+#. name of the person record. "(First name)" is just added for
+#. clarification. You don't need to translate both if the
+#. language has a single clear term for "given name".
+msgid "Given name (First name) (required)"
+msgstr "Անուն (պարտադիր է)"
+
+msgid "Google Person Finder"
+msgstr "Google Մարդկանց որոնում"
+
+#. Translators: A sentence in the privacy statement in the footer of pages.
+msgid ""
+"Google may share the data with public and private organizations "
+"participating in disaster response efforts."
+msgstr ""
+"Google ընկերությունը կարող է փոխանցել ձեր տվյալները հասարակական և "
+"մասնավոր կազմակերպություններին, որոնք արտակարգ իրավիճակների ժամանակ "
+"ներգրավված են փրկարարական աշխատանքներում:"
+
+msgid "Have you personally talked with this person AFTER the disaster? (required)"
+msgstr "Դուք անձամբ խոսե՞լ եք այս անձի հետ աղետից հետո (պարտադիր է)"
+
+#, python-format
+msgid "Here is %(begin_tag)sa sample CSV file%(end_tag)s you can edit and upload"
+msgstr "%(begin_tag)sCSV ֆայլի օրինակ%(end_tag)s, որը կարող եք փոփոխել և վերբեռնել"
+
+msgid "Hide Map"
+msgstr "Թաքցնել քարտեզը"
+
+msgid "Hide note"
+msgstr "Թաքցնել նշումը"
+
+msgid "Home Address"
+msgstr "Բնակության հասցե"
+
+msgid "Home address"
+msgstr "Բնակության հասցե"
+
+msgid "Home country"
+msgstr "Բնակության երկիրը"
+
+#. Translators: A label the home location field in the form to
+#. search person records.
+msgid "Home location"
+msgstr "Բնակության վայրը"
+
+msgid "How can this person be reached now?"
+msgstr "Ինչպե՞ս կարելի է կապվել այս անձի հետ հիմա:"
+
+msgid "How others who are interested in this person can contact you"
+msgstr "Ինչպես կարող են կապվել ձեզ հետ նրանք, ովքեր հետաքրքրված են այս անձով"
+
+msgid "I Have Information About This Person"
+msgstr "Ես այս անձի վերաբերյալ տեղեկություններ ունեմ"
+
+msgid "I am seeking information"
+msgstr "Ես տեղեկություն եմ որոնում"
+
+msgid "I am this person"
+msgstr "Ես եմ այդ մարդը"
+
+msgid "I do not want my information online anymore."
+msgstr "Ես այլևս չեմ ցանկանում, որ իմ տեղեկություններն առցանց լինեն:"
+
+msgid "I have information about someone"
+msgstr "Ես ինչ-որ մեկի մասին տեղեկություն ունեմ"
+
+msgid "I have reason to think this person is missing"
+msgstr "Ես պատճառ ունեմ մտածելու, որ այդ անձը կորել է"
+
+msgid "I have received information that this person is alive"
+msgstr "Ես ունեմ տեղեկություն, որ այս անձը կենդանի է"
+
+msgid "I have received information that this person is dead"
+msgstr "Ես ունեմ տեղեկություն, որ այս անձը մահացած է"
+
+msgid "I have received spam due to this note."
+msgstr "Ես սպամ եմ ստացել այս նշման վերաբերյալ:"
+
+msgid "I have received spam."
+msgstr "Ես ստացել եմ սպամ:"
+
+msgid "I prefer not to specify."
+msgstr "Ես նախընտրում եմ չմանրամասնել:"
+
+#. Translators: The label of an option to input the user's
+#. own information, not someone else's, in the form to
+#. register a person record.
+msgid "I want to input my own information"
+msgstr "Ես ուզում եմ մուտքագրել իմ տվյալները"
+
+#. Translators: The label of an option to input someone
+#. else's information, not of the user themselves, in the
+#. form to register a person record.
+msgid "I want to input someone else's information"
+msgstr "Ես ուզում եմ մուտքագրել ուրիշի տվյալները"
+
+msgid "I'm looking for someone"
+msgstr "Ես փնտրում եմ ինչ-որ մեկին"
+
+msgid "Identifying information"
+msgstr "Նույնականացման տեղեկություններ"
+
+msgid ""
+"If none of these records match the person you had in mind, you can click "
+"below to create a new record."
+msgstr ""
+"Եթե այս գրառումները ոչ ոքի հետ չեն համապատասպանում, կարող եք սեղմել "
+"ստորև՝ նոր գրառում ստեղծելու համար:"
+
+#, python-format
+msgid ""
+"If this webpage is not replaced in a few seconds, please <a "
+"href=\"%(light_url)s\">click here.</a>"
+msgstr ""
+
+msgid ""
+"If you are the author of this note, please check your e-mail for a link "
+"to confirm that you want to enable notes on this record.  Otherwise, "
+"please wait for the record author to confirm your request."
+msgstr ""
+"Եթե դու այս գրառման հեղինակն եք, ստուգեք ձեր էլփոստը և հաստատեք հղումով, "
+"որ ցանկանում եք միացնել այս գրառման նշումները: Հակառակ դեպքում սպասեք "
+"մինչև գրառման հեղինակը կհաստատի ձեր հարցումը:"
+
+msgid "If you have a photo of this person, upload it or enter its URL address."
+msgstr "Եթե ունեք այս անձի լուսանկարը, վերբեռնեք այն կամ մուտքագրեք դրա URL-ը:"
+
+msgid "In Excel, use File &gt; Save as... and save in CSV format (.csv)"
+msgstr "Excel-ում օգտագործեք Ֆայլ &gt; Պահել որպես... և պահեք CSV ձևաչափով (.csv)"
+
+msgid "Invalid e-mail address. Please try again."
+msgstr "Էլ․ հասցեն անվավեր է: Կրկին փորձեք:"
+
+msgid "Language selection"
+msgstr "Լեզվի ընտրություն"
+
+msgid "Last known location"
+msgstr "Տվյալ անձի գտնվելու վերջին վայրը"
+
+msgid "Link"
+msgstr "Հղում"
+
+msgid "Link to profile page"
+msgstr "Հղում դեպի պրոֆիլի էջ"
+
+msgid "List API keys"
+msgstr "Կազմել API բանալիների ցանկը"
+
+msgid "Mark records as duplicate"
+msgstr "Նշել գրառումը որպես կրկնօրինակ"
+
+msgid "Mark the selected records as duplicate"
+msgstr "Նշել ընտրված գրառումները որպես կրկնօրինակ"
+
+msgid "Message (required)"
+msgstr "Հաղորդագրություն (պարտադիր է)"
+
+msgid "Message is required. Please go back and try again."
+msgstr "Հաղորդագրությունը պարտադիր է: Վերադարձեք և կրկին փորձեք:"
+
+msgid "Missing person's current contact information"
+msgstr "Որոնվող անձի ներկայիս կոնտակտային տվյալները"
+
+msgid "Missing person's current e-mail address"
+msgstr "Որոնվող անձի ներկայիս էլ․ հասցեն"
+
+msgid "Missing person's current phone number"
+msgstr "Որոնվող անձի ներկայիս հեռախոսահամարը"
+
+#, python-format
+msgid "More at: %(url)s"
+msgstr "Ավելին՝ %(url)s"
+
+#. Translators: A link to expand the form to allow the user to
+#. input more detailed information about the source of the record,
+#. in the form to register a person record.
+msgid "More information about source of record"
+msgstr "Հավելյալ տեղեկություններ գրառման աղբյուրի մասին"
+
+#. Translators: A link to expand the form to allow the user to input
+#. more information about the status of the person, in the form to either
+#. register a person record or add a note to an existing record.
+msgid "More information about status of the person"
+msgstr "Հավելյալ տեղեկություններ անձի կարգավիճակի մասին"
+
+#, python-format
+msgid ""
+"More information for developers can now be found "
+"%(developers_link_html)shere%(link_end_html)s."
+msgstr ""
+"Մշակողների մասին այլ տեղեկություններ կարելի է գտնել "
+"%(developers_link_html)sայստեղ%(link_end_html)s:"
+
+#. Translators: A link to expand the form to allow the user to
+#. input more detailed information to identify the person, in the
+#. form to register a person record.
+msgid "More information to identify the person"
+msgstr "Անձը նույնականացնող այլ տվյալներ"
+
+msgid ""
+"More than 100 results; only showing the first 100.  Try entering more of "
+"the name"
+msgstr ""
+"Ավելի քան 100 արդյունք. ցուցադրվում են միայն առաջին 100-ը: Մուտքագրեք "
+"անվան այլ մասեր"
+
+msgid "Name"
+msgstr "Անունը"
+
+msgid "Name (required)"
+msgstr "Անունը (պարտադիր է)"
+
+msgid "Name is required.  Please go back and try again."
+msgstr "Անունը պարտադիր է: Վերադարձեք և կրկին փորձեք:"
+
+#. Translators: The label of a field for either the name of the
+#. person or their mobile phone number, in the form to search
+#. person records.
+msgid "Name or mobile phone number (required)"
+msgstr "Անունը կամ բջջային հեռախոսահամարը (պարտադիր է)"
+
+msgid "Neighborhood"
+msgstr "Թաղամասը"
+
+msgid "No"
+msgstr "Ոչ"
+
+#, python-format
+msgid "No author email for record %(id)s."
+msgstr "%(id)s գրառման հեղինակի էլփոստ չկա:"
+
+msgid "No messages are found registered to the carrier's message board service."
+msgstr ""
+"Բջջային կապի օպերատորը տեղեկություններ չունի ուղարկված "
+"հաղորդագրությունների վերաբերյալ:"
+
+#, python-format
+msgid "No note with ID: %(id_str)s."
+msgstr "%(id_str)s-ով նշում չկա:"
+
+msgid "No notes have been posted"
+msgstr "Նշումներ չեն փակցվել"
+
+msgid "No person id was specified."
+msgstr "Որևէ անձի ID նշված չէ:"
+
+#, python-format
+msgid "No results found for: %(query)s"
+msgstr "«%(query)s» հարցումով ոչ մի արդյունք չի գտնվել"
+
+msgid "No such Authorization entity."
+msgstr "Այսպիսի նույնականացումով անձ չկա:"
+
+msgid "Not authorized to post notes with the status \"believed_dead\"."
+msgstr "«believed_dead» կարգավիճակի հրապարակման համար անհրաժեշտ է լիազորում:"
+
+msgid "Not spam"
+msgstr "Սպամ չէ"
+
+msgid "Note author"
+msgstr "Նշման հեղինակը"
+
+msgid "Note text"
+msgstr "Նշման տեքստը"
+
+msgid "Notes for a possible duplicate"
+msgstr "Հնարավոր կրկնօրինակների նշումներ"
+
+msgid "Notes for this person"
+msgstr "Նշումներ այս անձի վերաբերյալ"
+
+msgid "Number or range (e.g. 20-30)"
+msgstr "Ճշգրիտ կամ մոտավոր (օր.` 20-30)"
+
+#, python-format
+msgid ""
+"Or add to your site as a %(gadget_link_html)sGoogle "
+"Gadget%(link_end_html)s."
+msgstr ""
+"Կամ ավելացրեք ձեր կայքում որպես %(gadget_link_html)sGoogle "
+"Gadget%(link_end_html)s:"
+
+msgid "Original URL"
+msgstr "Բնօրինակ URL"
+
+msgid "Original author's name"
+msgstr "Իսկական հեղինակի անունը"
+
+msgid "Original posting date"
+msgstr "Բնօրինակ հրապարակման ամսաթիվը"
+
+msgid ""
+"Original posting date is not in YYYY-MM-DD format, or is a nonexistent "
+"date.  Please go back and try again."
+msgstr ""
+"Բնօրինակ հրապարակման ամսաթիվը YYYY-MM-DD ձևաչափով չէ կամ չի հանդիսանում "
+"միջադեպի օր: վերադարձեք և կրկին փորձեք:"
+
+msgid "Original site name"
+msgstr "Բնօրինակ կայքի անունը"
+
+msgid "Other website"
+msgstr "Այլ կայք"
+
+msgid ""
+"PLEASE NOTE: All data entered is available to the public and usable by "
+"anyone.  Google does not review or verify the accuracy of this data."
+msgstr ""
+"ՆԿԱՏԻ ՈՒՆԵՑԵՔ. մուտքագրված բոլոր տվյալները հասանելի են բոլորին: Google-ը "
+"չի ստուգում այս տվյալները և չի հաստատում դրանց ճշտությունը:"
+
+msgid "Person Finder"
+msgstr "Մարդկանց որոնում"
+
+msgid "Phone"
+msgstr "Հեռախոս"
+
+msgid "Phone number"
+msgstr "Հեռախոսահամար"
+
+msgid "Photo"
+msgstr "Լուսանկար"
+
+msgid ""
+"Photo uploaded is in an unrecognized format.  Please go back and try "
+"again."
+msgstr "Վերբեռնված լուսանկարի ձևաչափը չի ճանաչվել: Վերադարձեք և կրկին փորձեք:"
+
+msgid "Physical characteristics"
+msgstr "Ֆիզիկական բնութագրեր"
+
+msgid ""
+"Please check that you have been in contact with the person after the "
+"disaster, or change the \"Status of this person\" field."
+msgstr ""
+"Նշեք, որ աղետից հետո շփվել եք այս անձի հետ, կամ փոխեք «Այս անձի "
+"կարգավիճակը» դաշտը:"
+
+msgid "Please check whether it matches the person you were planning to report."
+msgstr ""
+"Ստուգեք՝ արդյոք սա համապատասխանում է այն անձին, ում մասին պատրաստվում եք "
+"հաղորդել:"
+
+msgid "Please confirm your e-mail address to subscribe to updates"
+msgstr "Խնդրում ենք հաստատել ձեր էլ․ հասցեն` թարմացումներին բաժանորդագրվելու համար"
+
+msgid "Please enter your e-mail address to subscribe to updates"
+msgstr ""
+"Խնդրում ենք մուտքագրել ձեր էլ․ հասցեն` թարմացումներին բաժանորդագրվելու "
+"համար"
+
+msgid "Please explain why you think these are the same person"
+msgstr "Խնդրում ենք բացատրել, թե ինչու եք կարծում, որ այս անձինքն նույնն են"
+
+msgid "Please fill in all the required fields."
+msgstr "Խնդրում ենք լրացնել բոլոր անհրաժեշտ դաշտերը:"
+
+msgid "Please fill in your email address."
+msgstr "Խնդրում ենք լրացնել ձեր էլ․ հասցեն:"
+
+msgid "Please only enter valid profile URLs."
+msgstr ""
+
+msgid "Please provide an valid email address."
+msgstr "Խնդրում ենք մուտքագրել վավեր էլ․ հասցե:"
+
+msgid "Possible duplicates"
+msgstr "Հնարավոր կրկնօրինակներ"
+
+msgid "Postal or zip code"
+msgstr "Փոստային կամ ZIP ինդեքս"
+
+msgid "Posted by"
+msgstr "Ավելացնող`"
+
+msgid "Proceed"
+msgstr "Շարունակել"
+
+msgid "Profile Pages"
+msgstr "Պրոֆիլի Էջեր"
+
+msgid "Profile page"
+msgstr "Պրոֆիլի էջ"
+
+msgid "Provide information"
+msgstr "Տրամադրել տեղեկություններ"
+
+msgid "Provide information about this person"
+msgstr "Տրամադրել տեղեկություններ այս անձի մասին"
+
+msgid "Provided by:"
+msgstr "Ներկայացնող`"
+
+msgid "Province or state"
+msgstr "Մարզը կամ նահանգը"
+
+msgid "Reason for deletion:"
+msgstr "Հեռացման պատճառը`"
+
+#, python-format
+msgid "Records with names and addresses matching \"%(query)s\""
+msgstr "«%(query)s» հարցմանը համապատասխանող անուններով և հասցեներով գրառումներ"
+
+msgid "Remove"
+msgstr "Հեռացնել"
+
+msgid "Report spam"
+msgstr "Հաղորդել որպես սպամ"
+
+#, python-format
+msgid "Return to the record for %(full_name)s."
+msgstr "Վերադառնալ %(full_name)s-ի գրառմանը:"
+
+msgid "Reveal note"
+msgstr "Մանրամասն..."
+
+msgid "Save this record"
+msgstr "Պահել այս գրառումը"
+
+msgid "Search for this person"
+msgstr "Որոնել այս մարդուն"
+
+#, python-format
+msgid "See %(begin_tag)sthe wiki%(end_tag)s for more instructions"
+msgstr "Այլ խորհուրդների համար դիտեք %(begin_tag)swiki-ն%(end_tag)s"
+
+msgid "Select a website to add a profile page..."
+msgstr "Ընտրեք կայքը` պրոֆիլի էջ ավելացնելու համար..."
+
+msgid "Select up to 3 records to mark as duplicate:"
+msgstr "Ընտրեք մինչև 3 գրառում` որպես կրկնօրինակ նշելու համար:"
+
+msgid "Send email"
+msgstr "Ուղարկել նամակ"
+
+msgid "Sex"
+msgstr "Սեռը"
+
+msgid "Show Map"
+msgstr "Ցույց տալ քարտեզը"
+
+msgid "Show sensitive information"
+msgstr "Ցույց տալ կարևոր տեղեկությունները"
+
+msgid "Show who marked these duplicates"
+msgstr "Ցույց տալ, թե ովքեր են նշել այս կրկնօրինակները"
+
+msgid "Sign out"
+msgstr "Դուրս գալ"
+
+msgid "Skip"
+msgstr "Բաց թողնել"
+
+msgid "Someone has received information that this person is alive"
+msgstr "Ինչ-որ մեկն ունի տեղեկություն, որ այս անձը կենդանի է"
+
+msgid "Someone has received information that this person is dead"
+msgstr "Ինչ-որ մեկն ունի տեղեկություն, որ այս անձը մահացած է"
+
+msgid "Someone has reported that this person is missing"
+msgstr "Ինչ-որ մեկը հայտնել է, որ այս մարդը որոնվում է"
+
+msgid "Someone is seeking information about this person"
+msgstr "Ինչ-որ մեկը տեղեկություններ է փնտրում այս անձի վերաբերյալ"
+
+msgid "Source of Record"
+msgstr "Գրառման աղբյուրը"
+
+msgid "Source of this record"
+msgstr "Այս գրառման աղբյուրը"
+
+msgid "Status"
+msgstr "Կարգավիճակ"
+
+#, python-format
+msgid "Status of %(full_name)s "
+msgstr "%(full_name)s-ի կարգավիճակը "
+
+msgid "Status of Person"
+msgstr "Անձի կարգավիճակը"
+
+msgid "Status of this person:"
+msgstr "Այս անձի կարգավիճակը՝"
+
+msgid "Street name only, no number"
+msgstr "Միայն փողոցի անունը (առանց տան համարի)"
+
+#. Translators: A placeholder text for the home location field
+#. in the form to search person records.
+msgid "Street name, neighborhood, city, etc."
+msgstr "Փողոցի անունը, թաղամասը, քաղաքը և այլն"
+
+msgid "Submit"
+msgstr "Ուղարկել"
+
+msgid "Subscribe"
+msgstr "Բաժանորդագրվել"
+
+#, python-format
+msgid "Subscribe to updates about %(full_name)s"
+msgstr "Բաժանորդագրվեք` %(full_name)s-ի մասին թարմացումներ ստանալու համար"
+
+msgid "Subscribe to updates about this person"
+msgstr "Ստանալ այս անձի մասին թարմացումները"
+
+#. Translators: The label for a check-box to subscribe to
+#. updates about the person record the user creates, in the
+#. form to register a person record.
+msgid "Subscribe to updates about your record"
+msgstr "Ստանալ նորություններ այս գրառման մասին"
+
+msgid "Switch to address"
+msgstr "Անցնել հասցեին"
+
+msgid "Switch to lat/long"
+msgstr "Անցնել կոորդինատներին"
+
+msgid "Terms of Service"
+msgstr "Օգտագործման պայմաններ"
+
+msgid "The API key has been updated successfully."
+msgstr "API բանալին հաջողությամբ թարմացվել է:"
+
+msgid ""
+"The Given name and Family name are both required.  Please go back and try"
+" again."
+msgstr "Տրված անունն ու ազգանունը պարտադիր են: Վերադարձեք և կրկին փորձեք:"
+
+msgid "The Original author's name is required.  Please go back and try again."
+msgstr "Իսկական հեղինակի անունը պարտադիր է: Վերադարձեք և կրկին փորձեք:"
+
+msgid "The author has disabled notes on this record."
+msgstr "Հեղինակն անջատել է այս գրառման նշումները:"
+
+msgid "The author has disabled status updates on this record."
+msgstr "Հեղինակնն անջատել է այս գրառման կարգավիճակի թարմացումները:"
+
+#. Translators: An error message indicating that the data
+#. requested by the user is not available yet.
+msgid "The data is not ready yet. Try again in 24 hours."
+msgstr "Տվյալները դեռ պատրաստ չեն: 24 ժամից նորից փորձեք:"
+
+msgid "The email address you entered appears to be invalid."
+msgstr ""
+
+#, python-format
+msgid "The note for %(full_name)s has been added"
+msgstr "%(full_name)s-ի համար նշումն ավելացվեց"
+
+msgid "The provided image is too large.  Please upload a smaller one."
+msgstr "Տրամադրված պատկերը չափազանց մեծ է: Վերբեռնեք ավելի փոքրը:"
+
+msgid "The reason this note is being marked as spam:"
+msgstr "Այս նշումը որպես սպամ նշելու պատճառը`"
+
+msgid "The record cannot be extended."
+msgstr "Գրառումը հնարավոր չէ երկարացնել:"
+
+#, python-format
+msgid "The record for %(full_name)s has been registered"
+msgstr "%(full_name)s-ի համար գրառումը գրանցվեց"
+
+msgid "The record has been deleted."
+msgstr "Գրառումը ջնջվեց:"
+
+msgid ""
+"The status you selected indicates that you are this person.  If this is "
+"true, please also select 'Yes' to indicate that you have contacted this "
+"person."
+msgstr ""
+"Ձեր ընտրած կարգավիճակը ցույց է տալիս, որ դուք այս անձն եք: Եթե դա ճիշտ է,"
+" սեղմեք նաև «Այո»` այս մարդու հետ կապվելու մասին հատկանշելու համար:"
+
+#, python-format
+msgid "The token %(token)s was invalid."
+msgstr "%(token)s այլանիշն անվավեր է:"
+
+#, python-format
+msgid "There are %(num_results)s existing records with similar names."
+msgstr "%(num_results)s առկա գրառում կա նման անուններով:"
+
+msgid "There are some existing records with similar names."
+msgstr "Նման անուններով մի քանի գրառումներ կան:"
+
+msgid "There is one existing record with a similar name."
+msgstr "Նման անունով մեկ գրառում կա:"
+
+msgid "There was a problem processing the image.  Please try a different image."
+msgstr "Ձեր պատկերի մշակման ժամանակ խնդիր է առաջացել: Փորձեք մեկ այլ պատկեր:"
+
+msgid ""
+"There was an error processing your request.  Sorry for the inconvenience."
+"  Our administrators will investigate the source of the problem, but "
+"please check that the format of your request is correct."
+msgstr ""
+"Ձեր հարցումը մշակելիս սխալ է տեղի ունեցել: Ներեցեք անհարմարությունների "
+"համար: Մեր ադմինիստրատորները կուսումնասիրեն խնդրի աղբյուրը: Խնդրում ենք "
+"նշել, որ ձեր հարցման ձևաչափը ճիշտ է:"
+
+#, python-format
+msgid ""
+"These gadgets are made available under the %(apache_link_html)sApache 2.0"
+" license%(link_end_html)s."
+msgstr ""
+"Այդ հարմարանքներն աշխատում են %(apache_link_html)sApache 2.0 "
+"արտոնագրով%(link_end_html)s:"
+
+msgid "This is a new record."
+msgstr "Սա նոր գրառում է:"
+
+msgid "This link is invalid."
+msgstr "Այս հղումն անվավեր է:"
+
+msgid "This note has been marked as spam."
+msgstr "Այս գրառումը նշվել է որպես սպամ:"
+
+msgid "This note is inappropriate."
+msgstr "Այս գրառումն անտեղի է:"
+
+msgid "This note is incorrect or untrue."
+msgstr "Այս գրառումը ճիշտ չէ կամ չի համապատասխանում իրականությանը:"
+
+msgid "This note is spam."
+msgstr "Այս գրառումը սպամ է:"
+
+msgid "This person has been in contact with someone"
+msgstr "Այս անձը շփվել է ինչ-որ մեկի հետ"
+
+msgid "This person has posted a message"
+msgstr "Այս անձը հաղորդագրություն է փակցրել"
+
+msgid "This person's entry does not exist or has been deleted."
+msgstr "Այս անձի գրառումը գոյություն չունի կամ ջնջվել է:"
+
+msgid "This record has served its purpose."
+msgstr "Այս գրառումը ծառայել է իր նպատակին:"
+
+msgid "This record is a duplicate of"
+msgstr "Այս գրառումը հետևյալի կրկնօրինակն է`"
+
+msgid "This record is copied from another source."
+msgstr "Այս գրառումը պատճենվել է այլ աղբյուրից:"
+
+msgid "This record is inappropriate."
+msgstr "Անհամապատասխան գրառում է:"
+
+msgid "This record is spam."
+msgstr "Այս գրառումը սպամ է:"
+
+msgid ""
+"This repository is currently in test mode. While test mode is in effect, "
+"records that are over 24 hours old are deleted."
+msgstr ""
+"Ներկայումս այս շտեմարանը փորձարկման ռեժիմում է: Այս ռեժիմում 24 ժամ առաջ "
+"արված գրառումները հեռացվում են:"
+
+msgid "To attach a photo to this note, upload it or enter its URL."
+msgstr ""
+"Այս նկարագրությանը լուսանկար կցելու համար վերբեռնեք այն կամ մուտքագրեք "
+"դրա URL-ը:"
+
+msgid "To delete your data, access Person Finder from your desktop."
+msgstr "Ձեր տվյալները ջնջելու համար մուտք գործեք Մարդկանց որոնում ձեր համակարգչից:"
+
+msgid "To unsubscribe, follow this link"
+msgstr "Ապաբաժանորդագրվելու համար անցեք այս հղումով"
+
+msgid "To view or add information, select a name below."
+msgstr "Տեղեկություններ դիտելու կամ ավելացնելու համար ընտրեք ստորև որևէ անուն:"
+
+msgid ""
+"Type an address or open the map below and indicate the location by "
+"clicking on the map."
+msgstr ""
+"Մուտքագրեք հասցեն կամ բացեք այս քարտեզը և ցույց տվեք վայրը` սեղմելով "
+"քարտեզի վրա:"
+
+msgid "Type an address."
+msgstr "Մուտքագրեք հասցե:"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL of original record"
+msgstr "Բնօրինակ գրառման հասցեն"
+
+msgid "Unspecified"
+msgstr "Նշված չէ"
+
+msgid "Update an existing key"
+msgstr "Թարմացնել գոյություն ունեցող բանալին"
+
+msgid "Upload"
+msgstr "Վերբեռնել"
+
+msgid "Upload notes in CSV format"
+msgstr "Վերբեռնել նշումները CSV ձևաչափով"
+
+msgid "Upload person records in CSV format"
+msgstr "Վերբեռնել անձի գրառումները CSV ձևաչափով"
+
+msgid "Upload your CSV file below"
+msgstr "Վերբեռնեք ձեր CSV ֆայլը ստորև"
+
+msgid "Use current location"
+msgstr "Օգտագործել ընթացիկ տեղադրությունը"
+
+#. Translators: The title of the page which explains how to use
+#. Person Finder.
+msgid "User's Guide"
+msgstr "Օգտատիրոջ ուղեցույց"
+
+msgid "View the record"
+msgstr "Դիտել գրառումը"
+
+msgid "We have nothing matching your search."
+msgstr "Մենք չունենք ձեր որոնմանը համապատասխան նյութեր:"
+
+msgid "When should this record disappear?"
+msgstr "Ե՞րբ պետք է այս գրառումը հեռացվի:"
+
+#. Translators: A title of a section to input the source of the
+#. person information e.g., the name of the person who originally
+#. provided the information.
+msgid "Where did this information come from?"
+msgstr "Որտեղի՞ց է ստացվել այս տեղեկությունը:"
+
+#. Translators: A title of a section to input the source of the
+#. person record e.g., the URL which contains the record.
+msgid "Where did this record come from?"
+msgstr "Որտեղի՞ց է ստացվել այս տեղեկությունը"
+
+msgid ""
+"While test mode is in effect, records that are over 24 hours old are "
+"deleted regardless of the expiry date."
+msgstr ""
+"Փորձնական ռեժիմում 24 ժամ առաջ արված գրառումները հեռացվում են` անկախ "
+"դրանց սպառման ժամկետից:"
+
+msgid ""
+"While test mode is in effect, records that are over 6 hours old are "
+"deleted regardless of the expiry date."
+msgstr ""
+"Փորձնական ռեժիմում այն գրառումները, որոնք արվել է 6 ամիս առաջ հեռացվում "
+"են` անկախ դրանց սպառման ժամկետից:"
+
+#. Translators: The title of a section to input information about
+#. the person whom the user is looking for, in the form to register
+#. a person record.
+msgid "Who you are looking for"
+msgstr "Ում եք փնտրում"
+
+#. Translators: The title of a section to input information about
+#. the person whom the user have information about, in the form to
+#. register a person record.
+msgid "Who you have information about"
+msgstr "Ում տվյալներն եք ուզում մուտքագրել"
+
+msgid "Yes"
+msgstr "Այո"
+
+msgid "Yes, ask the record author to enable notes"
+msgstr "Այո, խնդրել գրառման հեղինակին, որպեսզի միացնի նշումները"
+
+msgid "Yes, delete the record"
+msgstr "Այո, ջնջել գրառումը"
+
+msgid "Yes, extend the record"
+msgstr "Այո, երկարաձգել գրառումը"
+
+msgid "Yes, restore this record"
+msgstr "Այո, վերականգնել այս գրառումը"
+
+msgid "Yes, these are the same person"
+msgstr "Այո, սրանք նույն մարդն են"
+
+msgid "Yes, update the note"
+msgstr "Այո, թարմացնել նշումը"
+
+msgid "You are already subscribed. "
+msgstr "Դուք արդեն բաժանորդագրված եք: "
+
+msgid "You are already unsubscribed."
+msgstr "Դուք արդեն ապաբաժանորդագրված եք:"
+
+msgid "You are not currently signed in."
+msgstr "Դուք մուտք չեք գործել:"
+
+#, python-format
+msgid "You can %(begin_tag)sview the record%(end_tag)s before deleting it."
+msgstr "Մինչև ջնջելը կարող եք %(begin_tag)sդիտել գրառումը%(end_tag)s:"
+
+#, python-format
+msgid ""
+"You can subscribe to updates about %(full_name)s by entering your e-mail "
+"address here"
+msgstr ""
+"Մուտքագրելով ձեր էլ․ հասցեն այստեղ՝ դուք կարող եք բաժանորդագրվել "
+"%(full_name)s-ի մասին նորություններին"
+
+#, python-format
+msgid "You can view the full record at %(view_url)s"
+msgstr "Դուք կարող եք դիտել ամբողջ գրառումն այստեղ` %(view_url)s"
+
+msgid "You have successfully subscribed."
+msgstr "Դուք հաջողությամբ բաժանորդագրվեցիք:"
+
+msgid "You have successfully unsubscribed."
+msgstr "Դուք հաջողությամբ ապաբաժանորդագրվել եք:"
+
+msgid ""
+"You received this notification because you have subscribed to updates on "
+"the following person:\n"
+msgstr ""
+"Դուք ստանում եք ծանուցումներ, քանի որ բաժանորդագրվել եք հետևյալ անձի "
+"մասին թարմացումներին`\n"
+
+#. Translators: A message shown when the browser is about to start
+#. downloading a file.
+msgid "Your download should start automatically."
+msgstr "Ներբեռնումն ավտոմատ պետք է սկսվի:"
+
+msgid "Your e-mail address"
+msgstr "Ձեր էլ․ հասցեն"
+
+msgid "Your e-mail address:"
+msgstr "Ձեր էլ․ հասցեն`"
+
+msgid "Your email"
+msgstr "Ձեր էլփոստը"
+
+msgid "Your name (required)"
+msgstr "Ձեր անունը (պարտադիր է)"
+
+msgid ""
+"Your name is required in the \"About you\" section.  Please go back and "
+"try again."
+msgstr "«Ձեր մասին» բաժնում ձեր անունը պարտադիր է: Վերադարձեք և կրկին փորձեք:"
+
+msgid ""
+"Your name is required in the \"Source\" section.  Please go back and try "
+"again."
+msgstr "«Աղբյուրը» բաժնում ձեր անունը պարտադիր է: Վերադարձեք և կրկին փորձեք:"
+
+msgid "Your phone number"
+msgstr "Ձեր հեռախոսահամարը"
+
+msgid ""
+"Your request has been processed successfully. Please check your inbox and"
+" confirm that you want to post your note by following the url embedded."
+msgstr ""
+"Ձեր հարցումը հաջողությամբ մշակվել է: Խնդրում ենք ստուգել ձեր մուտքի արկղը"
+" և հաստատել, որ ցանկանում եք փակցնել ձեր նշումը` անցնելով ներկառուցված "
+"հասցեով:"
+
+#, python-format
+msgid "[Person Finder] Confirm your note on \"%(full_name)s\""
+msgstr "[Մարդկանց որոնում] Հաստատեք ձեր նշումը «%(full_name)s»-ում"
+
+#, python-format
+msgid "[Person Finder] Deletion notice for \"%(full_name)s\""
+msgstr "[Մարդկանց որոնում] «%(full_name)s» ջնջման ծանուցում"
+
+#, python-format
+msgid "[Person Finder] Disable notes on \"%(full_name)s\"?"
+msgstr "[Մարդկանց որոնում] Անջատե՞լ «%(full_name)s»-ի նշումները"
+
+#, python-format
+msgid "[Person Finder] Enable notes on \"%(full_name)s\"?"
+msgstr "[Մարդկանց որոնում] Միացնե՞լ «%(full_name)s»-ի նշումները"
+
+#, python-format
+msgid "[Person Finder] Notes are now disabled for \"%(full_name)s\""
+msgstr "[Մարդկանց որոնում] «%(full_name)s»-ի նշումներն այժմ անջատված են"
+
+#, python-format
+msgid "[Person Finder] Record restoration notice for \"%(full_name)s\""
+msgstr "[Մարդկանց որոնում] «%(full_name)s»-ի գրառման վերականգնման ծանուցում"
+
+#, python-format
+msgid "[Person Finder] Status update for %(full_name)s"
+msgstr "[Մարդկանց որոնում] «%(full_name)s»-ի մասին կարգավիճակի թարմացում"
+
+#, python-format
+msgid "[Person Finder] You are subscribed to status updates for %(full_name)s"
+msgstr ""
+"[Մարդկանց որոնում] Դուք բաժանորդագրվել եք «%(full_name)s»-ի մասին "
+"թարմացումներին"
+
+#. Translators: A placeholder text for the name field in the form
+#. to search person records. It indicates that the user can put
+#. either a full name, a given name or a family name. The example
+#. name should be changed to a typical name in the language.
+msgid "e.g., Will Smith, Will, or Smith"
+msgstr "օր.` Վիլյամ Սարոյան, Վիլյամ կամ Սարոյան"
+
+msgid "external site; normal connection fee may apply"
+msgstr "արտաքին կայք. կգործեն կապի սովորական սակագները"
+
+msgid "female"
+msgstr "իգական"
+
+msgid "in test mode"
+msgstr "փորձնական ռեժիմ"
+
+msgid "male"
+msgstr "արական"
+
+msgid "on"
+msgstr "ամսաթիվ`"
+
+msgid "other"
+msgstr "այլ"
+

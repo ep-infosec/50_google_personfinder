@@ -1,0 +1,246 @@
+{# Copyright 2017 Google Inc.  Licensed under the Apache License, Version   #}
+{# 2.0 (the "License"); you may not use this file except in compliance with #}
+{# the License.  You may obtain a copy of the License at:                   #}
+{#     http://www.apache.org/licenses/LICENSE-2.0                           #}
+{# Unless required by applicable law or agreed to in writing, software      #}
+{# distributed under the License is distributed on an "AS IS" BASIS,        #}
+{# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #}
+{# See the License for the specific language governing permissions and      #}
+{# limitations under the License.                                           #}
+
+{# Base template for all pages.  Site customizations generally don't belong #}
+{# here; to customize the look of the site, add or edit {% block %} tags    #}
+{# in app-base.html.template (for app pages) or static-base.html.template   #}
+{# (for static pages). #}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+
+<html {% if env.amp %}amp {% endif %}dir="{{env.rtl|yesno:"rtl,ltr"}}" lang="{{env.lang}}">
+
+<head>
+  {% block head %}
+
+    {# If there is no Javascript support, redirect to the light URL. #}
+    {% if env.ui != "light" %}
+      <noscript>
+        <style type="text/css" nonce="{{ csp_nonce }}">
+          #hide_in_light_mode{display:none}
+        </style>
+        <meta http-equiv="refresh" content="0.0;url={{env.light_url}}">
+      </noscript>
+    {% endif %}
+
+    {# TODO(haruo) Consider AMP page encoding to utf-8 only. #}
+    <meta charset="{{env.charset}}">
+    {% if not env.amp %}
+      {% include "gtm.html.template" %}
+    {% endif %}
+    <meta name="keywords" content="{{config.keywords}}">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    {% if env.amp %}
+      <style amp-boilerplate nonce="{{ csp_nonce }}">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate nonce="{{ csp_nonce }}">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+      <script async src="https://cdn.ampproject.org/v0.js"></script>
+    {% endif %}
+
+    {% if not env.robots_ok %}<meta name="robots" content="noindex">{% endif %}
+    {% if feed_url %}
+      <link rel="alternate" type="application/atom+xml"
+        title="{% trans 'Atom feed of updates about this person' %}"
+        href="{{feed_url}}">
+    {% endif %}
+    {% if env.amp %}
+    <link rel="canonical" href="{{env.canonical_url}}">
+    {% else %}
+      <link rel="alternate" media="handheld" href="{{env.url}}">
+    {% endif %}
+    <title>
+      {% block title %}
+        {% trans "Person Finder" %}{% endblock title %}{% if env.repo %}:
+        {{env.repo_title}}{% endif %}
+    </title>
+
+  {% if env.amp %}
+    <style type="text/css" amp-custom nonce="{{ csp_nonce }}">
+      {% if env.rtl %}
+        {% with "right" as start %}
+        {% with "left" as end %}
+        {% include "css-default.template" %}
+        {% endwith %}
+        {% endwith %}
+      {% else %}
+        {% with "left" as start %}
+        {% with "right" as end %}
+        {% include "css-default.template" %}
+        {% endwith %}
+        {% endwith %}
+      {% endif %}
+    </style>
+    {# AMP Analytics #}
+    <script async custom-element="amp-analytics"
+            src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  {% else %}
+    <link
+       rel="stylesheet"
+       href="{{env.global_url}}/css?lang={{env.lang}}&ui={{env.ui}}"
+       nonce="{{ csp_nonce }}">
+    {% if env.enable_javascript %}
+      <script type="text/javascript" nonce="{{csp_nonce}}">
+        var lang = '{{env.lang}}';
+        {% if env.enable_translate %}
+          var translate_api_key = '{{config.translate_api_key}}';
+        {% else %}
+          var translate_api_key = null;
+        {% endif %}
+      </script>
+      <script src="{{env.fixed_static_url_base}}/forms.js" nonce="{{csp_nonce}}"></script>
+    {% endif %}
+  {% endif %}
+  {% if onload_function and not env.amp %}
+    <script type="text/javascript" nonce="{{csp_nonce}}">
+      document.addEventListener('DOMContentLoaded', function() {
+        {{onload_function}}();
+      });
+    </script>
+  {% endif %}
+{% endblock head %}</head>
+
+<body class="{{env.ui}} {% block extra_body_class %}{% endblock %}">
+
+  {# If there is no Javascript support, and the browser does not allow the redirect above, allow user to take action. #}
+  {% if env.ui != "light" %}
+    <noscript>
+      <p>
+        {% blocktrans with env.light_url as light_url %}If this webpage is not replaced in a few seconds, please <a href="{{light_url}}">click here.</a>{% endblocktrans %}
+      </p>
+    </noscript>
+  {% endif %}
+
+  <div id="hide_in_light_mode">
+  {% block body %}
+
+    {% if env.amp and env.enable_analytics %}
+      <amp-analytics config="https://www.googletagmanager.com/amp.json?id={{config.amp_gtm_id}}"
+                     data-credentials="include">
+        //AMP variable for dynamic GA property setting
+        <script type="application/json">
+        {
+          "vars": {
+            "gaProperty": "{{env.analytics_id}}"
+          }
+        }
+        </script>
+      </amp-analytics>
+    {% endif %}
+    {% if env.show_logo %}
+      <div class="header title-bar" role="banner">
+        {% block header %}
+            {% block logo %}{% endblock %}
+        {% endblock header %}
+      </div>
+    {% endif %}
+
+    {% if env.repo %}
+      <div class="subtitle-bar">
+        {{env.repo_title}}
+      </div>
+    {% endif %}
+    {% if not env.amp and env.show_language_menu %}
+      {% include "language-menu.html.template" %}
+    {% endif %}
+
+    <div class="outer-container">
+      {% if env.repo_test_mode %}
+        <div class="header-notification">
+          {% trans "This repository is currently in test mode. While test mode is in effect, records that are over 24 hours old are deleted." %}
+        </div>
+      {% endif %}
+
+      {% block container %}
+        <div class="container">
+          <div class="content" role="main">
+            {% block content %}
+            {% endblock content %}
+          </div>
+        </div>
+      {% endblock container %}
+
+      <div class="footer" role="contentinfo">
+        <div class="disclaimer">
+          {% block disclaimer %}
+            {% if env.ui == "light" %}
+              {% trans "To delete your data, access Person Finder from your desktop." %}
+              <br>
+            {% endif %}
+
+            {% trans "PLEASE NOTE: All data entered is available to the public and usable by anyone.  Google does not review or verify the accuracy of this data." %}
+
+            {% comment %}
+              Translators: A sentence in the privacy statement in the footer of pages.
+            {% endcomment %}
+            {% trans "Google may share the data with public and private organizations participating in disaster response efforts." %}
+
+            {% if config.privacy_policy_url %}
+              {# TODO(ichikawa) Proxy this in the same way as TOS. #}
+              {% comment %}
+                Translators: Text in the footer which provides a link to our privacy
+                policy.
+              {% endcomment %}
+              {% blocktrans with config.privacy_policy_url as privacy_policy_url and env.target_attr|safe as target_attr %}
+                Learn more about Google
+                <a href="{{privacy_policy_url}}" {{target_attr}}>Privacy Policy</a>.
+              {% endblocktrans %}
+            {% endif %}
+
+          {% endblock disclaimer %}
+        </div>
+
+        <div>
+          {{env.footer_custom_html|default:""|safe}}
+        </div>
+
+      </div>
+    </div>
+
+    {% if not env.amp %}
+      <div id="sidenav" class="sidenav">
+        {% block sidenav %}
+          {% if env.repo and env.ui == "light" %}
+            <a href="{{env.default_ui_url}}">{% trans "Desktop version" %}</a>
+            <span class="link-separator"></span>
+          {% endif %}
+          <a href="{{env.global_url}}" {{env.target_attr|safe}}
+              >{% trans "About Google Person Finder" %}</a>
+          <span class="link-separator"></span>
+          {% include "repo-menu.html.template" %}
+          {% if config.feedback_url %}
+            <span class="link-separator"></span>
+            <a href="{{config.feedback_url}}"
+               {{env.target_attr|safe}}>{% trans "Feedback" %}</a>
+          {% endif %}
+          <span class="link-separator"></span>
+          {% if env.ui != "light" %}
+            <a href="https://github.com/google/personfinder"
+                {{env.target_attr|safe}}>{% trans "Developers" %}</a>
+            <span class="link-separator"></span>
+          {% endif %}
+          <a href="{{env.global_url}}/howto.html" {{env.target_attr|safe}}
+              {% comment %}
+                Translators: The title of the page which explains how to use
+                Person Finder.
+              {% endcomment %}
+              >{% trans "User's Guide" %}</a>
+          <span class="link-separator"></span>
+          <a href="{{env.global_url}}/tos" {{env.target_attr|safe}}
+              >{% trans "Terms of Service" %}</a>
+        {% endblock sidenav %}
+      </div>
+      <div id="overlay" class="overlay"></div>
+      <script type="text/javascript" nonce="{{csp_nonce}}">
+        document.querySelector('#overlay').addEventListener('click', hideSideMenu);
+      </script>
+    {% endif %}
+  {% endblock body %}
+  </div>
+</body></html>

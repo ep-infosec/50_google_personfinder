@@ -1,0 +1,226 @@
+{# Copyright 2010 Google Inc.  Licensed under the Apache License, Version   #}
+{# 2.0 (the "License"); you may not use this file except in compliance with #}
+{# the License.  You may obtain a copy of the License at:                   #}
+{#     http://www.apache.org/licenses/LICENSE-2.0                           #}
+{# Unless required by applicable law or agreed to in writing, software      #}
+{# distributed under the License is distributed on an "AS IS" BASIS,        #}
+{# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #}
+{# See the License for the specific language governing permissions and      #}
+{# limitations under the License.                                           #}
+
+{% load i18n %}
+
+<script nonce="{{csp_nonce}}">
+  function $(id) {
+    return document.getElementById(id);
+  }
+  function update_write_domain() {
+    var write_field = $('write_permission');
+    $('domain_write_permission').disabled = !write_field.checked;
+    if (!write_field.checked) {
+      $('domain_write_permission').value = "";
+    }
+  }
+  function validate_fields(e) {
+    $('submit').disabled = true;
+    // Check that mandatory fields are filled in.
+    var mandatory_fields = ['contact_name', 'contact_email',
+                            'organization_name'];
+    for (var i = 0; i < mandatory_fields.length; i++) {
+      field = $(mandatory_fields[i]);
+      if (field != null && field.value.length == 0) {
+        $('mandatory_field_missing').style.display = '';
+        field.focus();
+        $('submit').disabled = false;
+        e.preventDefault();
+	return;
+      }
+    }
+    // Check for explicit write permission
+    var write_field = $('write_permission');
+    var domain_write_field = $('domain_write_permission');
+    if (write_field.checked && domain_write_field.value.length == 0) {
+       alert('Enter proper value for domain name');
+       domain_write_field.focus();
+       $('domain_write_label').classList.add('mandatory');
+       $('submit').disabled = false;
+       e.preventDefault();
+       return;
+    }
+
+    $('mandatory_field_missing').style.display = 'none';
+    $('submit').disabled = false;
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    $('write_permission').checked =
+        $('domain_write_permission').value.length > 0;
+    update_write_domain();
+    $('mandatory_field_missing').style.display = 'none';
+    $('write_permission').addEventListener('change', update_write_domain);
+    $('submit').addEventListener('click', validate_fields);
+  });
+</script>
+
+<form method="post" id="create-or-update-api-key" class="admin">
+  <input type="hidden" name="xsrf_token" value="{{xsrf_token}}" />
+  <fieldset>
+    <legend>Contact Information</legend>
+    <div class="config">
+      <label for="contact_name" class="mandatory">
+        Name of a person who requested for an API key
+      </label>
+      <div class="response">
+        <input name="contact_name" id="contact_name" size="40"
+               value="{{target_key.contact_name}}">
+      </div>
+    </div>
+    <div class="config">
+      <label for="contact_email" class="mandatory">
+        E-mail address of the person
+      </label>
+      <div class="response">
+        <input name="contact_email" id="contact_email" size="40"
+               value="{{target_key.contact_email}}">
+      </div>
+    </div>
+    <div class="config">
+      <label for="organization_name" class="mandatory">
+        Name of an organization using the key
+      </label>
+      <div class="response">
+        <input name="organization_name" id="organization_name" size="40"
+               value="{{target_key.organization_name}}">
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Validity</legend>
+    <div class="config">
+      <input type="checkbox" name="is_valid" id="is_valid"
+             {{target_key.is_valid|yesno:"checked,"}}>
+      The key is valid
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Permissions</legend>
+
+    <div class="config">
+      <input type="checkbox" name="write_permission" id="write_permission">
+      <strong>WRITE</strong>:
+      Allow the client to create and update person/note records.
+      <div class="response">
+        <div>
+          <label for="domain_write_permission" id="domain_write_label">
+            A domain name which identifies the source of the records:
+          </label>
+        </div>
+        <div>
+          <input name="domain_write_permission" id="domain_write_permission"
+                 size="40"
+                 value="{{target_key.domain_write_permission|default_if_none:""}}"
+                 disabled="true">
+        </div>
+        <div>
+          The domain name is required for WRITE permission. This must match the
+          domain name specified in the write API. You can specify
+          <strong>*</strong> to allow the client to create/update records using
+          arbitrary domain names. But <span class="warning">* must not be
+          specified for third party clients</span>.
+        </div>
+      </div>
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="read_permission" id="read_permission"
+             {{target_key.read_permission|yesno:"checked,"}}>
+      <strong>BULK READ</strong>:
+      Allow the client to read <strong>all</strong> person/note records in bulk.
+      <div class="response">
+        <span class="warning">Think twice before turning this on.</span>
+        SEARCH is sufficient if the client only need to read records which match
+        search queries.
+      </div>
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="full_read_permission"
+             id="full_read_permission"
+             {{target_key.full_read_permission|yesno:"checked,"}}>
+      <strong>FULL BULK READ</strong>:
+      Same as BULK READ, but also allow reading sensitive information.
+      <div class="response">
+      	<span class="warning">Think twice before turning this on.</span>
+        Sensitive information is email addresses, phone numbers and dates of
+        birth.
+      </div>
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="search_permission" id="search_permission"
+             {{target_key.search_permission|yesno:"checked,"}}>
+      <strong>SEARCH</strong>:
+      Allow the client to search for person records.
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="subscribe_permission"
+             id="subscribe_permission"
+             {{target_key.subscribe_permission|yesno:"checked,"}}>
+      <strong>SUBSCRIBE</strong>:
+      Allow the client to subscribe to records using email addresses.
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="mark_notes_reviewed"
+             id="mark_notes_reviewed"
+             {{target_key.mark_notes_reviewed|yesno:"checked,"}}>
+      <strong>SKIP REVIEW</strong>:
+      Skip review process for notes created by this API key.
+      <div class="response">
+        Check this for trusted data sources.
+      </div>
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="believed_dead_permission"
+             id="believed_dead_permission"
+             {{target_key.believed_dead_permission|yesno:"checked,"}}>
+      <strong>BELIEVED DEAD</strong>:
+      Allow marking records as "believed dead".
+      <div class="response">
+      	<span class="warning">Think twice before turning this on.</span>
+      </div>
+    </div>
+
+    <div class="config">
+      <input type="checkbox" name="stats_permission"
+             id="stats_permission"
+             {{target_key.stats_permission|yesno:"checked,"}}>
+      <strong>STATS</strong>:
+      Allow the client to get statistics of the repository such as the number of
+      records.
+    </div>
+  </fieldset>
+
+  <p>
+    <input type="hidden" name="key" value="{{target_key.key}}">
+    {% if operation_type == 'update' %}
+      <input
+          type="submit"
+          name="submit"
+          value="{% trans "Update an existing key" %}"
+          id="submit">
+    {% else %}
+      <input
+          type="submit"
+          name="submit"
+          value="{% trans "Create a new API key" %}"
+          id="submit">
+    {% endif %}
+    <div id="mandatory_field_missing" class="mandatory">
+      {% trans "Please fill in all the required fields." %}
+    </div>
+</form>

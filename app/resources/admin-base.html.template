@@ -1,0 +1,88 @@
+{# Copyright 2016 Google Inc.  Licensed under the Apache License, Version   #}
+{# 2.0 (the "License"); you may not use this file except in compliance with #}
+{# the License.  You may obtain a copy of the License at:                   #}
+{#     http://www.apache.org/licenses/LICENSE-2.0                           #}
+{# Unless required by applicable law or agreed to in writing, software      #}
+{# distributed under the License is distributed on an "AS IS" BASIS,        #}
+{# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #}
+{# See the License for the specific language governing permissions and      #}
+{# limitations under the License.                                           #}
+
+{# Base template for admin pages. #}
+
+{% extends "app-base.html.template" %}
+{% load i18n %}
+{# Add "admin" class to the body element to remove max-width constraint from #}
+{# the body element. #}
+{% block extra_body_class%}
+  admin
+{% endblock %}
+
+{% block logo %}
+  <img class="title-bar-button" id="menu-button" src="{{env.fixed_static_url_base}}/menu.png" alt="Menu">{% trans "Google Person Finder" %}
+  <script type="text/javascript" nonce="{{csp_nonce}}">
+    document.querySelector('#menu-button').addEventListener('click', showSideMenu);
+  </script>
+{% endblock %}
+
+{% block body %}
+  <script nonce="{{csp_nonce}}">
+    function $(id) {
+      return document.getElementById(id);
+    }
+
+    function select_repo_changed() {
+      if ($('select_repo').value == '__new__') {
+        window.location.href = '{{env.global_url|escapejs}}/admin/create_repo';
+      } else {
+        window.location.href = $('select_repo').value;
+      }
+    }
+  </script>
+
+  {{block.super}}
+
+{% endblock body %}
+
+{% block sidenav %}
+  <div><span class="email">{{env.user.email}}<a href="{{env.logout_url}}">Sign out</a></div>
+
+  <h2>Global</h2>
+    <a href="{{env.global_url}}/admin">Global settings</a>
+    <a href="{{env.global_url}}/admin/create_repo">Create new repository</a>
+    <a href="{{env.global_url}}/admin/api_keys/list">Global API keys</a>
+    <a href="{{env.global_url}}/admin/statistics">Historical statistics</a>
+    <a href="{{env.global_url}}/admin/acls">Admin access control</a>
+
+  <h2>Repository</h2>
+  <form method="get" class="admin" id="admin-reposelector">
+    <select name="repo" id="select_repo">
+      {% if not env.repo %}
+        <option>Select a repository:</option>
+      {% endif %}
+      {% for option in env.all_repo_options %}
+        <option value="{{option.url}}"
+          {% ifequal option.repo env.repo %}
+            selected
+          {% endifequal %}
+        >
+          {{option.repo}}
+        </option>
+      {% endfor %}
+      <option value="__new__">Create new...</option>
+    </select>
+  </form>
+  <script type="text/javascript" nonce="{{csp_nonce}}">
+    document.getElementById('select_repo').addEventListener(
+        'change', select_repo_changed);
+  </script>
+
+  {% if env.repo %}
+    <a href="{{env.repo_url}}admin">Repository settings</a>
+    <a href="{{env.repo_url}}admin/dashboard">Dashboard</a>
+    <a href="{{env.repo_url}}admin/api_keys/list">API keys</a>
+    <a href="{{env.repo_url}}admin/review">Review notes</a>
+    <a href="{{env.repo_url}}admin/delete_record">Delete a record</a>
+    <a href="{{env.repo_url}}admin/acls">Repo admin access control</a>
+  {% endif %}
+{% endblock sidenav %}

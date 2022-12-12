@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  max-width: inherit;
+}
+
+.container {
+  width: 100%;
+  float: right;
+}
+
+.content {
+  margin: 2em;
+}
+
+.sidebar {
+  padding: 2em 0 2em 13px;
+  width: 190px;
+  float: left;
+  line-height: 150%;
+}
+
+.sidebar a:link, .sidebar a:visited {
+  color: #00e;
+  text-decoration: none;
+}
+
+.sidebar a:active {
+  color: #e00;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+h2 {
+  margin: 2em 0 1em;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.section {
+  clear: both;
+}
+
+.footer {
+  border-top: 1px solid #dadada;
+}

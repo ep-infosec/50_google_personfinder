@@ -1,0 +1,212 @@
+{# Copyright 2010 Google Inc.  Licensed under the Apache License, Version   #}
+{# 2.0 (the "License"); you may not use this file except in compliance with #}
+{# the License.  You may obtain a copy of the License at:                   #}
+{#     http://www.apache.org/licenses/LICENSE-2.0                           #}
+{# Unless required by applicable law or agreed to in writing, software      #}
+{# distributed under the License is distributed on an "AS IS" BASIS,        #}
+{# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #}
+{# See the License for the specific language governing permissions and      #}
+{# limitations under the License.                                           #}
+
+{# Template fragment for the query form (used on query and results pages).  #}
+
+{% load i18n %}
+
+<form method="get" action="{{env.repo_path}}/results">
+  {{env.hidden_input_tags_for_preserved_query_params|safe}}
+  <input type="hidden" name="role" value="{{params.role}}">
+  <div class="card query {{params.role}}" role="form">
+      <div class="instructions">
+        {% ifequal params.role 'provide' %}
+          <div class="header">
+            <h1>{% trans "I have information about someone" %}</h1>
+          </div>
+          <div class="{{params.error}} help-text">
+            {# TODO(ryok): rename to use_full_name_only #}
+            {% if config.use_family_name %}
+              {% trans "Enter the person's given and family names." %}
+            {% else %}
+              {% trans "Enter the person's name." %}
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="header">
+            <h1>{% trans "I'm looking for someone" %}</h1>
+          </div>
+          {% if config.jp_mobile_carrier_redirect and show_jp_171_suggestion %}
+            <div class="error">
+              {% blocktrans %}For phones other than mobile phones, please use 171 service provided by NTT.{% endblocktrans %}
+            </div>
+          {% endif %}
+          {% if env.seek_query_form_custom_html %}
+            <div class="custom-message">
+              {{env.seek_query_form_custom_html|safe}}
+            </div>
+          {% endif %}
+        {% endifequal %}
+      </div>
+
+    {% ifequal params.role 'provide' %}
+      {% if config.use_family_name and config.family_name_first %}
+        <div class="field">
+          <span class="label">
+            <label for="family_name">
+              {% comment %}
+                Translators: The label for a text field to input the family
+                name of the person record. "(Surname)" is just added for
+                clarification. You don't need to translate both if the
+                language has a single clear term for "family name".
+              {% endcomment %}
+              {% trans "Family name (Surname)" %}:
+            </label>
+          </span>
+          <span class="value">
+            {% if env.ui == "facebook" %}
+              <input id="family_name" name="family_name"
+                  class="short-text-input"
+                  value="{{params.family_name}}">
+            {% else %}
+              <input id="family_name" name="family_name"
+                  class="medium-text-input"
+                  value="{{params.family_name}}">
+            {% endif %}
+          </span>
+        </div>
+      {% endif %}
+        <div class="field">
+          <span class="label">
+            <label for="given_name">
+              {% if config.use_family_name %}
+                {% comment %}
+                  Translators: The label for a text field to input the given
+                  name of the person record. "(First name)" is just added for
+                  clarification. You don't need to translate both if the
+                  language has a single clear term for "given name".
+                {% endcomment %}
+                {% trans "Given name (First name)" %}:
+              {% else %}
+                {% trans "Name" %}:
+              {% endif %}
+            </label>
+          </span>
+          <span class="value">
+            {% if env.ui == "facebook" %}
+              <input id="given_name" name="given_name"
+                  class="short-text-input"
+                  value="{{params.given_name}}">
+            {% else %}
+              <input id="given_name" name="given_name"
+                  class="medium-text-input"
+                  value="{{params.given_name}}">
+            {% endif %}
+          </span>
+        </div>
+      {% if config.use_family_name and not config.family_name_first %}
+        <div class="field">
+          <span class="label">
+            <label for="family_name">
+              {% comment %}
+                Translators: The label for a text field to input the family
+                name of the person record. "(Surname)" is just added for
+                clarification. You don't need to translate both if the
+                language has a single clear term for "family name".
+              {% endcomment %}
+              {% trans "Family name (Surname)" %}:
+            </label>
+          </span>
+          <span class="value">
+            {% if env.ui == "facebook" %}
+              <input id="family_name" name="family_name"
+                  class="short-text-input"
+                  value="{{params.family_name}}">
+            {% else %}
+              <input id="family_name" name="family_name"
+                  class="medium-text-input"
+                  value="{{params.family_name}}">
+            {% endif %}
+          </span>
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="field">
+        {% if env.ui == "facebook" %}
+          <input id="query_name" name="query_name"
+              class="short-text-input"
+              value="{{params.query_name}}">
+        {% else %}
+          <span class="mandatory label">
+            {% if config.jp_mobile_carrier_redirect %}
+              {% comment %}
+                Translators: The label of a field for either the name of the
+                person or their mobile phone number, in the form to search
+                person records.
+              {% endcomment %}
+              {% trans "Name or mobile phone number (required)" %}:
+            {% else %}
+              {% trans "Name (required)" %}:
+            {% endif %}
+          </span>
+          <input id="query_name" name="query_name"
+              class="long-text-input"
+              value="{{params.query_name}}"
+              {% comment %}
+                Translators: A placeholder text for the name field in the form
+                to search person records. It indicates that the user can put
+                either a full name, a given name or a family name. The example
+                name should be changed to a typical name in the language.
+              {% endcomment %}
+              placeholder="{% trans 'e.g., Will Smith, Will, or Smith' %}">
+        {% endif %}
+      </div>
+      {% if config.enable_fulltext_search %}
+        <div class="field">
+          {% if env.ui == "facebook" %}
+            <input id="query_location" name="query_location"
+                class="short-text-input"
+                value="{{params.query_location}}">
+          {% else %}
+            <span class="label">
+              {% comment %}
+                Translators: A label the home location field in the form to
+                search person records.
+              {% endcomment %}
+              {% trans "Home location" %}:
+            </span>
+            <input id="query_location" name="query_location"
+                class="long-text-input"
+                value="{{params.query_location}}"
+                {% comment %}
+                  Translators: A placeholder text for the home location field
+                  in the form to search person records.
+                {% endcomment %}
+                placeholder="{% trans 'Street name, neighborhood, city, etc.' %}">
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endifequal %}
+    <div class="end-multi-columns"></div>
+
+     {% ifequal num_results 100 %}
+      <div class="warning">
+        {% trans "More than 100 results; only showing the first 100.  Try entering more of the name" %}
+      </div>
+     {% endifequal %}
+      <div class="button button-blue">
+        {% ifequal params.role 'provide' %}
+          {% if env.use_short_buttons %}
+            <input type="submit" value="{% trans "Provide information" %}">
+          {% else %}
+            <input type="submit" value="{% trans "Provide information about this person" %}">
+          {% endif %}
+        {% else %}
+          {% if env.ui == "facebook" %}
+            <div style="margin-left: -70px"
+            <input type="submit" value="{% trans "Search for this person" %}">
+            </div>
+          {% else %}
+            <input type="submit" value="{% trans "Search for this person" %}">
+          {% endif %}
+        {% endifequal %}
+      </div>
+  </div>
+</form>

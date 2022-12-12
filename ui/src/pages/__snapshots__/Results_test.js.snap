@@ -1,0 +1,1009 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Results snapshot test for Results 1`] = `
+<InjectIntl(Results)
+  location={
+    Object {
+      "search": "query_name=th%C3%A1tcher",
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "repoId": "albany",
+      },
+    }
+  }
+>
+  <Results
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    location={
+      Object {
+        "search": "query_name=th%C3%A1tcher",
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "repoId": "albany",
+        },
+      }
+    }
+  >
+    <div
+      id="results-wrapper"
+    >
+      <InjectIntl(RepoHeader)
+        backButtonTarget="/albany"
+        repo={
+          Object {
+            "recordCount": 100,
+            "repoId": "albany",
+            "title": "Albany",
+          }
+        }
+      >
+        <RepoHeader
+          backButtonTarget="/albany"
+          intl={
+            Object {
+              "defaultFormats": Object {},
+              "defaultLocale": "en",
+              "formatDate": [Function],
+              "formatHTMLMessage": [Function],
+              "formatMessage": [Function],
+              "formatNumber": [Function],
+              "formatPlural": [Function],
+              "formatRelative": [Function],
+              "formatTime": [Function],
+              "formats": Object {},
+              "formatters": Object {
+                "getDateTimeFormat": [Function],
+                "getMessageFormat": [Function],
+                "getNumberFormat": [Function],
+                "getPluralFormat": [Function],
+                "getRelativeFormat": [Function],
+              },
+              "locale": "en",
+              "messages": Object {},
+              "now": [Function],
+              "onError": [Function],
+              "textComponent": "span",
+              "timeZone": null,
+            }
+          }
+          repo={
+            Object {
+              "recordCount": 100,
+              "repoId": "albany",
+              "title": "Albany",
+            }
+          }
+        >
+          <InjectIntl(PageHeader)
+            backButtonTarget="/albany"
+            title="Albany"
+          >
+            <PageHeader
+              backButtonTarget="/albany"
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {},
+                  "now": [Function],
+                  "onError": [Function],
+                  "textComponent": "span",
+                  "timeZone": null,
+                }
+              }
+              title="Albany"
+            >
+              <div
+                id="pageheader"
+              >
+                <div
+                  id="pageheader-backbutton"
+                >
+                  <Link
+                    replace={false}
+                    to="/albany"
+                  >
+                    <a
+                      href="/albany"
+                      onClick={[Function]}
+                    >
+                      <div>
+                        <img
+                          alt="Back"
+                          src="/static/icons/maticon_arrow_back.svg"
+                        />
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+                <div
+                  id="pageheader-info"
+                >
+                  <p
+                    className="mdc-typography--subtitle1"
+                  >
+                    <FormattedMessage
+                      defaultMessage="Google Person Finder"
+                      id="RepoHeader.productName"
+                      values={Object {}}
+                    >
+                      <span>
+                        Google Person Finder
+                      </span>
+                    </FormattedMessage>
+                  </p>
+                  <p
+                    className="mdc-typography--subtitle2"
+                  >
+                    Albany
+                  </p>
+                </div>
+              </div>
+            </PageHeader>
+          </InjectIntl(PageHeader)>
+        </RepoHeader>
+      </InjectIntl(RepoHeader)>
+      <div
+        className="results-body"
+      >
+        <InjectIntl(SearchBar)
+          initialValue="thátcher"
+          onSearch={[Function]}
+          repoId="albany"
+        >
+          <SearchBar
+            initialValue="thátcher"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSearch={[Function]}
+            repoId="albany"
+          >
+            <div
+              className="searchbar-wrapper"
+            >
+              <TextField
+                className="searchbar"
+                dense={false}
+                floatingLabelClassName=""
+                fullWidth={false}
+                label="Search for a person"
+                lineRippleClassName=""
+                notchedOutlineClassName=""
+                outlined={true}
+                textarea={false}
+              >
+                <div
+                  className="mdc-text-field searchbar mdc-text-field--outlined"
+                  key="text-field-container"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  <Input
+                    className=""
+                    disabled={false}
+                    foundation={
+                      MDCTextFieldFoundation {
+                        "adapter_": Object {
+                          "activateLineRipple": [Function],
+                          "addClass": [Function],
+                          "closeOutline": [Function],
+                          "deactivateLineRipple": [Function],
+                          "deregisterInputInteractionHandler": [Function],
+                          "deregisterTextFieldInteractionHandler": [Function],
+                          "deregisterValidationAttributeChangeHandler": [Function],
+                          "floatLabel": [Function],
+                          "getLabelWidth": [Function],
+                          "getNativeInput": [Function],
+                          "hasClass": [Function],
+                          "hasLabel": [Function],
+                          "hasOutline": [Function],
+                          "isFocused": [Function],
+                          "notchOutline": [Function],
+                          "registerInputInteractionHandler": [Function],
+                          "registerTextFieldInteractionHandler": [Function],
+                          "registerValidationAttributeChangeHandler": [Function],
+                          "removeClass": [Function],
+                          "setLineRippleTransformOrigin": [Function],
+                          "shakeLabel": [Function],
+                        },
+                        "characterCounter_": undefined,
+                        "helperText_": undefined,
+                        "inputBlurHandler_": [Function],
+                        "inputFocusHandler_": [Function],
+                        "inputInputHandler_": [Function],
+                        "isFocused_": false,
+                        "isValid_": true,
+                        "leadingIcon_": undefined,
+                        "receivedUserInput_": false,
+                        "setPointerXOffset_": [Function],
+                        "textFieldInteractionHandler_": [Function],
+                        "trailingIcon_": undefined,
+                        "useNativeValidation_": true,
+                        "validationAttributeChangeHandler_": [Function],
+                        "validationObserver_": undefined,
+                      }
+                    }
+                    handleFocusChange={[Function]}
+                    handleValueChange={[Function]}
+                    id=""
+                    inputType="input"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    setDisabled={[Function]}
+                    setInputId={[Function]}
+                    syncInput={[Function]}
+                    value="thátcher"
+                  >
+                    <input
+                      className="mdc-text-field__input"
+                      disabled={false}
+                      id=""
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseDown={[Function]}
+                      onTouchStart={[Function]}
+                      value="thátcher"
+                    />
+                  </Input>
+                  <NotchedOutline
+                    className=""
+                    notch={true}
+                    notchWidth={0}
+                  >
+                    <div
+                      className="mdc-notched-outline mdc-notched-outline--upgraded mdc-notched-outline--notched"
+                    >
+                      <div
+                        className="mdc-notched-outline__leading"
+                      />
+                      <div
+                        className="mdc-notched-outline__notch"
+                        style={
+                          Object {
+                            "width": undefined,
+                          }
+                        }
+                      >
+                        <FloatingLabel
+                          className=""
+                          float={true}
+                          handleWidthChange={[Function]}
+                          htmlFor=""
+                        >
+                          <label
+                            className="mdc-floating-label mdc-floating-label--float-above"
+                            htmlFor=""
+                            onAnimationEnd={[Function]}
+                          >
+                            Search for a person
+                          </label>
+                        </FloatingLabel>
+                      </div>
+                      <div
+                        className="mdc-notched-outline__trailing"
+                      />
+                    </div>
+                  </NotchedOutline>
+                </div>
+              </TextField>
+            </div>
+          </SearchBar>
+        </InjectIntl(SearchBar)>
+        <ul
+          className="results-list"
+        >
+          <withRouter(InjectIntl(SearchResultImpl))
+            key="123"
+            repo={
+              Object {
+                "recordCount": 100,
+                "repoId": "albany",
+                "title": "Albany",
+              }
+            }
+            result={
+              Object {
+                "alternateNames": Array [
+                  "Freddy",
+                ],
+                "fullNames": Array [
+                  "Fred Fredricks",
+                ],
+                "localPhotoUrl": null,
+                "personId": "123",
+                "timestamp": "2019-05-15T17:12:23.936282Z",
+                "timestampType": "creation",
+              }
+            }
+          >
+            <Route>
+              <InjectIntl(SearchResultImpl)
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "key": "abc123",
+                        "pathname": "/albany/results",
+                        "search": "",
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "key": "abc123",
+                      "pathname": "/albany/results",
+                      "search": "",
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "key": "abc123",
+                    "pathname": "/albany/results",
+                    "search": "",
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": false,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                repo={
+                  Object {
+                    "recordCount": 100,
+                    "repoId": "albany",
+                    "title": "Albany",
+                  }
+                }
+                result={
+                  Object {
+                    "alternateNames": Array [
+                      "Freddy",
+                    ],
+                    "fullNames": Array [
+                      "Fred Fredricks",
+                    ],
+                    "localPhotoUrl": null,
+                    "personId": "123",
+                    "timestamp": "2019-05-15T17:12:23.936282Z",
+                    "timestampType": "creation",
+                  }
+                }
+              >
+                <SearchResultImpl
+                  history={
+                    Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "canGo": [Function],
+                      "createHref": [Function],
+                      "entries": Array [
+                        Object {
+                          "hash": "",
+                          "key": "abc123",
+                          "pathname": "/albany/results",
+                          "search": "",
+                        },
+                      ],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "index": 0,
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "key": "abc123",
+                        "pathname": "/albany/results",
+                        "search": "",
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  intl={
+                    Object {
+                      "defaultFormats": Object {},
+                      "defaultLocale": "en",
+                      "formatDate": [Function],
+                      "formatHTMLMessage": [Function],
+                      "formatMessage": [Function],
+                      "formatNumber": [Function],
+                      "formatPlural": [Function],
+                      "formatRelative": [Function],
+                      "formatTime": [Function],
+                      "formats": Object {},
+                      "formatters": Object {
+                        "getDateTimeFormat": [Function],
+                        "getMessageFormat": [Function],
+                        "getNumberFormat": [Function],
+                        "getPluralFormat": [Function],
+                        "getRelativeFormat": [Function],
+                      },
+                      "locale": "en",
+                      "messages": Object {},
+                      "now": [Function],
+                      "onError": [Function],
+                      "textComponent": "span",
+                      "timeZone": null,
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "key": "abc123",
+                      "pathname": "/albany/results",
+                      "search": "",
+                    }
+                  }
+                  match={
+                    Object {
+                      "isExact": false,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  repo={
+                    Object {
+                      "recordCount": 100,
+                      "repoId": "albany",
+                      "title": "Albany",
+                    }
+                  }
+                  result={
+                    Object {
+                      "alternateNames": Array [
+                        "Freddy",
+                      ],
+                      "fullNames": Array [
+                        "Fred Fredricks",
+                      ],
+                      "localPhotoUrl": null,
+                      "personId": "123",
+                      "timestamp": "2019-05-15T17:12:23.936282Z",
+                      "timestampType": "creation",
+                    }
+                  }
+                >
+                  <li
+                    className="results-result"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="results-resultphoto"
+                    >
+                      <img
+                        src={null}
+                      />
+                    </div>
+                    <div
+                      className="results-resultcontent"
+                    >
+                      <h5
+                        className="mdc-typography--headline5"
+                      >
+                        Fred Fredricks (Freddy)
+                      </h5>
+                      <p
+                        className="mdc-typography--body1"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Record created on {timestampStr}."
+                          id="Results.timestampCreation"
+                          values={
+                            Object {
+                              "timestampStr": <FormattedDate
+                                day="numeric"
+                                hour="numeric"
+                                minute="numeric"
+                                month="short"
+                                timeZoneName="short"
+                                value={2019-05-15T17:12:23.936Z}
+                              />,
+                            }
+                          }
+                        >
+                          <span>
+                            Record created on 
+                            <FormattedDate
+                              day="numeric"
+                              hour="numeric"
+                              minute="numeric"
+                              month="short"
+                              timeZoneName="short"
+                              value={2019-05-15T17:12:23.936Z}
+                            >
+                              <span>
+                                May 15, 5:12 PM UTC
+                              </span>
+                            </FormattedDate>
+                            .
+                          </span>
+                        </FormattedMessage>
+                      </p>
+                    </div>
+                  </li>
+                </SearchResultImpl>
+              </InjectIntl(SearchResultImpl)>
+            </Route>
+          </withRouter(InjectIntl(SearchResultImpl))>
+          <withRouter(InjectIntl(SearchResultImpl))
+            key="321"
+            repo={
+              Object {
+                "recordCount": 100,
+                "repoId": "albany",
+                "title": "Albany",
+              }
+            }
+            result={
+              Object {
+                "alternateNames": Array [],
+                "fullNames": Array [
+                  "Alan Smith",
+                  "Alan Herbert Smith",
+                ],
+                "localPhotoUrl": "http://www.example.com/notevenreallylocal.jpg",
+                "personId": "321",
+                "timestamp": "2019-05-16T16:35:23.936282Z",
+                "timestampType": "update",
+              }
+            }
+          >
+            <Route>
+              <InjectIntl(SearchResultImpl)
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "canGo": [Function],
+                    "createHref": [Function],
+                    "entries": Array [
+                      Object {
+                        "hash": "",
+                        "key": "abc123",
+                        "pathname": "/albany/results",
+                        "search": "",
+                      },
+                    ],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "index": 0,
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "key": "abc123",
+                      "pathname": "/albany/results",
+                      "search": "",
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "key": "abc123",
+                    "pathname": "/albany/results",
+                    "search": "",
+                  }
+                }
+                match={
+                  Object {
+                    "isExact": false,
+                    "params": Object {},
+                    "path": "/",
+                    "url": "/",
+                  }
+                }
+                repo={
+                  Object {
+                    "recordCount": 100,
+                    "repoId": "albany",
+                    "title": "Albany",
+                  }
+                }
+                result={
+                  Object {
+                    "alternateNames": Array [],
+                    "fullNames": Array [
+                      "Alan Smith",
+                      "Alan Herbert Smith",
+                    ],
+                    "localPhotoUrl": "http://www.example.com/notevenreallylocal.jpg",
+                    "personId": "321",
+                    "timestamp": "2019-05-16T16:35:23.936282Z",
+                    "timestampType": "update",
+                  }
+                }
+              >
+                <SearchResultImpl
+                  history={
+                    Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "canGo": [Function],
+                      "createHref": [Function],
+                      "entries": Array [
+                        Object {
+                          "hash": "",
+                          "key": "abc123",
+                          "pathname": "/albany/results",
+                          "search": "",
+                        },
+                      ],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "index": 0,
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "key": "abc123",
+                        "pathname": "/albany/results",
+                        "search": "",
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  intl={
+                    Object {
+                      "defaultFormats": Object {},
+                      "defaultLocale": "en",
+                      "formatDate": [Function],
+                      "formatHTMLMessage": [Function],
+                      "formatMessage": [Function],
+                      "formatNumber": [Function],
+                      "formatPlural": [Function],
+                      "formatRelative": [Function],
+                      "formatTime": [Function],
+                      "formats": Object {},
+                      "formatters": Object {
+                        "getDateTimeFormat": [Function],
+                        "getMessageFormat": [Function],
+                        "getNumberFormat": [Function],
+                        "getPluralFormat": [Function],
+                        "getRelativeFormat": [Function],
+                      },
+                      "locale": "en",
+                      "messages": Object {},
+                      "now": [Function],
+                      "onError": [Function],
+                      "textComponent": "span",
+                      "timeZone": null,
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "key": "abc123",
+                      "pathname": "/albany/results",
+                      "search": "",
+                    }
+                  }
+                  match={
+                    Object {
+                      "isExact": false,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  repo={
+                    Object {
+                      "recordCount": 100,
+                      "repoId": "albany",
+                      "title": "Albany",
+                    }
+                  }
+                  result={
+                    Object {
+                      "alternateNames": Array [],
+                      "fullNames": Array [
+                        "Alan Smith",
+                        "Alan Herbert Smith",
+                      ],
+                      "localPhotoUrl": "http://www.example.com/notevenreallylocal.jpg",
+                      "personId": "321",
+                      "timestamp": "2019-05-16T16:35:23.936282Z",
+                      "timestampType": "update",
+                    }
+                  }
+                >
+                  <li
+                    className="results-result"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="results-resultphoto"
+                    >
+                      <img
+                        src="http://www.example.com/notevenreallylocal.jpg"
+                      />
+                    </div>
+                    <div
+                      className="results-resultcontent"
+                    >
+                      <h5
+                        className="mdc-typography--headline5"
+                      >
+                        Alan Smith, Alan Herbert Smith
+                      </h5>
+                      <p
+                        className="mdc-typography--body1"
+                      >
+                        <FormattedMessage
+                          defaultMessage="Record updated on {timestampStr}."
+                          id="Results.timestampUpdate"
+                          values={
+                            Object {
+                              "timestampStr": <FormattedDate
+                                day="numeric"
+                                hour="numeric"
+                                minute="numeric"
+                                month="short"
+                                timeZoneName="short"
+                                value={2019-05-16T16:35:23.936Z}
+                              />,
+                            }
+                          }
+                        >
+                          <span>
+                            Record updated on 
+                            <FormattedDate
+                              day="numeric"
+                              hour="numeric"
+                              minute="numeric"
+                              month="short"
+                              timeZoneName="short"
+                              value={2019-05-16T16:35:23.936Z}
+                            >
+                              <span>
+                                May 16, 4:35 PM UTC
+                              </span>
+                            </FormattedDate>
+                            .
+                          </span>
+                        </FormattedMessage>
+                      </p>
+                    </div>
+                  </li>
+                </SearchResultImpl>
+              </InjectIntl(SearchResultImpl)>
+            </Route>
+          </withRouter(InjectIntl(SearchResultImpl))>
+        </ul>
+        <InjectIntl(Footer)>
+          <Footer
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+          >
+            <div
+              className="footer footer-unwrapped"
+            >
+              <p
+                className="mdc-typography--body1"
+              >
+                <FormattedHTMLMessage
+                  defaultMessage="PLEASE NOTE: All data entered is available to the public and usable by anyone. Google does not review or verify the accuracy of this data. Google may share the data with public and private organizations participating in disaster response efforts. Learn more about <a href=\\"https://policies.google.com/privacy\\">Google's privacy policy</a>."
+                  id="Footer.disclaimerText"
+                  values={Object {}}
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "PLEASE NOTE: All data entered is available to the public and usable by anyone. Google does not review or verify the accuracy of this data. Google may share the data with public and private organizations participating in disaster response efforts. Learn more about <a href=\\"https://policies.google.com/privacy\\">Google's privacy policy</a>.",
+                      }
+                    }
+                  />
+                </FormattedHTMLMessage>
+              </p>
+            </div>
+          </Footer>
+        </InjectIntl(Footer)>
+      </div>
+      <RippledComponent
+        className="results-addfab"
+        disabled={false}
+        icon={
+          <img
+            src="/static/icons/maticon_add.svg"
+          />
+        }
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={Object {}}
+        textLabel="Create new record"
+        unbounded={false}
+      >
+        <Component
+          className="results-addfab"
+          disabled={false}
+          icon={
+            <img
+              src="/static/icons/maticon_add.svg"
+            />
+          }
+          initRipple={[Function]}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+          textLabel="Create new record"
+        >
+          <button
+            className="mdc-fab results-addfab mdc-fab--extended"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <Icon
+              icon={
+                <img
+                  src="/static/icons/maticon_add.svg"
+                />
+              }
+            >
+              <img
+                className="mdc-fab__icon"
+                src="/static/icons/maticon_add.svg"
+              />
+            </Icon>
+            <TextLabel
+              textLabel="Create new record"
+            >
+              <span
+                className="mdc-fab__label"
+              >
+                Create new record
+              </span>
+            </TextLabel>
+          </button>
+        </Component>
+      </RippledComponent>
+    </div>
+  </Results>
+</InjectIntl(Results)>
+`;
